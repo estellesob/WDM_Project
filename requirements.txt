@@ -1,0 +1,33 @@
+# imports
+# Web crawling & text extraction
+trafilatura>=1.8.0
+httpx>=0.27.0
+ 
+# NLP
+spacy>=3.7.0
+# also after pip install, we run: python -m spacy download en_core_web_trf
+# or this line: 
+https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.7.3/en_core_web_trf-3.7.3-py3-none-any.whl
+ 
+# Data handling
+pandas>=2.0.0
+ 
+# RDF / Knowledge Graph
+rdflib>=7.0.0
+owlready2>=0.46
+ 
+# Knowledge Graph Embeddings
+pykeen>=1.10.0
+torch>=2.0.0
+scikit-learn>=1.3.0
+ 
+# Visualisation
+matplotlib>=3.7.0
+seaborn>=0.12.0
+ 
+# RAG / LLM interface
+requests>=2.31.0
+ 
+# Notebooks
+jupyter>=1.0.0
+ipykernel>=6.0.0
