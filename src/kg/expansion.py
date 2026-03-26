@@ -25,6 +25,7 @@ from pathlib import Path
 import pandas as pd
 import requests
 from rdflib import ConjunctiveGraph, Graph, Namespace, URIRef
+from rdflib import ConjunctiveGraph, Graph, Literal, Namespace, URIRef
 
 # ---------------------------------------------------------------------------
 # Configuration
@@ -158,8 +159,35 @@ def _run_sparql_2hop(query: str, entity_id: str) -> list[tuple]:
     except Exception as exc:
         log.warning("2-hop SPARQL failed for %s: %s", entity_id, exc)
         return []
+    
 
+def clean_graph(g: Graph) -> Graph:
+    """
+    Minimal cleaning before KGE export.
+    Only removes triples with invalid URIs.
+    Keeps all literals and predicates.
+    """
+    log.info("Cleaning graph before KGE export...")
+    initial = len(g)
 
+    triples_to_remove = []
+    for s, p, o in g:
+        try:
+            # Only remove triples where subject or predicate
+            # is not a valid URI
+            if not str(s).startswith("http"):
+                triples_to_remove.append((s, p, o))
+            elif not str(p).startswith("http"):
+                triples_to_remove.append((s, p, o))
+        except Exception:
+            triples_to_remove.append((s, p, o))
+
+    for triple in triples_to_remove:
+        g.remove(triple)
+
+    log.info("Cleaning done: %d → %d triples (removed %d)",
+             initial, len(g), initial - len(g))
+    return g
 # ---------------------------------------------------------------------------
 # Main expansion pipeline
 # ---------------------------------------------------------------------------
@@ -229,6 +257,8 @@ def run_expansion(
         new_count = len(g) - initial_triples - total_new_triples
         total_new_triples += new_count
         log.info("  Total so far: %d triples", len(g))
+    # Clean before export
+    g = clean_graph(g)
 
     # Save expanded KB in N-Triples format
     g.serialize(destination=str(expanded_file), format="nt")

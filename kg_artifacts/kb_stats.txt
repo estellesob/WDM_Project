@@ -2,8 +2,8 @@
 KB Statistics
 =============
 Initial triples:     43753
-New triples added:   16676
-Final triples:       60429
+New triples added:   15922
+Final triples:       59675
 Entities expanded:   55
 2-hop entities:      33
 Output format:       N-Triples (.nt)
