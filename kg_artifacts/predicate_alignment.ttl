@@ -1,0 +1,52 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prop: <http://sepsis-kg.org/prop/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+prop:associate_with rdfs:subPropertyOf wdt:P2293 .
+
+prop:causes rdfs:label "causes" ;
+    owl:equivalentProperty wdt:P828 .
+
+prop:compare_with rdfs:label "compare with" ;
+    owl:equivalentProperty wdt:P1889 .
+
+prop:conductedAt rdfs:label "conductedAt" ;
+    owl:equivalentProperty wdt:P17 .
+
+prop:enrolledIn rdfs:label "enrolledIn" ;
+    rdfs:subPropertyOf wdt:P5632 .
+
+prop:identify_as rdfs:label "identify as" ;
+    owl:equivalentProperty wdt:P31 .
+
+prop:isAssociatedWith rdfs:subPropertyOf wdt:P2293 .
+
+prop:isBiomarkerOf rdfs:label "isBiomarkerOf" ;
+    owl:equivalentProperty wdt:P2175 .
+
+prop:isolate_from rdfs:label "isolate from" ;
+    owl:equivalentProperty wdt:P703 .
+
+prop:isolatedFrom rdfs:label "isolatedFrom" ;
+    owl:equivalentProperty wdt:P703 .
+
+prop:treats rdfs:label "treats" ;
+    rdfs:subPropertyOf wdt:P2176 .
+
+wdt:P17 rdfs:label "country" .
+
+wdt:P1889 rdfs:label "different from" .
+
+wdt:P2175 rdfs:label "medical condition treated" .
+
+wdt:P2176 rdfs:label "drug or therapy used for treatment" .
+
+wdt:P31 rdfs:label "instance of" .
+
+wdt:P5632 rdfs:label "Persons of Indian Studies ID" .
+
+wdt:P828 rdfs:label "has cause" .
+
+wdt:P703 rdfs:label "found in taxon" .
+
