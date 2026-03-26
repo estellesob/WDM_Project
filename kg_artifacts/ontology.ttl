@@ -1,0 +1,87 @@
+@prefix prop: <http://sepsis-kg.org/prop/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix type: <http://sepsis-kg.org/type/> .
+
+type:Bacteria a rdfs:Class ;
+    rdfs:label "Bacteria" ;
+    rdfs:comment "A bacterial pathogen (e.g. E. coli, Staphylococcus aureus)" .
+
+type:Biomarker a rdfs:Class ;
+    rdfs:label "Biomarker" ;
+    rdfs:comment "A biological marker used in diagnosis (e.g. procalcitonin)" .
+
+type:CareUnit a rdfs:Class ;
+    rdfs:label "CareUnit" ;
+    rdfs:comment "A medical care setting (e.g. ICU, NICU)" .
+
+type:Date a rdfs:Class ;
+    rdfs:label "Date" ;
+    rdfs:comment "A date or time period" .
+
+type:Disease a rdfs:Class ;
+    rdfs:label "Disease" ;
+    rdfs:comment "A medical condition or disease (e.g. sepsis, pneumonia)" .
+
+type:Location a rdfs:Class ;
+    rdfs:label "Location" ;
+    rdfs:comment "A geographical location" .
+
+type:Org a rdfs:Class ;
+    rdfs:label "Org" ;
+    rdfs:comment "An organization or institution" .
+
+type:Person a rdfs:Class ;
+    rdfs:label "Person" ;
+    rdfs:comment "A researcher or clinician" .
+
+type:Product a rdfs:Class ;
+    rdfs:label "Product" ;
+    rdfs:comment "A medical product or tool" .
+
+type:Treatment a rdfs:Class ;
+    rdfs:label "Treatment" ;
+    rdfs:comment "A medical treatment or drug (e.g. vancomycin, antibiotics)" .
+
+prop:causes a rdf:Property ;
+    rdfs:label "causes" ;
+    rdfs:comment "A pathogen or condition causes a disease" ;
+    rdfs:domain type:Disease ;
+    rdfs:range type:Disease .
+
+prop:conductedAt a rdf:Property ;
+    rdfs:label "conductedAt" ;
+    rdfs:comment "A study conducted at a location" ;
+    rdfs:domain type:Org ;
+    rdfs:range type:Location .
+
+prop:enrolledIn a rdf:Property ;
+    rdfs:label "enrolledIn" ;
+    rdfs:comment "Patients enrolled in a study" ;
+    rdfs:domain type:CareUnit ;
+    rdfs:range type:Disease .
+
+prop:isAssociatedWith a rdf:Property ;
+    rdfs:label "isAssociatedWith" ;
+    rdfs:comment "Two conditions are associated" ;
+    rdfs:domain type:Disease ;
+    rdfs:range type:Disease .
+
+prop:isBiomarkerOf a rdf:Property ;
+    rdfs:label "isBiomarkerOf" ;
+    rdfs:comment "A biomarker indicates a disease" ;
+    rdfs:domain type:Biomarker ;
+    rdfs:range type:Disease .
+
+prop:isolatedFrom a rdf:Property ;
+    rdfs:label "isolatedFrom" ;
+    rdfs:comment "A bacterium isolated from a care setting" ;
+    rdfs:domain type:Bacteria ;
+    rdfs:range type:CareUnit .
+
+prop:treats a rdf:Property ;
+    rdfs:label "treats" ;
+    rdfs:comment "A treatment is used to treat a disease" ;
+    rdfs:domain type:Treatment ;
+    rdfs:range type:Disease .
+

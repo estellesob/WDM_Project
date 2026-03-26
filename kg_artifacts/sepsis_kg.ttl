@@ -1,0 +1,2429 @@
+@prefix base: <http://sepsis-kg.org/> .
+@prefix prop: <http://sepsis-kg.org/prop/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix type: <http://sepsis-kg.org/type/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+base:0_18 a type:Date ;
+    rdfs:label "0-18" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41840269/"^^xsd:anyURI .
+
+base:10 a type:Date ;
+    rdfs:label "10" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41825095/"^^xsd:anyURI .
+
+base:120_90_160_days a type:Date ;
+    rdfs:label "12.0 (9.0-16.0) days" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41835671/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41878189/"^^xsd:anyURI .
+
+base:12_days a type:Date ;
+    rdfs:label "12 days" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41835642/"^^xsd:anyURI .
+
+base:13_days a type:Date ;
+    rdfs:label "13 days" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41841537/"^^xsd:anyURI .
+
+base:13_year a type:Date ;
+    rdfs:label "13-year" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41800572/"^^xsd:anyURI .
+
+base:1400_W a type:Product ;
+    rdfs:label "1400 W" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41560294/"^^xsd:anyURI .
+
+base:14_day a type:Date ;
+    rdfs:label "14-day" ;
+    prop:extractedFrom "No significant difference was found in 14-day mortality between the critical care ultrasound group and the NICOM group (" ;
+    prop:find_in base:NICOM ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41766144/"^^xsd:anyURI .
+
+base:14_to_11_days a type:Date ;
+    rdfs:label "14 to 11 days" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41846741/"^^xsd:anyURI .
+
+base:14_years a type:Date ;
+    rdfs:label "≥14 years" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41852663/"^^xsd:anyURI .
+
+base:15_day a type:Date ;
+    rdfs:label "15-day" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41837809/"^^xsd:anyURI .
+
+base:15_months a type:Date ;
+    rdfs:label "15 months" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41824803/"^^xsd:anyURI .
+
+base:18_90_years a type:Date ;
+    rdfs:label "18-90 years" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41876237/"^^xsd:anyURI .
+
+base:18_91_years a type:Date ;
+    rdfs:label "18-91 years" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41833344/"^^xsd:anyURI .
+
+base:18_to_100_years_old a type:Date ;
+    rdfs:label "18 to 100 years old" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41833345/"^^xsd:anyURI .
+
+base:18_year_old a type:Date ;
+    rdfs:label "≥18-year-old" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41839420/"^^xsd:anyURI .
+
+base:18_years a type:Date ;
+    rdfs:label ">18 years" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41876236/"^^xsd:anyURI .
+
+base:18_years_and_older a type:Date ;
+    rdfs:label "18 years and older" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41868078/"^^xsd:anyURI .
+
+base:1975_to_2021 a type:Date ;
+    rdfs:label "1975 to 2021" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41864215/"^^xsd:anyURI .
+
+base:1976_to_1980 a type:Date ;
+    rdfs:label "1976 to 1980" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41864215/"^^xsd:anyURI .
+
+base:1981 a type:Date ;
+    rdfs:label "1981" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41864215/"^^xsd:anyURI .
+
+base:1990 a type:Date ;
+    rdfs:label "1990" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41547675/"^^xsd:anyURI .
+
+base:19_year_old a type:Date ;
+    rdfs:label "19-year-old" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41845475/"^^xsd:anyURI .
+
+base:1_3_months_old a type:Date ;
+    rdfs:label "1-3 months old" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41876150/"^^xsd:anyURI .
+
+base:1_July_2011_to_30_June_2022 a type:Date ;
+    rdfs:label "1 July 2011 to 30 June 2022" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41839420/"^^xsd:anyURI .
+
+base:1_month a type:Date ;
+    rdfs:label "1 month" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41866190/"^^xsd:anyURI .
+
+base:1_year a type:Date ;
+    rdfs:label "1-year" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41823048/"^^xsd:anyURI .
+
+base:2014_to_2015 a type:Date ;
+    rdfs:label "2014 to 2015" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41833344/"^^xsd:anyURI .
+
+base:2015 a type:Date ;
+    rdfs:label "2015" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41840233/"^^xsd:anyURI .
+
+base:2015_2023 a type:Date ;
+    rdfs:label "2015-2023" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41862085/"^^xsd:anyURI .
+
+base:2017 a type:Date ;
+    rdfs:label "2017" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41873958/"^^xsd:anyURI .
+
+base:2018 a type:Date ;
+    rdfs:label "2018" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41868069/"^^xsd:anyURI .
+
+base:2019 a type:Date ;
+    rdfs:label "2019" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41868069/"^^xsd:anyURI .
+
+base:2019_2024 a type:Date ;
+    rdfs:label "2019-2024" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41800881/"^^xsd:anyURI .
+
+base:2020 a type:Date ;
+    rdfs:label "2020" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41868069/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41869844/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41870559/"^^xsd:anyURI .
+
+base:2020_2023 a type:Date ;
+    rdfs:label "2020-2023" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41862085/"^^xsd:anyURI .
+
+base:2020_to_2022 a type:Date ;
+    rdfs:label "2020 to 2022" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41824651/"^^xsd:anyURI .
+
+base:2021 a type:Date ;
+    rdfs:label "2021" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41868069/"^^xsd:anyURI .
+
+base:2022_2023 a type:Date ;
+    rdfs:label "2022-2023" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41863496/"^^xsd:anyURI .
+
+base:2024 a type:Date ;
+    rdfs:label "2024" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41833351/"^^xsd:anyURI .
+
+base:2026 a type:Date ;
+    rdfs:label "2026" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41869844/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41870559/"^^xsd:anyURI .
+
+base:21_years a type:Date ;
+    rdfs:label "21 years" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41841537/"^^xsd:anyURI .
+
+base:24_h a type:Date ;
+    rdfs:label "24 h" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41558044/"^^xsd:anyURI .
+
+base:28_and_90_days a type:Date ;
+    rdfs:label "28 and 90 days" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41788484/"^^xsd:anyURI .
+
+base:28_day a type:Date ;
+    rdfs:label "28-day" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41580807/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41773921/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41785728/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41809985/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41816717/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41822877/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41833345/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835642/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41836007/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41836090/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41840740/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41872994/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41876236/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41876237/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41878263/"^^xsd:anyURI .
+
+base:28_days a type:Date ;
+    rdfs:label "28 days" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41860304/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41876237/"^^xsd:anyURI .
+
+base:28_year_old a type:Date ;
+    rdfs:label "28-year-old" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41859080/"^^xsd:anyURI .
+
+base:2_day a type:Date ;
+    rdfs:label "2-day" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41859362/"^^xsd:anyURI .
+
+base:30_day a type:Date ;
+    rdfs:label "30-day" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41780196/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41823048/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41824651/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41833348/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41838832/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41839724/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41852663/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41856148/"^^xsd:anyURI .
+
+base:30_days a type:Date ;
+    rdfs:label "30 days" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41833348/"^^xsd:anyURI .
+
+base:31_year_old a type:Date ;
+    rdfs:label "31-year-old" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41835682/"^^xsd:anyURI .
+
+base:35_days a type:Date ;
+    rdfs:label "35 days" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41841537/"^^xsd:anyURI .
+
+base:365_day a type:Date ;
+    rdfs:label "365-day" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41839420/"^^xsd:anyURI .
+
+base:365_days a type:Date ;
+    rdfs:label "365 days" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41839420/"^^xsd:anyURI .
+
+base:39_days a type:Date ;
+    rdfs:label "39 days" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41841537/"^^xsd:anyURI .
+
+base:3_Years a type:Date ;
+    rdfs:label "3 Years" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41824803/"^^xsd:anyURI .
+
+base:3_consecutive_days a type:Date ;
+    rdfs:label "3 consecutive days" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41873106/"^^xsd:anyURI .
+
+base:3_months a type:Date ;
+    rdfs:label "3 months" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41866190/"^^xsd:anyURI .
+
+base:43_years a type:Date ;
+    rdfs:label "43 years" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41852663/"^^xsd:anyURI .
+
+base:48_72_hour a type:Date ;
+    rdfs:label "48-72-hour" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41863973/"^^xsd:anyURI .
+
+base:49_years a type:Date ;
+    rdfs:label "49 years" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41815598/"^^xsd:anyURI .
+
+base:4_months a type:Date ;
+    rdfs:label "4 months" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41824803/"^^xsd:anyURI .
+
+base:50_days_old a type:Date ;
+    rdfs:label "50 days old" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41873684/"^^xsd:anyURI .
+
+base:50_year_old a type:Date ;
+    rdfs:label "50-year-old" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41866190/"^^xsd:anyURI .
+
+base:53_years a type:Date ;
+    rdfs:label "53 years" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41824651/"^^xsd:anyURI .
+
+base:54_year_old a type:Date ;
+    rdfs:label "54-year-old" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41866190/"^^xsd:anyURI .
+
+base:55_year_old a type:Date ;
+    rdfs:label "55-year-old" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41863108/"^^xsd:anyURI .
+
+base:563_years a type:Date ;
+    rdfs:label "56.3 years" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41748189/"^^xsd:anyURI .
+
+base:56_77 a type:Date ;
+    rdfs:label "56-77" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41872994/"^^xsd:anyURI .
+
+base:56_years a type:Date ;
+    rdfs:label "56 years" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41824803/"^^xsd:anyURI .
+
+base:590_ a type:Date ;
+    rdfs:label "59.0 (" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41878189/"^^xsd:anyURI .
+
+base:5_days a type:Date ;
+    rdfs:label "5 days" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41856138/"^^xsd:anyURI .
+
+base:5_year a type:Date ;
+    rdfs:label "5-year" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41809985/"^^xsd:anyURI .
+
+base:63_year_old a type:Date ;
+    rdfs:label "63-year-old" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41675743/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835801/"^^xsd:anyURI .
+
+base:645_years a type:Date ;
+    rdfs:label "64.5 years" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41835642/"^^xsd:anyURI .
+
+base:67 a type:Date ;
+    rdfs:label "67" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41872994/"^^xsd:anyURI .
+
+base:67_year_old a type:Date ;
+    rdfs:label "67-year-old" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41859062/"^^xsd:anyURI .
+
+base:69 a type:Date ;
+    rdfs:label "69" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41858478/"^^xsd:anyURI .
+
+base:69_year_old a type:Date ;
+    rdfs:label "69-year-old" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41873367/"^^xsd:anyURI .
+
+base:6_months a type:Date ;
+    rdfs:label "6 months" ;
+    prop:conduct_over base:February_2024_to_July_2024,
+        base:Maheshwara_Medical_College ;
+    prop:extractedFrom "This prospective observational study was conducted over 6 months from February 2024 to July 2024 at the neonatal intensive care unit (NICU) of Maheshwara Medical College, Hyderabad, India." ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41846741/"^^xsd:anyURI .
+
+base:70_años a type:Date ;
+    rdfs:label "70 años" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41558044/"^^xsd:anyURI .
+
+base:70_years a type:Date ;
+    rdfs:label "70 years" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41558044/"^^xsd:anyURI .
+
+base:72_hours a type:Date ;
+    rdfs:label "72 hours" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41766144/"^^xsd:anyURI .
+
+base:74_year_old a type:Date ;
+    rdfs:label "74-year-old" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41790910/"^^xsd:anyURI .
+
+base:759_ a type:Date ;
+    rdfs:label "75.9 ±" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41857435/"^^xsd:anyURI .
+
+base:76_year_old a type:Date ;
+    rdfs:label "76-year-old" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41841154/"^^xsd:anyURI .
+
+base:7_day a type:Date ;
+    rdfs:label "7-day" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41836007/"^^xsd:anyURI .
+
+base:7_days a type:Date ;
+    rdfs:label "7 days" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41836007/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41850617/"^^xsd:anyURI .
+
+base:8_days a type:Date ;
+    rdfs:label "8 days" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41841537/"^^xsd:anyURI .
+
+base:8_to_6_days a type:Date ;
+    rdfs:label "8 to 6 days" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41846741/"^^xsd:anyURI .
+
+base:90_day a type:Date ;
+    rdfs:label "90-day" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41823048/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41838832/"^^xsd:anyURI .
+
+base:90_days a type:Date ;
+    rdfs:label "90 days" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41850617/"^^xsd:anyURI .
+
+base:9_12_years a type:Date ;
+    rdfs:label "9-12 years" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41872049/"^^xsd:anyURI .
+
+base:APACHE_II a type:Product ;
+    rdfs:label "APACHE II" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41876236/"^^xsd:anyURI .
+
+base:AZ a type:Location ;
+    rdfs:label "AZ" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41841428/"^^xsd:anyURI .
+
+base:Acute_Care_Hospital a type:Org ;
+    rdfs:label "Acute Care Hospital" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41863496/"^^xsd:anyURI .
+
+base:Amsterdam a type:Location ;
+    rdfs:label "Amsterdam" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41864215/"^^xsd:anyURI .
+
+base:Amsterdam_University_Medical_Centre a type:Org ;
+    rdfs:label "Amsterdam University Medical Centre" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41864215/"^^xsd:anyURI .
+
+base:Anand_RK a type:Person ;
+    rdfs:label "Anand RK" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41726344/"^^xsd:anyURI .
+
+base:Ankara a type:Location ;
+    rdfs:label "Ankara" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41790910/"^^xsd:anyURI .
+
+base:April_2023_to_March_2024 a type:Date ;
+    rdfs:label "April 2023 to March 2024" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41790922/"^^xsd:anyURI .
+
+base:April_2024 a type:Date ;
+    rdfs:label "April 2024" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41833351/"^^xsd:anyURI .
+
+base:April_2024_to_February_2025 a type:Date ;
+    rdfs:label "April 2024 to February 2025" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41868078/"^^xsd:anyURI .
+
+base:April_2025 a type:Date ;
+    rdfs:label "April 2025" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41838832/"^^xsd:anyURI .
+
+base:April_to_September_2024 a type:Date ;
+    rdfs:label "April to September 2024" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41876150/"^^xsd:anyURI .
+
+base:August_2025 a type:Date ;
+    rdfs:label "August 2025" ;
+    prop:carry_from base:the_Kalinga_Institute_of_Medical_Sciences ;
+    prop:extractedFrom "This cross-sectional study was carried out from August 2025 to December 2025 at the Kalinga Institute of Medical Sciences (KIMS), Bhubaneswar, India." ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41835671/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41878189/"^^xsd:anyURI .
+
+base:Austria a type:Location ;
+    rdfs:label "Austria" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41815598/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835671/"^^xsd:anyURI .
+
+base:BACTEC_Plus a type:Product ;
+    rdfs:label "BACTEC Plus" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41785728/"^^xsd:anyURI .
+
+base:BC a type:Org ;
+    rdfs:label "BC" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41800881/"^^xsd:anyURI .
+
+base:BD a type:Org ;
+    rdfs:label "BD" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41785728/"^^xsd:anyURI .
+
+base:Beckman_Coulter a type:Org ;
+    rdfs:label "Beckman Coulter" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41839724/"^^xsd:anyURI .
+
+base:Beijing_Jishuitan_Hospital a type:Org ;
+    rdfs:label "Beijing Jishuitan Hospital" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41869834/"^^xsd:anyURI .
+
+base:Bhubaneswar a type:Location ;
+    rdfs:label "Bhubaneswar" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41835671/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41878189/"^^xsd:anyURI .
+
+base:Birmingham_Biomedical_Research_Centre a type:Org ;
+    rdfs:label "Birmingham Biomedical Research Centre" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41864215/"^^xsd:anyURI .
+
+base:Boerhaave a type:Person ;
+    rdfs:label "Boerhaave" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41841154/"^^xsd:anyURI .
+
+base:Bogotá a type:Location ;
+    rdfs:label "Bogotá" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41630340/"^^xsd:anyURI .
+
+base:Boruta a type:Person ;
+    rdfs:label "Boruta" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41878263/"^^xsd:anyURI .
+
+base:Boston a type:Location ;
+    rdfs:label "Boston" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41815598/"^^xsd:anyURI .
+
+base:CA a type:Location ;
+    rdfs:label "CA" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41864215/"^^xsd:anyURI .
+
+base:CAPE_COD a type:Org ;
+    rdfs:label "CAPE COD" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41856148/"^^xsd:anyURI .
+
+base:CINAHL a type:Org ;
+    rdfs:label "CINAHL" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41856138/"^^xsd:anyURI .
+
+base:CLSI a type:Org ;
+    rdfs:label "CLSI" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41841428/"^^xsd:anyURI .
+
+base:California a type:Location ;
+    rdfs:label "California" ;
+    prop:extractedFrom "During May 2022-September 2023, an acute care hospital in northern California, USA, identified 13 S. maltophilia bloodstream infections among intensive care unit patients." ;
+    prop:identify_During base:May_2022_September_2023,
+        base:intensive_care_unit ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41863496/"^^xsd:anyURI .
+
+base:Cefaclor_500_mg a type:Product ;
+    rdfs:label "Cefaclor 500 mg" ;
+    prop:administer_as base:antibiotic ;
+    prop:extractedFrom "Cefaclor 500 mg was administered orally 30 minutes pre-operatively as a prophylactic antibiotic." ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41859362/"^^xsd:anyURI .
+
+base:Chanderraj a type:Person ;
+    rdfs:label "Chanderraj" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41837290/"^^xsd:anyURI .
+
+base:Chengdu a type:Location ;
+    rdfs:label "Chengdu" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41824651/"^^xsd:anyURI .
+
+base:China a type:Location ;
+    rdfs:label "China" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41580807/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41809985/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41824651/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41851060/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41878263/"^^xsd:anyURI .
+
+base:Chinese_Clinical_Trial_Registry a type:Org ;
+    rdfs:label "Chinese Clinical Trial Registry" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41873106/"^^xsd:anyURI .
+
+base:ClinicalTrialsgov a type:Org ;
+    rdfs:label "ClinicalTrials.gov" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41838832/"^^xsd:anyURI .
+
+base:Clinical_and_Laboratory_Standards_Institute a type:Org ;
+    rdfs:label "Clinical and Laboratory Standards Institute" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41835721/"^^xsd:anyURI .
+
+base:Cochrane_Central_Register_of_Controlled_Trials a type:Org ;
+    rdfs:label "Cochrane Central Register of Controlled Trials" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41856138/"^^xsd:anyURI .
+
+base:Cochrane_Library a type:Org ;
+    rdfs:label "Cochrane Library" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41846301/"^^xsd:anyURI .
+
+base:Colombia a type:Location ;
+    rdfs:label "Colombia" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41630340/"^^xsd:anyURI .
+
+base:Combined_Military_Hospital a type:Org ;
+    rdfs:label "Combined Military Hospital" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41792080/"^^xsd:anyURI .
+
+base:DCA a type:Org ;
+    rdfs:label "DCA" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41833351/"^^xsd:anyURI .
+
+base:December_2023 a type:Date ;
+    rdfs:label "December 2023" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41833348/"^^xsd:anyURI .
+
+base:December_2024 a type:Date ;
+    rdfs:label "December 2024" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41850617/"^^xsd:anyURI .
+
+base:December_2025 a type:Date ;
+    rdfs:label "December 2025" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41835671/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41878189/"^^xsd:anyURI .
+
+base:Denmark a type:Location ;
+    rdfs:label "Denmark" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41839420/"^^xsd:anyURI .
+
+base:Dunnett a type:Person ;
+    rdfs:label "Dunnett" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41670978/"^^xsd:anyURI .
+
+base:EU a type:Org ;
+    rdfs:label "EU" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41856148/"^^xsd:anyURI .
+
+base:EUPHRATES a type:Org ;
+    rdfs:label "EUPHRATES" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41837287/"^^xsd:anyURI .
+
+base:East_Asia a type:Location ;
+    rdfs:label "East Asia" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41862085/"^^xsd:anyURI .
+
+base:Eastern_India a type:Location ;
+    rdfs:label "Eastern India" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41818099/"^^xsd:anyURI .
+
+base:Embase a type:Org,
+        type:Product ;
+    rdfs:label "Embase" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41528192/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41838832/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41846301/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41856138/"^^xsd:anyURI .
+
+base:Etlik_City_Hospital a type:Org ;
+    rdfs:label "Etlik City Hospital" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41790910/"^^xsd:anyURI .
+
+base:Europe a type:Location ;
+    rdfs:label "Europe" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41876150/"^^xsd:anyURI .
+
+base:FORECAST a type:Org ;
+    rdfs:label "FORECAST" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41840740/"^^xsd:anyURI .
+
+base:Focused_Outcomes_Research_in_Emergency_Care_in_Acute_Respiratory_Distress_Syndrome_Sepsis a type:Org ;
+    rdfs:label "Focused Outcomes Research in Emergency Care in Acute Respiratory Distress Syndrome, Sepsis," ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41840740/"^^xsd:anyURI .
+
+base:GSE13904 a type:Product ;
+    rdfs:label "GSE13904" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41789088/"^^xsd:anyURI .
+
+base:GSE26440 a type:Product ;
+    rdfs:label "GSE26440" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41789088/"^^xsd:anyURI .
+
+base:GSE28750 a type:Product ;
+    rdfs:label "GSE28750" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41789088/"^^xsd:anyURI .
+
+base:GSE57065 a type:Product ;
+    rdfs:label "GSE57065" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41789088/"^^xsd:anyURI .
+
+base:GSE95233 a type:Product ;
+    rdfs:label "GSE95233" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41789088/"^^xsd:anyURI .
+
+base:Germany a type:Location ;
+    rdfs:label "Germany" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41786300/"^^xsd:anyURI .
+
+base:Hartmanns a type:Org ;
+    rdfs:label "Hartmann's" ;
+    prop:extractedFrom "Non-anaesthetised animals were infused with live Escherichia coli for 31-h. At 23.5-h of sepsis, four groups (n = 7-8/group) received fluid resuscitation (30 mL/kg Hartmann's solution) and were randomized to intravenous sodium ascorbate (1.0, 2.0, or 3.0 g/kg) or vehicle, delivered as a bolus followed by 7-h infusion." ;
+    prop:randomize_to base:norepinephrine ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41457243/"^^xsd:anyURI .
+
+base:HiSeq_4000 a type:Product ;
+    rdfs:label "HiSeq 4000" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41864215/"^^xsd:anyURI .
+
+base:Hospital_Angeles_Lindavista a type:Org ;
+    rdfs:label "Hospital Angeles Lindavista" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41815598/"^^xsd:anyURI .
+
+base:Hyderabad a type:Location ;
+    rdfs:label "Hyderabad" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41846741/"^^xsd:anyURI .
+
+base:Illumina a type:Org ;
+    rdfs:label "Illumina" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41864215/"^^xsd:anyURI .
+
+base:India a type:Location ;
+    rdfs:label "India" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41835671/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835721/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41846741/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41878189/"^^xsd:anyURI .
+
+base:Indian_J a type:Org ;
+    rdfs:label "Indian J" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41868069/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41868078/"^^xsd:anyURI .
+
+base:Intensive_Care_Society a type:Org ;
+    rdfs:label "Intensive Care Society" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41748189/"^^xsd:anyURI .
+
+base:Italy a type:Location ;
+    rdfs:label "Italy" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41840233/"^^xsd:anyURI .
+
+base:JMDC a type:Org ;
+    rdfs:label "JMDC" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41840740/"^^xsd:anyURI .
+
+base:JSEPTIC_DIC a type:Org ;
+    rdfs:label "JSEPTIC-DIC" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41840740/"^^xsd:anyURI .
+
+base:Jan_1_2000 a type:Date ;
+    rdfs:label "Jan 1, 2000," ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41856138/"^^xsd:anyURI .
+
+base:January_2019 a type:Date ;
+    rdfs:label "January 2019" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41850617/"^^xsd:anyURI .
+
+base:January_2020 a type:Date ;
+    rdfs:label "January 2020" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41833348/"^^xsd:anyURI .
+
+base:January_2020_to_December_2022 a type:Date ;
+    rdfs:label "January 2020 to December 2022" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41824856/"^^xsd:anyURI .
+
+base:January_2021_to_2023 a type:Date ;
+    rdfs:label "January 2021 to 2023" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41841428/"^^xsd:anyURI .
+
+base:January_2024 a type:Date ;
+    rdfs:label "January 2024" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41815598/"^^xsd:anyURI .
+
+base:Japanese_Thyroid_Association a type:Org ;
+    rdfs:label "Japanese Thyroid Association" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41835682/"^^xsd:anyURI .
+
+base:Jiangsu_University_Affiliated_Peoples_Hospital a type:Org ;
+    rdfs:label "Jiangsu University Affiliated People's Hospital" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41822877/"^^xsd:anyURI .
+
+base:July_2016 a type:Date ;
+    rdfs:label "July, 2016" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41864215/"^^xsd:anyURI .
+
+base:July_2024 a type:Date ;
+    rdfs:label "July 2024" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41579501/"^^xsd:anyURI .
+
+base:July_2024_to_June_2025 a type:Date ;
+    rdfs:label "July 2024 to June 2025" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41835721/"^^xsd:anyURI .
+
+base:June_2021 a type:Date ;
+    rdfs:label "June 2021" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41833351/"^^xsd:anyURI .
+
+base:KCNJ2_AS1 a type:Product ;
+    rdfs:label "KCNJ2-AS1" ;
+    prop:drive_via base:sepsis ;
+    prop:extractedFrom "KCNJ2-AS1 Drives Inflammation and Ferroptosis via the miR-212-3p/EGR1 Axis in Sepsis-Associated Acute Lung Injury.." ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41773921/"^^xsd:anyURI .
+
+base:KIMS a type:Org ;
+    rdfs:label "KIMS" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41835671/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41878189/"^^xsd:anyURI .
+
+base:KL64 a type:Product ;
+    rdfs:label "KL64" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41824651/"^^xsd:anyURI .
+
+base:Kalinga_Institute_of_Medical_Sciences a type:Org ;
+    rdfs:label "Kalinga Institute of Medical Sciences" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41835671/"^^xsd:anyURI .
+
+base:Kappa a type:Product ;
+    rdfs:label "Kappa" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41878263/"^^xsd:anyURI .
+
+base:Kolkata a type:Location ;
+    rdfs:label "Kolkata" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41818099/"^^xsd:anyURI .
+
+base:Korea a type:Location ;
+    rdfs:label "Korea" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41862085/"^^xsd:anyURI .
+
+base:Kruskal a type:Person ;
+    rdfs:label "Kruskal" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41670978/"^^xsd:anyURI .
+
+base:LCA a type:Org ;
+    rdfs:label "LCA" ;
+    prop:extractedFrom "LCA identified three heterogeneous latent classes of ICU-AW in mechanically ventilated patients named treatment intensity-dominant type, metabolic disorder-dominant type, and organ failure-dominant type." ;
+    prop:identify base:mechanical_ventilation ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41833354/"^^xsd:anyURI .
+
+base:LV_GLS a type:Product ;
+    rdfs:label "LV GLS" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41579501/"^^xsd:anyURI .
+
+base:La_Pv_aCO2p_se a type:Org ;
+    rdfs:label "La Pv-aCO2p se" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41558044/"^^xsd:anyURI .
+
+base:Lahore a type:Location ;
+    rdfs:label "Lahore" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41792080/"^^xsd:anyURI .
+
+base:MA a type:Location ;
+    rdfs:label "MA" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41815598/"^^xsd:anyURI .
+
+base:MAU a type:Org ;
+    rdfs:label "MAU" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41873631/"^^xsd:anyURI .
+
+base:MEDLINE a type:Org,
+        type:Product ;
+    rdfs:label "MEDLINE" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41528192/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41838832/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41856138/"^^xsd:anyURI .
+
+base:MIMIC a type:Org ;
+    rdfs:label "MIMIC" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41877932/"^^xsd:anyURI .
+
+base:MRC a type:Org ;
+    rdfs:label "MRC" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41833354/"^^xsd:anyURI .
+
+base:Mann_Whitney_U a type:Org ;
+    rdfs:label "Mann-Whitney U" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41860935/"^^xsd:anyURI .
+
+base:March_1_2022 a type:Date ;
+    rdfs:label "March 1, 2022" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41876236/"^^xsd:anyURI .
+
+base:May_1_2025 a type:Date ;
+    rdfs:label "May 1, 2025" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41846301/"^^xsd:anyURI .
+
+base:McNemar a type:Product ;
+    rdfs:label "McNemar" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41878263/"^^xsd:anyURI .
+
+base:Medical_College a type:Org ;
+    rdfs:label "Medical College" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41818099/"^^xsd:anyURI .
+
+base:Medical_Information_Mart_for_Intensive_Care_IV a type:Org ;
+    rdfs:label "Medical Information Mart for Intensive Care-IV" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41833345/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41836090/"^^xsd:anyURI .
+
+base:Medical_Research_Council a type:Org ;
+    rdfs:label "Medical Research Council" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41833354/"^^xsd:anyURI .
+
+base:Mexico_City a type:Location ;
+    rdfs:label "Mexico City" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41815598/"^^xsd:anyURI .
+
+base:NICU a type:Org ;
+    rdfs:label "NICU" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41846741/"^^xsd:anyURI .
+
+base:Nadaf_ZM a type:Person ;
+    rdfs:label "Nadaf ZM" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41726344/"^^xsd:anyURI .
+
+base:Netherlands a type:Location ;
+    rdfs:label "Netherlands" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41864215/"^^xsd:anyURI .
+
+base:Northeastern_Brazil a type:Location ;
+    rdfs:label "Northeastern Brazil" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41841537/"^^xsd:anyURI .
+
+base:Nov_20_2025 a type:Date ;
+    rdfs:label "Nov 20, 2025" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41856138/"^^xsd:anyURI .
+
+base:November_2025 a type:Date ;
+    rdfs:label "November 2025" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41814716/"^^xsd:anyURI .
+
+base:October_31_2023 a type:Date ;
+    rdfs:label "October 31, 2023" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41876236/"^^xsd:anyURI .
+
+base:One_Day a type:Date ;
+    rdfs:label "One-Day" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41878683/"^^xsd:anyURI .
+
+base:Pakistan a type:Location ;
+    rdfs:label "Pakistan" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41792080/"^^xsd:anyURI .
+
+base:Posit_Software a type:Org ;
+    rdfs:label "Posit Software" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41815598/"^^xsd:anyURI .
+
+base:Q2 a type:Date ;
+    rdfs:label "Q2" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41877932/"^^xsd:anyURI .
+
+base:Q4 a type:Date ;
+    rdfs:label "Q4" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41877932/"^^xsd:anyURI .
+
+base:QIP a type:Org ;
+    rdfs:label "QIP" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41873631/"^^xsd:anyURI .
+
+base:RIO a type:Org ;
+    rdfs:label "RIO" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41818099/"^^xsd:anyURI .
+
+base:RStudio a type:Org ;
+    rdfs:label "RStudio" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41815598/"^^xsd:anyURI .
+
+base:R_Foundation_for_Statistical_Computing a type:Org ;
+    rdfs:label "R Foundation for Statistical Computing" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41815598/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835671/"^^xsd:anyURI .
+
+base:Ramachandran_R a type:Person ;
+    rdfs:label "Ramachandran R" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41726344/"^^xsd:anyURI .
+
+base:Rao a type:Person ;
+    rdfs:label "Rao" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41868069/"^^xsd:anyURI .
+
+base:Ravikumar_RH a type:Person ;
+    rdfs:label "Ravikumar RH" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41726344/"^^xsd:anyURI .
+
+base:Regional_Institute_of_Ophthalmology a type:Org ;
+    rdfs:label "Regional Institute of Ophthalmology" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41818099/"^^xsd:anyURI .
+
+base:Res a type:Product ;
+    rdfs:label "Res" ;
+    prop:extractedFrom "In addition, Res suppressed sepsis-induced intestinal microvascular hyporeactivity to norepinephrine in vitro, whereas treatment with Res-treated septic rats increased the cellular viability and contractility of vascular smooth muscle cells compared to SS." ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41512697/"^^xsd:anyURI ;
+    prop:suppress_In base:norepinephrine .
+
+base:Resveratrol a type:Product ;
+    rdfs:label "Resveratrol" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41512697/"^^xsd:anyURI .
+
+base:RevMan a type:Product ;
+    rdfs:label "RevMan" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41838832/"^^xsd:anyURI .
+
+base:SAPS_II a type:Product ;
+    rdfs:label "SAPS II" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41876237/"^^xsd:anyURI .
+
+base:SENTINEL a type:Org ;
+    rdfs:label "SENTINEL" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41864215/"^^xsd:anyURI .
+
+base:SHAP a type:Org ;
+    rdfs:label "SHAP" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41873958/"^^xsd:anyURI .
+
+base:SOFA a type:Org ;
+    rdfs:label "SOFA" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41558044/"^^xsd:anyURI .
+
+base:ST567 a type:Product ;
+    rdfs:label "ST567" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41864215/"^^xsd:anyURI .
+
+base:STM a type:Org ;
+    rdfs:label "STM" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41818099/"^^xsd:anyURI .
+
+base:San_Diego a type:Location ;
+    rdfs:label "San Diego" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41864215/"^^xsd:anyURI .
+
+base:School_of_Tropical_Medicine a type:Org ;
+    rdfs:label "School of Tropical Medicine" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41818099/"^^xsd:anyURI .
+
+base:Scopus a type:Org ;
+    rdfs:label "Scopus" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41846301/"^^xsd:anyURI .
+
+base:Sepsis_Advisor a type:Product ;
+    rdfs:label "Sepsis Advisor" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41522728/"^^xsd:anyURI .
+
+base:Shastry a type:Person ;
+    rdfs:label "Shastry" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41868069/"^^xsd:anyURI .
+
+base:Sichuan a type:Location ;
+    rdfs:label "Sichuan" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41809985/"^^xsd:anyURI .
+
+base:Southern_Sichuan a type:Location ;
+    rdfs:label "Southern Sichuan" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41809985/"^^xsd:anyURI .
+
+base:Sri_Lanka a type:Location ;
+    rdfs:label "Sri Lanka" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41835250/"^^xsd:anyURI .
+
+base:Surgical_Drainage a type:Org ;
+    rdfs:label "Surgical Drainage" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41823128/"^^xsd:anyURI .
+
+base:Sweden a type:Location ;
+    rdfs:label "Sweden" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41841614/"^^xsd:anyURI .
+
+base:Taiwan a type:Location ;
+    rdfs:label "Taiwan" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41862085/"^^xsd:anyURI .
+
+base:The_Bill_Melinda_Gates_Foundation a type:Org ;
+    rdfs:label "The Bill & Melinda Gates Foundation" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41856138/"^^xsd:anyURI .
+
+base:The_Central_Hospital_of_Enshi a type:Org ;
+    rdfs:label "The Central Hospital of Enshi" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41877932/"^^xsd:anyURI .
+
+base:The_Society_of_Critical_Care_Medicine_Pediatric_Sepsis_Definition_Task_Force a type:Org ;
+    rdfs:label "The Society of Critical Care Medicine Pediatric Sepsis Definition Task Force" ;
+    prop:extractedFrom "The Society of Critical Care Medicine Pediatric Sepsis Definition Task Force recommends the use of the Phoenix Sepsis Score (PSS) to diagnose pediatric sepsis among children with suspected infection." ;
+    prop:recommend base:sepsis ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41851060/"^^xsd:anyURI .
+
+base:The_World_Health_Organization a type:Org ;
+    rdfs:label "The World Health Organization" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41809985/"^^xsd:anyURI .
+
+base:Three_Day a type:Date ;
+    rdfs:label "Three-Day" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41878683/"^^xsd:anyURI .
+
+base:Trikha_A a type:Person ;
+    rdfs:label "Trikha A" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41726344/"^^xsd:anyURI .
+
+base:Tukey a type:Person ;
+    rdfs:label "Tukey" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41670978/"^^xsd:anyURI .
+
+base:Türkiye a type:Org ;
+    rdfs:label "Türkiye" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41857435/"^^xsd:anyURI .
+
+base:UCI a type:Org ;
+    rdfs:label "UCI" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41558044/"^^xsd:anyURI .
+
+base:UK a type:Location ;
+    rdfs:label "UK" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41748189/"^^xsd:anyURI .
+
+base:USA a type:Location ;
+    rdfs:label "USA" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41841428/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41863496/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41864215/"^^xsd:anyURI .
+
+base:Vienna a type:Location ;
+    rdfs:label "Vienna" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41815598/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835671/"^^xsd:anyURI .
+
+base:WHO a type:Org ;
+    rdfs:label "WHO" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41809985/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41818099/"^^xsd:anyURI .
+
+base:Web_of_Science a type:Org ;
+    rdfs:label "Web of Science" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41814716/"^^xsd:anyURI .
+
+base:Weekly a type:Date ;
+    rdfs:label "Weekly" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41816717/"^^xsd:anyURI .
+
+base:Wellcome_Antimicrobial_and_Antimicrobial_Resistance_Doctoral_Training_Programme a type:Org ;
+    rdfs:label "Wellcome Antimicrobial and Antimicrobial Resistance Doctoral Training Programme" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41864215/"^^xsd:anyURI .
+
+base:Western_India a type:Location ;
+    rdfs:label "Western India" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41868078/"^^xsd:anyURI .
+
+base:Wig_N a type:Person ;
+    rdfs:label "Wig N" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41726344/"^^xsd:anyURI .
+
+base:Women_and_Children_Hospital a type:Org ;
+    rdfs:label "Women and Children Hospital" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41814902/"^^xsd:anyURI .
+
+base:Women_and_Childrens_Hospital a type:Org ;
+    rdfs:label "Women and Children's Hospital" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41814902/"^^xsd:anyURI .
+
+base:XGBoost a type:Org ;
+    rdfs:label "XGBoost" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41873958/"^^xsd:anyURI .
+
+base:Zhejiang_Provincial_Peoples_Hospital a type:Org ;
+    rdfs:label "Zhejiang Provincial People's Hospital" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41876236/"^^xsd:anyURI .
+
+base:_7_days a type:Date ;
+    rdfs:label "≥ 7 days" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41547675/"^^xsd:anyURI .
+
+base:a_one_year a type:Date ;
+    rdfs:label "a one-year" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41835721/"^^xsd:anyURI .
+
+base:acinetobacter a type:Bacteria ;
+    rdfs:label "acinetobacter" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41837809/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41857435/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41876236/"^^xsd:anyURI .
+
+base:age_60_years a type:Date ;
+    rdfs:label "age > 60 years" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41818099/"^^xsd:anyURI .
+
+base:annually a type:Date ;
+    rdfs:label "annually" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41835801/"^^xsd:anyURI .
+
+base:bacteremia a type:Disease ;
+    rdfs:label "bacteremia" ;
+    prop:extractedFrom "Bacterial translocation (BT) followed by bacteremia is usually managed with antibiotics, but some cases remain refractory." ;
+    prop:manage_with base:antibiotics ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41790910/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41800881/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41811788/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41815598/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41850617/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41873367/"^^xsd:anyURI .
+
+base:between_01_May_2023_and_30_July_2024 a type:Date ;
+    rdfs:label "between 01 May 2023 and 30 July 2024" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41816717/"^^xsd:anyURI .
+
+base:between_1946_and_May_7_2025 a type:Date ;
+    rdfs:label "between 1946 and May 7, 2025" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41528192/"^^xsd:anyURI .
+
+base:between_1975_and_2021 a type:Date ;
+    rdfs:label "between 1975 and 2021" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41864215/"^^xsd:anyURI .
+
+base:between_1_January_2020_and_31_December_2023 a type:Date ;
+    rdfs:label "between 1 January 2020 and 31 December 2023" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41841614/"^^xsd:anyURI .
+
+base:between_2000_and_2025 a type:Date ;
+    rdfs:label "between 2000 and 2025" ;
+    prop:conduct_via base:PubMed ;
+    prop:extractedFrom "A structured narrative review of clinical and experimental studies published between 2000 and 2025 was conducted via PubMed and major critical care literature." ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41749595/"^^xsd:anyURI .
+
+base:between_2010_and_2023 a type:Date ;
+    rdfs:label "between 2010 and 2023" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41800572/"^^xsd:anyURI .
+
+base:between_2014_and_2024 a type:Date ;
+    rdfs:label "between 2014 and 2024" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41852663/"^^xsd:anyURI .
+
+base:between_2015_and_2021 a type:Date ;
+    rdfs:label "between 2015 and 2021" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41835250/"^^xsd:anyURI .
+
+base:between_2017_and_2023 a type:Date ;
+    rdfs:label "between 2017 and 2023" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41837809/"^^xsd:anyURI .
+
+base:between_2018_and_2022 a type:Date ;
+    rdfs:label "between 2018 and 2022" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41579501/"^^xsd:anyURI .
+
+base:between_2021_and_2025 a type:Date ;
+    rdfs:label "between 2021 and 2025" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41823128/"^^xsd:anyURI .
+
+base:between_April_2024_and_October_2025 a type:Date ;
+    rdfs:label "between April 2024 and October 2025" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41859362/"^^xsd:anyURI .
+
+base:between_January_2012_and_December_2023 a type:Date ;
+    rdfs:label "between January 2012 and December 2023" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41851060/"^^xsd:anyURI .
+
+base:between_January_2014_and_December_2022 a type:Date ;
+    rdfs:label "between January 2014 and December 2022" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41841537/"^^xsd:anyURI .
+
+base:between_January_2016_and_March_2025 a type:Date ;
+    rdfs:label "between January 2016 and March 2025" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41857435/"^^xsd:anyURI .
+
+base:between_January_2023_and_December_2024 a type:Date ;
+    rdfs:label "between January 2023 and December 2024" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41861644/"^^xsd:anyURI .
+
+base:between_June_1_2023_and_June_1_2024 a type:Date ;
+    rdfs:label "between June 1, 2023, and June 1, 2024" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41835642/"^^xsd:anyURI .
+
+base:between_May_2024_and_May_2025 a type:Date ;
+    rdfs:label "between May 2024 and May 2025" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41869834/"^^xsd:anyURI .
+
+base:between_November_2023_and_October_2024 a type:Date ;
+    rdfs:label "between November 2023 and October 2024" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41630340/"^^xsd:anyURI .
+
+base:between_September_2022_and_December_2024 a type:Date ;
+    rdfs:label "between September 2022 and December 2024" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41822877/"^^xsd:anyURI .
+
+base:candida a type:Bacteria ;
+    rdfs:label "candida" ;
+    prop:extractedFrom "One hundred and seven samples of Candida spp. were isolated from patients with candidemia in the hospital San Matteo in Pavia (Italy) over a period of 6 years, from 2015 to the first COVID wave in spring 2020." ;
+    prop:isolate_from base:6_years,
+        base:Pavia ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41790922/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41840233/"^^xsd:anyURI .
+
+base:cefaclor_500 a type:Product ;
+    rdfs:label "cefaclor 500" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41859362/"^^xsd:anyURI .
+
+base:d_dimer a type:Biomarker ;
+    rdfs:label "d-dimer" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41859212/"^^xsd:anyURI .
+
+base:daily a type:Date ;
+    rdfs:label "daily" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41547675/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41825095/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835671/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41878189/"^^xsd:anyURI .
+
+base:day_0 a type:Date ;
+    rdfs:label "day 0" ;
+    prop:extractedFrom "In patients with suspected BSI, the ddPCR pathogen load on day 0 showed significant positive correlations with high-sensitivity C-reactive protein (hs-CRP), procalcitonin (PCT), blood lactate (Lac), Acute Physiology and Chronic Health Evaluation II (APACHE II), and Sequential Organ Failure Assessment (SOFA; r values were 0.150, 0.273, 0.370, 0.334, 0.311, respectively; all P<0.05)." ;
+    prop:show_In base:c_reactive_protein ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41876236/"^^xsd:anyURI .
+
+base:day_0_to_day_38 a type:Date ;
+    rdfs:label "day 0 to day 38" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41630340/"^^xsd:anyURI .
+
+base:day_1 a type:Date ;
+    rdfs:label "day 1" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41835671/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41878189/"^^xsd:anyURI .
+
+base:day_10 a type:Date ;
+    rdfs:label "day 10" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41876525/"^^xsd:anyURI .
+
+base:day_12 a type:Date ;
+    rdfs:label "day 12" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41835682/"^^xsd:anyURI .
+
+base:day_1_14 a type:Date ;
+    rdfs:label "day 1-14" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41841614/"^^xsd:anyURI .
+
+base:day_1_30 a type:Date ;
+    rdfs:label "day 1-30" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41841614/"^^xsd:anyURI .
+
+base:day_1_7 a type:Date ;
+    rdfs:label "day 1-7" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41841614/"^^xsd:anyURI .
+
+base:day_7 a type:Date ;
+    rdfs:label "day 7" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41726344/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41840740/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41876236/"^^xsd:anyURI .
+
+base:day_8 a type:Date ;
+    rdfs:label "day 8" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41835682/"^^xsd:anyURI .
+
+base:days a type:Date ;
+    rdfs:label "days" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41580807/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41823128/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41824803/"^^xsd:anyURI .
+
+base:days_1 a type:Date ;
+    rdfs:label "days 1" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41825095/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835671/"^^xsd:anyURI .
+
+base:decade a type:Date ;
+    rdfs:label "decade" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41837290/"^^xsd:anyURI .
+
+base:dic a type:Disease ;
+    rdfs:label "dic" ;
+    prop:describe_as base:organ_dysfunction ;
+    prop:extractedFrom "Disseminated intravascular coagulation (DIC) has long been described as a catastrophic systemic activation of coagulation with suppressed anticoagulant and fibrinolytic pathways, culminating in macro- and microvascular thrombosis, hypoperfusion, and multiple organ dysfunction." ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41788491/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41840740/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41843129/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41859212/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41869834/"^^xsd:anyURI .
+
+base:disseminated_intravascular_coagulation a type:Disease ;
+    rdfs:label "disseminated intravascular coagulation" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41788474/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41788491/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41805922/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41840740/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41843129/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41859212/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41869834/"^^xsd:anyURI .
+
+base:e_coli a type:Bacteria ;
+    rdfs:label "e. coli" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41785728/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41841428/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41862085/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41876525/"^^xsd:anyURI .
+
+base:ed a type:CareUnit ;
+    rdfs:label "ed" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41839724/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41861644/"^^xsd:anyURI .
+
+base:eight_days a type:Date ;
+    rdfs:label "eight days" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41815598/"^^xsd:anyURI .
+
+base:enterococcus a type:Bacteria ;
+    rdfs:label "enterococcus" ;
+    prop:comprise_in base:endocarditis ;
+    prop:extractedFrom "Staphylococcus aureus, Streptococcus species, and Enterococcus species comprise more than 80% of identified bacterial pathogens in cases of infective endocarditis." ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41839106/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41840269/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41850617/"^^xsd:anyURI .
+
+base:escherichia_coli a type:Bacteria ;
+    rdfs:label "escherichia coli" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41457243/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41485836/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41837287/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41837290/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41841428/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41862085/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41864215/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41876236/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41876525/"^^xsd:anyURI .
+
+base:first_week a type:Date ;
+    rdfs:label "first-week" ;
+    prop:extractedFrom "No statistically significant association was observed between first-week antibiotics or infantile colic and FGIDs at 9-12 years of age, but FAPDs were significantly more prevalent in children with food allergies." ;
+    prop:observe_between base:9_12_years_of_age ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41872049/"^^xsd:anyURI .
+
+base:fluid_resuscitation a type:Treatment ;
+    rdfs:label "fluid resuscitation" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41457243/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41637486/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41651598/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41713684/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41766144/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41873106/"^^xsd:anyURI .
+
+base:heparin a type:Treatment ;
+    rdfs:label "heparin" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41824856/"^^xsd:anyURI .
+
+base:his_50s a type:Date ;
+    rdfs:label "his 50s" ;
+    prop:extractedFrom "A male patient in his 50s with decompensated cirrhosis due to metabolic dysfunction-associated steatohepatitis underwent an ABO-incompatible living-donor liver transplantation." ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41836273/"^^xsd:anyURI ;
+    prop:undergo base:Rituximab .
+
+base:hydrocortisone a type:Treatment ;
+    rdfs:label "hydrocortisone" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41856148/"^^xsd:anyURI .
+
+base:icu a type:CareUnit ;
+    rdfs:label "icu" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41547675/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41580807/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41699685/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41726344/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41748189/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41778976/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41785728/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41788484/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41801637/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41809985/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41823048/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41823128/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41833344/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41833345/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41833354/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41833358/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835642/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835721/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41836007/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41837809/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41838832/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41840740/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41846301/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41851060/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41860304/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41861644/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41872994/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41873684/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41876237/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41877932/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41878263/"^^xsd:anyURI .
+
+base:insulin a type:Treatment ;
+    rdfs:label "insulin" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41485836/"^^xsd:anyURI .
+
+base:interleukin_6 a type:Biomarker ;
+    rdfs:label "interleukin-6" ;
+    prop:associate_with base:3_years ;
+    prop:extractedFrom "Biomarkers of inflammation, including interleukin-6 and soluble tumor necrosis factor receptor-1, endothelial function, including angiopoietin, and complement, including C2, C4b, and C5, were not associated with PASC or symptom phenotypes in cross-sectional or longitudinal analyses." ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41824803/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41873329/"^^xsd:anyURI .
+
+base:klebsiella_pneumoniae a type:Bacteria ;
+    rdfs:label "klebsiella pneumoniae" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41485836/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41809985/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41824651/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41837287/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41837809/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41840269/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41857435/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41862085/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41876236/"^^xsd:anyURI .
+
+base:la_Pv_aCO2_central a type:Org ;
+    rdfs:label "la Pv-aCO2 central" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41558044/"^^xsd:anyURI .
+
+base:la_Pv_aCO2p a type:Org ;
+    rdfs:label "la Pv-aCO2p" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41558044/"^^xsd:anyURI .
+
+base:lactate a type:Biomarker ;
+    rdfs:label "lactate" ;
+    prop:extractedFrom "Among patients with sepsis, the prognostic value of lactate clearance varied substantially by phenotype." ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41522728/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41558044/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41651598/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41780196/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41792080/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835642/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41837287/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41837290/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41869341/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41872994/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41873106/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41876236/"^^xsd:anyURI ;
+    prop:vary_Among base:sepsis .
+
+base:less_than_3_months_old a type:Date ;
+    rdfs:label "less than 3 months old" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41862085/"^^xsd:anyURI .
+
+base:meningitis a type:Disease ;
+    rdfs:label "meningitis" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41801637/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41812945/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41862085/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41864215/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41876525/"^^xsd:anyURI .
+
+base:multiple_organ_failure a type:Disease ;
+    rdfs:label "multiple organ failure" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41788491/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41833358/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41846911/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41860304/"^^xsd:anyURI .
+
+base:nicu a type:CareUnit ;
+    rdfs:label "nicu" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41800881/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41841537/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41846741/"^^xsd:anyURI .
+
+base:nine_year a type:Date ;
+    rdfs:label "nine-year" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41857435/"^^xsd:anyURI .
+
+base:one_year a type:Date ;
+    rdfs:label "one-year" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41859080/"^^xsd:anyURI .
+
+base:peritonitis a type:Disease ;
+    rdfs:label "peritonitis" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41670978/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41858478/"^^xsd:anyURI .
+
+base:picu a type:CareUnit ;
+    rdfs:label "picu" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41833351/"^^xsd:anyURI .
+
+base:platelet a type:Biomarker ;
+    rdfs:label "platelet" ;
+    prop:enable base:sepsis ;
+    prop:extractedFrom "Patients in the persistent low-level group exhibited significantly higher 28-day all-cause mortality compared to the other two groups (71.63% vs. 55.36% vs. 13.04%,  Dynamic modeling of platelet count trajectories enables effective identification of clinically meaningful subphenotypes in sepsis patients, offering a robust framework for prognosis prediction." ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41512697/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41624233/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41720333/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41788474/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41809695/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41822877/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41837809/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41839106/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41843129/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41860935/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41869834/"^^xsd:anyURI .
+
+base:pneumonia a type:Disease ;
+    rdfs:label "pneumonia" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41505938/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41786300/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41803082/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41811788/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835642/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835699/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41836090/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41856148/"^^xsd:anyURI .
+
+base:postoperative_day_15 a type:Date ;
+    rdfs:label "postoperative day 15" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41835801/"^^xsd:anyURI .
+
+prop:administer_as a rdf:Property ;
+    rdfs:label "administer as" .
+
+prop:associate_with a rdf:Property ;
+    rdfs:label "associate with" .
+
+prop:carry_from a rdf:Property ;
+    rdfs:label "carry from" .
+
+prop:compare_to a rdf:Property ;
+    rdfs:label "compare to" .
+
+prop:compare_with a rdf:Property ;
+    rdfs:label "compare with" .
+
+prop:comprise_in a rdf:Property ;
+    rdfs:label "comprise in" .
+
+prop:conduct_in a rdf:Property ;
+    rdfs:label "conduct in" .
+
+prop:conduct_over a rdf:Property ;
+    rdfs:label "conduct over" .
+
+prop:conduct_via a rdf:Property ;
+    rdfs:label "conduct via" .
+
+prop:consider_in a rdf:Property ;
+    rdfs:label "consider in" .
+
+prop:describe_as a rdf:Property ;
+    rdfs:label "describe as" .
+
+prop:drive_via a rdf:Property ;
+    rdfs:label "drive via" .
+
+prop:emerge_as a rdf:Property ;
+    rdfs:label "emerge as" .
+
+prop:enable a rdf:Property ;
+    rdfs:label "enable" .
+
+prop:enrol_From a rdf:Property ;
+    rdfs:label "enrol From" .
+
+prop:enrol_In a rdf:Property ;
+    rdfs:label "enrol In" .
+
+prop:enrol_from a rdf:Property ;
+    rdfs:label "enrol from" .
+
+prop:exhibit_Compared a rdf:Property ;
+    rdfs:label "exhibit Compared" .
+
+prop:find_in a rdf:Property ;
+    rdfs:label "find in" .
+
+prop:have a rdf:Property ;
+    rdfs:label "have" .
+
+prop:identify a rdf:Property ;
+    rdfs:label "identify" .
+
+prop:identify_During a rdf:Property ;
+    rdfs:label "identify During" .
+
+prop:include a rdf:Property ;
+    rdfs:label "include" .
+
+prop:isolate_from a rdf:Property ;
+    rdfs:label "isolate from" .
+
+prop:manage_with a rdf:Property ;
+    rdfs:label "manage with" .
+
+prop:observe_between a rdf:Property ;
+    rdfs:label "observe between" .
+
+prop:quantify_at a rdf:Property ;
+    rdfs:label "quantify at" .
+
+prop:randomize_to a rdf:Property ;
+    rdfs:label "randomize to" .
+
+prop:recommend a rdf:Property ;
+    rdfs:label "recommend" .
+
+prop:reduce a rdf:Property ;
+    rdfs:label "reduce" .
+
+prop:remain a rdf:Property ;
+    rdfs:label "remain" .
+
+prop:remain_due a rdf:Property ;
+    rdfs:label "remain due" .
+
+prop:represent a rdf:Property ;
+    rdfs:label "represent" .
+
+prop:require_within a rdf:Property ;
+    rdfs:label "require within" .
+
+prop:show_In a rdf:Property ;
+    rdfs:label "show In" .
+
+prop:suppress_In a rdf:Property ;
+    rdfs:label "suppress In" .
+
+prop:undergo a rdf:Property ;
+    rdfs:label "undergo" .
+
+prop:vary_Among a rdf:Property ;
+    rdfs:label "vary Among" .
+
+base:pseudomonas_aeruginosa a type:Bacteria ;
+    rdfs:label "pseudomonas aeruginosa" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41837809/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41857435/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41873307/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41876236/"^^xsd:anyURI .
+
+base:qsofa a type:Biomarker ;
+    rdfs:label "qsofa" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41823128/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41839724/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41868078/"^^xsd:anyURI .
+
+base:respiratory_failure a type:Disease ;
+    rdfs:label "respiratory failure" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41873958/"^^xsd:anyURI .
+
+base:septic_shock a type:Disease ;
+    rdfs:label "septic shock" ;
+    prop:compare_to base:Kyoto ;
+    prop:extractedFrom "A prospective, single-center study included 54 septic shock patients with central venous catheters placed within 24 h of intensive care unit admission.",
+        "Our proteomic analysis identified that 316 and 83 differentially expressed proteins (DEPs) in sepsis and septic shock groups, respectively, each compared to the control group." ;
+    prop:include base:intensive_care_unit ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41457243/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41485836/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41505938/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41528192/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41547675/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41558044/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41560294/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41579501/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41580807/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41586534/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41624233/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41627609/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41629613/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41630340/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41637486/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41651598/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41670978/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41675743/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41699685/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41713684/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41720333/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41726344/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41734533/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41766144/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41772968/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41788474/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41788484/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41788491/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41809695/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41814716/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41816717/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41833344/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41833351/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835642/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41836007/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41837809/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41846301/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41850617/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41863108/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41866190/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41869844/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41870559/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41873367/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41878263/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41879344/"^^xsd:anyURI .
+
+base:seven_days a type:Date ;
+    rdfs:label "seven days" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41579501/"^^xsd:anyURI .
+
+base:several_months a type:Date ;
+    rdfs:label "several months" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41835801/"^^xsd:anyURI .
+
+base:sofa_score a type:Biomarker ;
+    rdfs:label "sofa score" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41558044/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41580807/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41833344/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835671/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41837809/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41839724/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41868069/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41868078/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41878189/"^^xsd:anyURI .
+
+base:spring_2020 a type:Date ;
+    rdfs:label "spring 2020" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41840233/"^^xsd:anyURI .
+
+base:staphylococcus_aureus a type:Bacteria ;
+    rdfs:label "staphylococcus aureus" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41485836/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41839106/"^^xsd:anyURI .
+
+base:stenotrophomonas_maltophilia a type:Bacteria ;
+    rdfs:label "stenotrophomonas maltophilia" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41863496/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41878045/"^^xsd:anyURI .
+
+base:streptococcus_pneumoniae a type:Bacteria ;
+    rdfs:label "streptococcus pneumoniae" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41803082/"^^xsd:anyURI .
+
+base:the_12th_day a type:Date ;
+    rdfs:label "the 12th day" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41875074/"^^xsd:anyURI .
+
+base:the_3_years a type:Date ;
+    rdfs:label "the 3 years" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41824803/"^^xsd:anyURI .
+
+base:the_Acute_Disease_Quality_Initiatives a type:Org ;
+    rdfs:label "the Acute Disease Quality Initiative’s" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41792449/"^^xsd:anyURI .
+
+base:the_Affiliated_Hospital_of_Guizhou_Medical_University a type:Org ;
+    rdfs:label "the Affiliated Hospital of Guizhou Medical University" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41833351/"^^xsd:anyURI .
+
+base:the_Affiliated_Peoples_Hospital_of_Jiangsu_University a type:Org ;
+    rdfs:label "the Affiliated People's Hospital of Jiangsu University" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41833348/"^^xsd:anyURI .
+
+base:the_American_Society_of_Echocardiography a type:Org ;
+    rdfs:label "the American Society of Echocardiography" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41726344/"^^xsd:anyURI .
+
+base:the_Chinese_Clinical_Trial_Registry a type:Org ;
+    rdfs:label "the Chinese Clinical Trial Registry" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41825095/"^^xsd:anyURI .
+
+base:the_Cochrane_Library a type:Org ;
+    rdfs:label "the Cochrane Library" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41838832/"^^xsd:anyURI .
+
+base:the_Department_of_Critical_Care_Medicine a type:Org ;
+    rdfs:label "the Department of Critical Care Medicine" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41822877/"^^xsd:anyURI .
+
+base:the_Department_of_Haematology a type:Org ;
+    rdfs:label "the Department of Haematology" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41792080/"^^xsd:anyURI .
+
+base:the_Department_of_Microbiology a type:Org ;
+    rdfs:label "the Department of Microbiology" ;
+    prop:conduct_in base:blood_culture ;
+    prop:extractedFrom "This retrospective observational study was conducted in the Department of Microbiology at a tertiary care teaching hospital in central India." ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41790922/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835721/"^^xsd:anyURI .
+
+base:the_Department_of_Ophthalmology a type:Org ;
+    rdfs:label "the Department of Ophthalmology" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41818099/"^^xsd:anyURI .
+
+base:the_First_Peoples_Hospital_of_Kunming a type:Org ;
+    rdfs:label "the First People's Hospital of Kunming" ;
+    prop:enrol_From base:June_2024_to_April_2025 ;
+    prop:extractedFrom "From June 2024 to April 2025, 360 mechanically ventilated patients admitted to the intensive care unit (ICU) of the First People's Hospital of Kunming were enrolled." ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41833354/"^^xsd:anyURI .
+
+base:the_Intensive_Care_Unit a type:Org ;
+    rdfs:label "the Intensive Care Unit" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41878263/"^^xsd:anyURI .
+
+base:the_Internal_Medicine_Department a type:Org ;
+    rdfs:label "the Internal Medicine Department" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41790910/"^^xsd:anyURI .
+
+base:the_Medical_Information_Mart_for_Intensive_Care_IV a type:Org ;
+    rdfs:label "the Medical Information Mart for Intensive Care-IV" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41876237/"^^xsd:anyURI .
+
+base:the_National_Institute_for_Health_and_Care_Research a type:Org ;
+    rdfs:label "the National Institute for Health and Care Research" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41864215/"^^xsd:anyURI .
+
+base:the_National_Prostate_Cancer_Register a type:Org ;
+    rdfs:label "the National Prostate Cancer Register" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41841614/"^^xsd:anyURI .
+
+base:the_Neonatal_Intensive_Care_Unit a type:Org ;
+    rdfs:label "the Neonatal Intensive Care Unit" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41814902/"^^xsd:anyURI .
+
+base:the_Netherlands_Reference_Laboratory_for_Bacterial_Meningitis a type:Org ;
+    rdfs:label "the Netherlands Reference Laboratory for Bacterial Meningitis" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41864215/"^^xsd:anyURI .
+
+base:the_Toyama_University_Hospital_NICU a type:Org ;
+    rdfs:label "the Toyama University Hospital NICU" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41800881/"^^xsd:anyURI .
+
+base:the_age_of_9_12_years a type:Date ;
+    rdfs:label "the age of 9-12 years" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41872049/"^^xsd:anyURI .
+
+base:the_eICU_Collaborative_Research_Database a type:Org ;
+    rdfs:label "the eICU Collaborative Research Database" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41833344/"^^xsd:anyURI .
+
+base:the_end_of_the_first_week a type:Date ;
+    rdfs:label "the end of the first week" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41788484/"^^xsd:anyURI .
+
+base:the_first_ICU_week a type:Date ;
+    rdfs:label "the first ICU week" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41547675/"^^xsd:anyURI .
+
+base:the_first_months_of_life a type:Date ;
+    rdfs:label "the first months of life" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41797174/"^^xsd:anyURI .
+
+base:the_first_three_days a type:Date ;
+    rdfs:label "the first three days" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41822877/"^^xsd:anyURI .
+
+base:the_first_week a type:Date ;
+    rdfs:label "the first week" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41547675/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41788484/"^^xsd:anyURI .
+
+base:the_first_week_of_life a type:Date ;
+    rdfs:label "the first week of life" ;
+    prop:associate_with base:9_12_years_of_age ;
+    prop:extractedFrom "Antibiotics in the first week of life are not associated with functional gastrointestinal disorders at 9-12 years of age.." ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41872049/"^^xsd:anyURI .
+
+base:the_past_decade a type:Date ;
+    rdfs:label "the past decade" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41792449/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41839420/"^^xsd:anyURI .
+
+base:three_to_four_days a type:Date ;
+    rdfs:label "three to four days" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41835682/"^^xsd:anyURI .
+
+base:thrombomodulin a type:Biomarker ;
+    rdfs:label "thrombomodulin" ;
+    prop:extractedFrom "Emerging endothelial-directed therapies, including heparanase inhibitors, Tie2 agonists, antithrombin and thrombomodulin supplementation, and NET-targeted interventions, represent a paradigm shift toward precision medicine in managing sepsis." ;
+    prop:represent base:sepsis ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41843129/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41878263/"^^xsd:anyURI .
+
+base:two_week a type:Date ;
+    rdfs:label "two-week" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41835682/"^^xsd:anyURI .
+
+base:under_18_years_of_age a type:Date ;
+    rdfs:label "under 18 years of age" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41800572/"^^xsd:anyURI .
+
+base:under_90_days_old a type:Date ;
+    rdfs:label "under 90 days old" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41862085/"^^xsd:anyURI .
+
+base:vasopressor a type:Treatment ;
+    rdfs:label "vasopressor" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41457243/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41580807/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41637486/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41651598/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835642/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41879344/"^^xsd:anyURI .
+
+base:wbc a type:Biomarker ;
+    rdfs:label "wbc" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41860935/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41873329/"^^xsd:anyURI .
+
+base:white_blood_cell a type:Biomarker ;
+    rdfs:label "white blood cell" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41860935/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41873329/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41878683/"^^xsd:anyURI .
+
+base:younger_than_1_year a type:Date ;
+    rdfs:label "younger than 1 year" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41864215/"^^xsd:anyURI .
+
+base:6_years a type:Date ;
+    rdfs:label "6 years" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41840233/"^^xsd:anyURI .
+
+base:February_2024_to_July_2024 a type:Date ;
+    rdfs:label "February 2024 to July 2024" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41846741/"^^xsd:anyURI .
+
+base:June_2024_to_April_2025 a type:Date ;
+    rdfs:label "June 2024 to April 2025" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41833354/"^^xsd:anyURI .
+
+base:Kyoto a type:Org ;
+    rdfs:label "Kyoto" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41809695/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41878263/"^^xsd:anyURI .
+
+base:Maheshwara_Medical_College a type:Org ;
+    rdfs:label "Maheshwara Medical College" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41846741/"^^xsd:anyURI .
+
+base:May_2022_September_2023 a type:Date ;
+    rdfs:label "May 2022-September 2023" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41863496/"^^xsd:anyURI .
+
+base:NICOM a type:Org ;
+    rdfs:label "NICOM" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41766144/"^^xsd:anyURI .
+
+base:Pavia a type:Location ;
+    rdfs:label "Pavia" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41840233/"^^xsd:anyURI .
+
+base:PubMed a type:Org ;
+    rdfs:label "PubMed" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41749595/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41814716/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41846301/"^^xsd:anyURI .
+
+base:Rituximab a type:Product ;
+    rdfs:label "Rituximab" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41836273/"^^xsd:anyURI .
+
+base:Southern_University_of_Science_and_Technology a type:Org ;
+    rdfs:label "Southern University of Science and Technology" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41814902/"^^xsd:anyURI .
+
+base:antibiotic a type:Treatment ;
+    rdfs:label "antibiotic" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41485836/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41675743/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41786300/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41801637/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41809985/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41811788/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41816717/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41838832/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41839106/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41839420/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41840269/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41841428/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41841537/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41841614/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41846741/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41852663/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41856138/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41859362/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41859461/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41862656/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41863455/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41865458/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41871977/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41872049/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41873631/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41878683/"^^xsd:anyURI .
+
+base:between_February_2020_and_August_2023 a type:Date ;
+    rdfs:label "between February 2020 and August 2023" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41814902/"^^xsd:anyURI .
+
+base:blood_culture a type:Treatment ;
+    rdfs:label "blood culture" ;
+    prop:enrol_from base:Southern_University_of_Science_and_Technology,
+        base:between_February_2020_and_August_2023 ;
+    prop:extractedFrom "Seventeen neonates with blood culture-positive sepsis and seventeen controls with negative blood culture results were enrolled from the Neonatal Intensive Care Unit of Guangdong Women and Children Hospital （Women and Children's Hospital， Southern University of Science and Technology） between February 2020 and August 2023." ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41630340/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41785728/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41800881/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41814902/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41815598/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41833345/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835721/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41846741/"^^xsd:anyURI .
+
+base:crp a type:Biomarker ;
+    rdfs:label "crp" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41780196/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41792080/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835671/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41837809/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41872955/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41873329/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41876236/"^^xsd:anyURI .
+
+base:emergency_department a type:CareUnit ;
+    rdfs:label "emergency department" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41522728/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41822110/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41839724/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41856148/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41861644/"^^xsd:anyURI .
+
+base:endocarditis a type:Disease ;
+    rdfs:label "endocarditis" ;
+    prop:consider_in base:sepsis ;
+    prop:extractedFrom "Endocarditis should be considered in any patient with fever or sepsis of unknown origin." ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41505938/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41839106/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41850617/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41869215/"^^xsd:anyURI .
+
+base:il_6 a type:Biomarker ;
+    rdfs:label "il-6" ;
+    prop:extractedFrom "Body temperature, WBC, and IL-6 have limited diagnostic value.",
+        "Serum levels of TLR2, TLR4, TLR9, IL-1β, IL-6, IL-8, IL-10, TNF-α and IFN-γ were quantified by enzyme-linked immunosorbent assay at the time of sepsis diagnosis." ;
+    prop:have base:pct ;
+    prop:quantify_at base:sepsis ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41846925/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41856148/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41865458/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41873329/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41873684/"^^xsd:anyURI .
+
+base:mechanical_ventilation a type:Treatment ;
+    rdfs:label "mechanical ventilation" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41824803/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41833348/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41833351/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41833354/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41833358/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835642/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41836007/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41838832/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41841537/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41846301/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41861644/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41875074/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41876236/"^^xsd:anyURI .
+
+base:organ_dysfunction a type:Disease ;
+    rdfs:label "organ dysfunction" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41586534/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41627609/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41720333/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41788474/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41789088/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41814716/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41833351/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41833354/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41840740/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41840847/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41846301/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41859212/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41860304/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41878045/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41879344/"^^xsd:anyURI .
+
+base:pct a type:Biomarker ;
+    rdfs:label "pct" ;
+    prop:emerge_as base:sepsis ;
+    prop:extractedFrom "PCT is emerging as a universal biomarker for both bacterial and non-bacterial sepsis, making it a potential universal marker for sepsis." ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41790922/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41824856/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41838832/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41846741/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41872955/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41873329/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41876236/"^^xsd:anyURI .
+
+base:procalcitonin a type:Biomarker ;
+    rdfs:label "procalcitonin" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41780196/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41790922/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41824856/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835682/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41838832/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41846741/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41856148/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41872955/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41873329/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41876236/"^^xsd:anyURI .
+
+base:the_Kalinga_Institute_of_Medical_Sciences a type:Org ;
+    rdfs:label "the Kalinga Institute of Medical Sciences" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41878189/"^^xsd:anyURI .
+
+base:vancomycin a type:Treatment ;
+    rdfs:label "vancomycin" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41485836/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41816717/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41840269/"^^xsd:anyURI .
+
+base:9_12_years_of_age a type:Date ;
+    rdfs:label "9-12 years of age" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41872049/"^^xsd:anyURI .
+
+base:antibiotics a type:Treatment ;
+    rdfs:label "antibiotics" ;
+    prop:extractedFrom "Intraventricular antibiotics used included colistin, vancomycin, tigecycline, and amikacin." ;
+    prop:include base:vancomycin ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41485836/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835250/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835671/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835682/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41837809/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41840269/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41841154/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41841614/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41845475/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41846741/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41856138/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41859080/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41862656/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41863455/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41863973/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41866190/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41868704/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41872049/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41873106/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41873367/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41873631/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41875074/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41878189/"^^xsd:anyURI .
+
+base:c_reactive_protein a type:Biomarker ;
+    rdfs:label "c-reactive protein" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41780196/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41792080/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835671/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41837809/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41872955/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41873329/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41876236/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41878683/"^^xsd:anyURI .
+
+base:intensive_care_unit a type:CareUnit ;
+    rdfs:label "intensive care unit" ;
+    prop:enrol_In base:sepsis ;
+    prop:extractedFrom "In this hospital-based case-control study, 480 adult patients with sepsis admitted to the intensive care unit and 840 age- and sex-matched healthy controls were enrolled." ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41558044/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41627609/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41726344/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41748189/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41785728/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41800881/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41801637/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41809985/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41814902/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41816717/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41824651/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41833344/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41833345/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41833351/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41833354/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835642/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41836007/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41836090/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41840740/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41841537/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41846301/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41846741/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41846925/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41851060/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41856148/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41861644/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41863496/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41872994/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41876236/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41876237/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41878263/"^^xsd:anyURI .
+
+base:norepinephrine a type:Treatment ;
+    rdfs:label "norepinephrine" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41457243/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41512697/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41528192/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41580807/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41651598/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41699685/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41833354/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41873106/"^^xsd:anyURI .
+
+base:acute_kidney_injury a type:Disease ;
+    rdfs:label "acute kidney injury" ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41457243/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41675743/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41766144/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41792449/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41824856/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835642/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41836090/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41860304/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41862656/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41863108/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41873106/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41873329/"^^xsd:anyURI .
+
+base:sepsis a type:Disease ;
+    rdfs:label "sepsis" ;
+    prop:associate_with base:acute_kidney_injury ;
+    prop:compare_with base:procalcitonin ;
+    prop:exhibit_Compared base:il_6 ;
+    prop:extractedFrom "Aminoglycoside dosing in suspected neonatal sepsis remains difficult due to highly variable pharmacokinetics driven by marked physiological diversity, from extremely preterm to term neonates, and further complicated by acute kidney injury, perinatal asphyxia, and concomitant interventions.",
+        "Compared with controls, patients with sepsis exhibited significantly higher serum levels of TLR2, TLR4, TLR9, IL-1β, IL-6, IL-8, IL-10 and TNF-α (all p < 0.05), whereas IFN-γ levels were not significantly different.",
+        "Evaluation of serum amyloid A as a biomarker for sepsis diagnosis compared with C-reactive protein, procalcitonin, and presepsin..",
+        "Independent predictors of postoperative sepsis included failure of microbiological eradication, higher baseline C-reactive protein, and larger stone burden.",
+        "Male and female subjects with sepsis had comparable CRP, serum albumin, lymphocyte count, CALLY indices, and SOFA scores.",
+        "No significant differences in baseline characteristics were found between the two groups (all  The use of vitamin C in patients with sepsis is associated with a reduced incidence of acute kidney injury, although a larger sample size is required to confirm this finding.",
+        "Patients with suspected neutropenic sepsis require treatment with intravenous antibiotics within one hour of presentation to hospital.",
+        "Sepsis remains a leading cause of morbidity and mortality among patients presenting to the emergency department (ED), and early risk stratification is crucial for clinical decision-making.",
+        "To explore whether vitamin C supplementation in sepsis patients can reduce the occurrence of acute kidney injury." ;
+    prop:have base:crp ;
+    prop:include base:c_reactive_protein ;
+    prop:reduce base:acute_kidney_injury ;
+    prop:remain base:emergency_department ;
+    prop:remain_due base:acute_kidney_injury ;
+    prop:require_within base:antibiotics ;
+    prop:sourceUrl "https://pubmed.ncbi.nlm.nih.gov/41457243/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41505938/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41512697/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41522728/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41530048/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41560294/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41579501/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41586534/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41624233/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41627609/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41629613/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41630340/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41637486/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41670978/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41675743/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41720333/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41726344/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41749595/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41772968/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41773921/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41780196/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41783141/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41785728/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41788252/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41788474/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41788484/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41788491/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41789088/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41789098/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41790922/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41792080/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41792449/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41800881/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41801637/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41803082/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41805922/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41809695/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41812945/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41814716/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41814902/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41815598/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41816717/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41822110/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41822877/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41823048/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41823128/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41824803/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41824856/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41825095/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41833345/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41833348/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41833351/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41833354/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41833358/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835642/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835671/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835682/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835699/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41835801/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41836007/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41836090/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41837287/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41837290/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41838832/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41839106/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41839420/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41839724/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41840269/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41840740/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41840847/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41841154/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41841537/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41841614/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41843129/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41846301/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41846741/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41846911/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41846925/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41850617/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41851060/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41856138/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41856148/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41857435/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41858478/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41859062/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41859080/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41859212/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41859362/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41860304/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41860935/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41861644/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41862085/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41862656/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41863455/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41863973/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41864215/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41865458/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41866190/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41868069/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41868078/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41868704/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41869341/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41869834/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41869844/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41870559/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41872049/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41872955/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41872994/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41873106/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41873329/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41873631/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41873684/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41873958/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41874459/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41876237/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41876525/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41877932/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41878045/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41878189/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41878263/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41878683/"^^xsd:anyURI,
+        "https://pubmed.ncbi.nlm.nih.gov/41879344/"^^xsd:anyURI .
+
