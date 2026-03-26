@@ -1,0 +1,960 @@
+entity,label,source_url
+acinetobacter,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41857435/
+acinetobacter,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41837809/
+acinetobacter,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41876236/
+candida,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41790922/
+candida,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41840233/
+e. coli,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41785728/
+e. coli,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41841428/
+e. coli,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41876525/
+e. coli,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41862085/
+enterococcus,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41840269/
+enterococcus,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41839106/
+enterococcus,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41850617/
+escherichia coli,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41841428/
+escherichia coli,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41485836/
+escherichia coli,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41457243/
+escherichia coli,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41876525/
+escherichia coli,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41876236/
+escherichia coli,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41864215/
+escherichia coli,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41862085/
+escherichia coli,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41837290/
+escherichia coli,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41837287/
+klebsiella pneumoniae,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41857435/
+klebsiella pneumoniae,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41840269/
+klebsiella pneumoniae,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41837809/
+klebsiella pneumoniae,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41485836/
+klebsiella pneumoniae,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41876236/
+klebsiella pneumoniae,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41862085/
+klebsiella pneumoniae,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41837287/
+klebsiella pneumoniae,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41824651/
+klebsiella pneumoniae,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41809985/
+pseudomonas aeruginosa,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41873307/
+pseudomonas aeruginosa,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41857435/
+pseudomonas aeruginosa,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41837809/
+pseudomonas aeruginosa,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41876236/
+staphylococcus aureus,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41839106/
+staphylococcus aureus,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41485836/
+stenotrophomonas maltophilia,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41878045/
+stenotrophomonas maltophilia,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41863496/
+streptococcus pneumoniae,BACTERIA,https://pubmed.ncbi.nlm.nih.gov/41803082/
+c-reactive protein,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41873329/
+c-reactive protein,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41872955/
+c-reactive protein,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41792080/
+c-reactive protein,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41780196/
+c-reactive protein,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41878683/
+c-reactive protein,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41837809/
+c-reactive protein,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41876236/
+c-reactive protein,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41835671/
+crp,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41873329/
+crp,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41872955/
+crp,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41792080/
+crp,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41780196/
+crp,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41837809/
+crp,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41876236/
+crp,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41835671/
+d-dimer,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41859212/
+il-6,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41873329/
+il-6,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41856148/
+il-6,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41846925/
+il-6,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41873684/
+il-6,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41865458/
+interleukin-6,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41873329/
+interleukin-6,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41824803/
+lactate,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41872994/
+lactate,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41792080/
+lactate,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41780196/
+lactate,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41873106/
+lactate,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41651598/
+lactate,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41558044/
+lactate,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41522728/
+lactate,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41876236/
+lactate,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41837290/
+lactate,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41837287/
+lactate,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41869341/
+lactate,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41835642/
+pct,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41873329/
+pct,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41872955/
+pct,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41824856/
+pct,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41790922/
+pct,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41846741/
+pct,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41838832/
+pct,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41876236/
+platelet,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41869834/
+platelet,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41860935/
+platelet,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41809695/
+platelet,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41839106/
+platelet,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41837809/
+platelet,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41788474/
+platelet,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41720333/
+platelet,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41624233/
+platelet,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41512697/
+platelet,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41843129/
+platelet,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41822877/
+procalcitonin,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41873329/
+procalcitonin,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41872955/
+procalcitonin,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41856148/
+procalcitonin,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41835682/
+procalcitonin,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41824856/
+procalcitonin,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41790922/
+procalcitonin,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41780196/
+procalcitonin,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41846741/
+procalcitonin,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41838832/
+procalcitonin,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41876236/
+qsofa,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41868078/
+qsofa,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41839724/
+qsofa,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41823128/
+sofa score,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41868078/
+sofa score,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41839724/
+sofa score,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41878189/
+sofa score,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41837809/
+sofa score,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41580807/
+sofa score,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41558044/
+sofa score,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41868069/
+sofa score,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41835671/
+sofa score,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41833344/
+thrombomodulin,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41878263/
+thrombomodulin,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41843129/
+wbc,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41873329/
+wbc,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41860935/
+white blood cell,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41873329/
+white blood cell,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41860935/
+white blood cell,BIOMARKER,https://pubmed.ncbi.nlm.nih.gov/41878683/
+ed,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41839724/
+ed,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41861644/
+emergency department,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41856148/
+emergency department,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41839724/
+emergency department,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41822110/
+emergency department,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41522728/
+emergency department,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41861644/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41878263/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41877932/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41872994/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41836007/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41823048/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41785728/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41778976/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41873684/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41838832/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41837809/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41788484/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41748189/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41726344/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41699685/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41580807/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41547675/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41835721/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41809985/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41801637/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41876237/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41861644/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41860304/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41851060/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41846301/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41840740/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41835642/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41833358/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41833354/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41833345/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41833344/
+icu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41823128/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41878263/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41872994/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41856148/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41846925/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41836007/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41814902/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41785728/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41846741/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41841537/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41748189/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41726344/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41627609/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41558044/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41876236/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41863496/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41824651/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41816717/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41809985/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41801637/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41800881/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41876237/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41861644/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41851060/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41846301/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41840740/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41836090/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41835642/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41833354/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41833351/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41833345/
+intensive care unit,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41833344/
+nicu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41846741/
+nicu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41841537/
+nicu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41800881/
+picu,CARE_UNIT,https://pubmed.ncbi.nlm.nih.gov/41833351/
+0-18,DATE,https://pubmed.ncbi.nlm.nih.gov/41840269/
+1 July 2011 to 30 June 2022,DATE,https://pubmed.ncbi.nlm.nih.gov/41839420/
+1 month,DATE,https://pubmed.ncbi.nlm.nih.gov/41866190/
+1-3 months old,DATE,https://pubmed.ncbi.nlm.nih.gov/41876150/
+1-year,DATE,https://pubmed.ncbi.nlm.nih.gov/41823048/
+10,DATE,https://pubmed.ncbi.nlm.nih.gov/41825095/
+12 days,DATE,https://pubmed.ncbi.nlm.nih.gov/41835642/
+12.0 (9.0-16.0) days,DATE,https://pubmed.ncbi.nlm.nih.gov/41878189/
+12.0 (9.0-16.0) days,DATE,https://pubmed.ncbi.nlm.nih.gov/41835671/
+13 days,DATE,https://pubmed.ncbi.nlm.nih.gov/41841537/
+13-year,DATE,https://pubmed.ncbi.nlm.nih.gov/41800572/
+14 to 11 days,DATE,https://pubmed.ncbi.nlm.nih.gov/41846741/
+14-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41766144/
+15 months,DATE,https://pubmed.ncbi.nlm.nih.gov/41824803/
+15-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41837809/
+18 to 100 years old,DATE,https://pubmed.ncbi.nlm.nih.gov/41833345/
+18 years and older,DATE,https://pubmed.ncbi.nlm.nih.gov/41868078/
+18-90 years,DATE,https://pubmed.ncbi.nlm.nih.gov/41876237/
+18-91 years,DATE,https://pubmed.ncbi.nlm.nih.gov/41833344/
+19-year-old,DATE,https://pubmed.ncbi.nlm.nih.gov/41845475/
+1975 to 2021,DATE,https://pubmed.ncbi.nlm.nih.gov/41864215/
+1976 to 1980,DATE,https://pubmed.ncbi.nlm.nih.gov/41864215/
+1981,DATE,https://pubmed.ncbi.nlm.nih.gov/41864215/
+1990,DATE,https://pubmed.ncbi.nlm.nih.gov/41547675/
+2-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41859362/
+2014 to 2015,DATE,https://pubmed.ncbi.nlm.nih.gov/41833344/
+2015,DATE,https://pubmed.ncbi.nlm.nih.gov/41840233/
+2015-2023,DATE,https://pubmed.ncbi.nlm.nih.gov/41862085/
+2017,DATE,https://pubmed.ncbi.nlm.nih.gov/41873958/
+2018,DATE,https://pubmed.ncbi.nlm.nih.gov/41868069/
+2019,DATE,https://pubmed.ncbi.nlm.nih.gov/41868069/
+2019-2024,DATE,https://pubmed.ncbi.nlm.nih.gov/41800881/
+2020,DATE,https://pubmed.ncbi.nlm.nih.gov/41870559/
+2020,DATE,https://pubmed.ncbi.nlm.nih.gov/41869844/
+2020,DATE,https://pubmed.ncbi.nlm.nih.gov/41868069/
+2020 to 2022,DATE,https://pubmed.ncbi.nlm.nih.gov/41824651/
+2020-2023,DATE,https://pubmed.ncbi.nlm.nih.gov/41862085/
+2021,DATE,https://pubmed.ncbi.nlm.nih.gov/41868069/
+2022-2023,DATE,https://pubmed.ncbi.nlm.nih.gov/41863496/
+2024,DATE,https://pubmed.ncbi.nlm.nih.gov/41833351/
+2026,DATE,https://pubmed.ncbi.nlm.nih.gov/41870559/
+2026,DATE,https://pubmed.ncbi.nlm.nih.gov/41869844/
+21 years,DATE,https://pubmed.ncbi.nlm.nih.gov/41841537/
+24 h,DATE,https://pubmed.ncbi.nlm.nih.gov/41558044/
+28 and 90 days,DATE,https://pubmed.ncbi.nlm.nih.gov/41788484/
+28 days,DATE,https://pubmed.ncbi.nlm.nih.gov/41876237/
+28 days,DATE,https://pubmed.ncbi.nlm.nih.gov/41860304/
+28-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41878263/
+28-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41872994/
+28-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41836007/
+28-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41785728/
+28-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41773921/
+28-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41580807/
+28-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41876236/
+28-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41816717/
+28-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41809985/
+28-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41876237/
+28-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41840740/
+28-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41836090/
+28-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41835642/
+28-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41833345/
+28-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41822877/
+28-year-old,DATE,https://pubmed.ncbi.nlm.nih.gov/41859080/
+3 Years,DATE,https://pubmed.ncbi.nlm.nih.gov/41824803/
+3 consecutive days,DATE,https://pubmed.ncbi.nlm.nih.gov/41873106/
+3 months,DATE,https://pubmed.ncbi.nlm.nih.gov/41866190/
+30 days,DATE,https://pubmed.ncbi.nlm.nih.gov/41833348/
+30-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41856148/
+30-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41839724/
+30-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41823048/
+30-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41780196/
+30-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41852663/
+30-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41838832/
+30-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41824651/
+30-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41833348/
+31-year-old,DATE,https://pubmed.ncbi.nlm.nih.gov/41835682/
+35 days,DATE,https://pubmed.ncbi.nlm.nih.gov/41841537/
+365 days,DATE,https://pubmed.ncbi.nlm.nih.gov/41839420/
+365-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41839420/
+39 days,DATE,https://pubmed.ncbi.nlm.nih.gov/41841537/
+4 months,DATE,https://pubmed.ncbi.nlm.nih.gov/41824803/
+43 years,DATE,https://pubmed.ncbi.nlm.nih.gov/41852663/
+48-72-hour,DATE,https://pubmed.ncbi.nlm.nih.gov/41863973/
+49 years,DATE,https://pubmed.ncbi.nlm.nih.gov/41815598/
+5 days,DATE,https://pubmed.ncbi.nlm.nih.gov/41856138/
+5-year,DATE,https://pubmed.ncbi.nlm.nih.gov/41809985/
+50-year-old,DATE,https://pubmed.ncbi.nlm.nih.gov/41866190/
+50 days old,DATE,https://pubmed.ncbi.nlm.nih.gov/41873684/
+53 years,DATE,https://pubmed.ncbi.nlm.nih.gov/41824651/
+54-year-old,DATE,https://pubmed.ncbi.nlm.nih.gov/41866190/
+55-year-old,DATE,https://pubmed.ncbi.nlm.nih.gov/41863108/
+56 years,DATE,https://pubmed.ncbi.nlm.nih.gov/41824803/
+56-77,DATE,https://pubmed.ncbi.nlm.nih.gov/41872994/
+56.3 years,DATE,https://pubmed.ncbi.nlm.nih.gov/41748189/
+59.0 (,DATE,https://pubmed.ncbi.nlm.nih.gov/41878189/
+6 months,DATE,https://pubmed.ncbi.nlm.nih.gov/41846741/
+63-year-old,DATE,https://pubmed.ncbi.nlm.nih.gov/41675743/
+63-year-old,DATE,https://pubmed.ncbi.nlm.nih.gov/41835801/
+64.5 years,DATE,https://pubmed.ncbi.nlm.nih.gov/41835642/
+67,DATE,https://pubmed.ncbi.nlm.nih.gov/41872994/
+67-year-old,DATE,https://pubmed.ncbi.nlm.nih.gov/41859062/
+69,DATE,https://pubmed.ncbi.nlm.nih.gov/41858478/
+69-year-old,DATE,https://pubmed.ncbi.nlm.nih.gov/41873367/
+6 years,DATE,https://pubmed.ncbi.nlm.nih.gov/41840233/
+7 days,DATE,https://pubmed.ncbi.nlm.nih.gov/41836007/
+7 days,DATE,https://pubmed.ncbi.nlm.nih.gov/41850617/
+7-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41836007/
+70 años,DATE,https://pubmed.ncbi.nlm.nih.gov/41558044/
+70 years,DATE,https://pubmed.ncbi.nlm.nih.gov/41558044/
+72 hours,DATE,https://pubmed.ncbi.nlm.nih.gov/41766144/
+74-year-old,DATE,https://pubmed.ncbi.nlm.nih.gov/41790910/
+75.9 ±,DATE,https://pubmed.ncbi.nlm.nih.gov/41857435/
+76-year-old,DATE,https://pubmed.ncbi.nlm.nih.gov/41841154/
+8 days,DATE,https://pubmed.ncbi.nlm.nih.gov/41841537/
+8 to 6 days,DATE,https://pubmed.ncbi.nlm.nih.gov/41846741/
+9-12 years,DATE,https://pubmed.ncbi.nlm.nih.gov/41872049/
+9-12 years of age,DATE,https://pubmed.ncbi.nlm.nih.gov/41872049/
+90 days,DATE,https://pubmed.ncbi.nlm.nih.gov/41850617/
+90-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41823048/
+90-day,DATE,https://pubmed.ncbi.nlm.nih.gov/41838832/
+>18 years,DATE,https://pubmed.ncbi.nlm.nih.gov/41876236/
+April 2023 to March 2024,DATE,https://pubmed.ncbi.nlm.nih.gov/41790922/
+April 2024,DATE,https://pubmed.ncbi.nlm.nih.gov/41833351/
+April 2024 to February 2025,DATE,https://pubmed.ncbi.nlm.nih.gov/41868078/
+April 2025,DATE,https://pubmed.ncbi.nlm.nih.gov/41838832/
+April to September 2024,DATE,https://pubmed.ncbi.nlm.nih.gov/41876150/
+August 2025,DATE,https://pubmed.ncbi.nlm.nih.gov/41878189/
+August 2025,DATE,https://pubmed.ncbi.nlm.nih.gov/41835671/
+December 2023,DATE,https://pubmed.ncbi.nlm.nih.gov/41833348/
+December 2024,DATE,https://pubmed.ncbi.nlm.nih.gov/41850617/
+December 2025,DATE,https://pubmed.ncbi.nlm.nih.gov/41878189/
+December 2025,DATE,https://pubmed.ncbi.nlm.nih.gov/41835671/
+February 2024 to July 2024,DATE,https://pubmed.ncbi.nlm.nih.gov/41846741/
+"Jan 1, 2000,",DATE,https://pubmed.ncbi.nlm.nih.gov/41856138/
+January 2019,DATE,https://pubmed.ncbi.nlm.nih.gov/41850617/
+January 2020,DATE,https://pubmed.ncbi.nlm.nih.gov/41833348/
+January 2020 to December 2022,DATE,https://pubmed.ncbi.nlm.nih.gov/41824856/
+January 2021 to 2023,DATE,https://pubmed.ncbi.nlm.nih.gov/41841428/
+January 2024,DATE,https://pubmed.ncbi.nlm.nih.gov/41815598/
+July 2024,DATE,https://pubmed.ncbi.nlm.nih.gov/41579501/
+July 2024 to June 2025,DATE,https://pubmed.ncbi.nlm.nih.gov/41835721/
+"July, 2016",DATE,https://pubmed.ncbi.nlm.nih.gov/41864215/
+June 2021,DATE,https://pubmed.ncbi.nlm.nih.gov/41833351/
+June 2024 to April 2025,DATE,https://pubmed.ncbi.nlm.nih.gov/41833354/
+"March 1, 2022",DATE,https://pubmed.ncbi.nlm.nih.gov/41876236/
+"May 1, 2025",DATE,https://pubmed.ncbi.nlm.nih.gov/41846301/
+May 2022-September 2023,DATE,https://pubmed.ncbi.nlm.nih.gov/41863496/
+"Nov 20, 2025",DATE,https://pubmed.ncbi.nlm.nih.gov/41856138/
+November 2025,DATE,https://pubmed.ncbi.nlm.nih.gov/41814716/
+"October 31, 2023",DATE,https://pubmed.ncbi.nlm.nih.gov/41876236/
+One-Day,DATE,https://pubmed.ncbi.nlm.nih.gov/41878683/
+Q2,DATE,https://pubmed.ncbi.nlm.nih.gov/41877932/
+Q4,DATE,https://pubmed.ncbi.nlm.nih.gov/41877932/
+Three-Day,DATE,https://pubmed.ncbi.nlm.nih.gov/41878683/
+Weekly,DATE,https://pubmed.ncbi.nlm.nih.gov/41816717/
+a one-year,DATE,https://pubmed.ncbi.nlm.nih.gov/41835721/
+age > 60 years,DATE,https://pubmed.ncbi.nlm.nih.gov/41818099/
+annually,DATE,https://pubmed.ncbi.nlm.nih.gov/41835801/
+between 01 May 2023 and 30 July 2024,DATE,https://pubmed.ncbi.nlm.nih.gov/41816717/
+between 1 January 2020 and 31 December 2023,DATE,https://pubmed.ncbi.nlm.nih.gov/41841614/
+"between 1946 and May 7, 2025",DATE,https://pubmed.ncbi.nlm.nih.gov/41528192/
+between 1975 and 2021,DATE,https://pubmed.ncbi.nlm.nih.gov/41864215/
+between 2000 and 2025,DATE,https://pubmed.ncbi.nlm.nih.gov/41749595/
+between 2010 and 2023,DATE,https://pubmed.ncbi.nlm.nih.gov/41800572/
+between 2014 and 2024,DATE,https://pubmed.ncbi.nlm.nih.gov/41852663/
+between 2015 and 2021,DATE,https://pubmed.ncbi.nlm.nih.gov/41835250/
+between 2017 and 2023,DATE,https://pubmed.ncbi.nlm.nih.gov/41837809/
+between 2018 and 2022,DATE,https://pubmed.ncbi.nlm.nih.gov/41579501/
+between 2021 and 2025,DATE,https://pubmed.ncbi.nlm.nih.gov/41823128/
+between April 2024 and October 2025,DATE,https://pubmed.ncbi.nlm.nih.gov/41859362/
+between February 2020 and August 2023,DATE,https://pubmed.ncbi.nlm.nih.gov/41814902/
+between January 2012 and December 2023,DATE,https://pubmed.ncbi.nlm.nih.gov/41851060/
+between January 2014 and December 2022,DATE,https://pubmed.ncbi.nlm.nih.gov/41841537/
+between January 2016 and March 2025,DATE,https://pubmed.ncbi.nlm.nih.gov/41857435/
+between January 2023 and December 2024,DATE,https://pubmed.ncbi.nlm.nih.gov/41861644/
+"between June 1, 2023, and June 1, 2024",DATE,https://pubmed.ncbi.nlm.nih.gov/41835642/
+between May 2024 and May 2025,DATE,https://pubmed.ncbi.nlm.nih.gov/41869834/
+between November 2023 and October 2024,DATE,https://pubmed.ncbi.nlm.nih.gov/41630340/
+between September 2022 and December 2024,DATE,https://pubmed.ncbi.nlm.nih.gov/41822877/
+daily,DATE,https://pubmed.ncbi.nlm.nih.gov/41878189/
+daily,DATE,https://pubmed.ncbi.nlm.nih.gov/41547675/
+daily,DATE,https://pubmed.ncbi.nlm.nih.gov/41835671/
+daily,DATE,https://pubmed.ncbi.nlm.nih.gov/41825095/
+day 0,DATE,https://pubmed.ncbi.nlm.nih.gov/41876236/
+day 0 to day 38,DATE,https://pubmed.ncbi.nlm.nih.gov/41630340/
+day 1,DATE,https://pubmed.ncbi.nlm.nih.gov/41878189/
+day 1,DATE,https://pubmed.ncbi.nlm.nih.gov/41835671/
+day 1-14,DATE,https://pubmed.ncbi.nlm.nih.gov/41841614/
+day 1-30,DATE,https://pubmed.ncbi.nlm.nih.gov/41841614/
+day 1-7,DATE,https://pubmed.ncbi.nlm.nih.gov/41841614/
+day 10,DATE,https://pubmed.ncbi.nlm.nih.gov/41876525/
+day 12,DATE,https://pubmed.ncbi.nlm.nih.gov/41835682/
+day 7,DATE,https://pubmed.ncbi.nlm.nih.gov/41726344/
+day 7,DATE,https://pubmed.ncbi.nlm.nih.gov/41876236/
+day 7,DATE,https://pubmed.ncbi.nlm.nih.gov/41840740/
+day 8,DATE,https://pubmed.ncbi.nlm.nih.gov/41835682/
+days,DATE,https://pubmed.ncbi.nlm.nih.gov/41824803/
+days,DATE,https://pubmed.ncbi.nlm.nih.gov/41580807/
+days,DATE,https://pubmed.ncbi.nlm.nih.gov/41823128/
+days 1,DATE,https://pubmed.ncbi.nlm.nih.gov/41835671/
+days 1,DATE,https://pubmed.ncbi.nlm.nih.gov/41825095/
+decade,DATE,https://pubmed.ncbi.nlm.nih.gov/41837290/
+eight days,DATE,https://pubmed.ncbi.nlm.nih.gov/41815598/
+first-week,DATE,https://pubmed.ncbi.nlm.nih.gov/41872049/
+his 50s,DATE,https://pubmed.ncbi.nlm.nih.gov/41836273/
+less than 3 months old,DATE,https://pubmed.ncbi.nlm.nih.gov/41862085/
+nine-year,DATE,https://pubmed.ncbi.nlm.nih.gov/41857435/
+one-year,DATE,https://pubmed.ncbi.nlm.nih.gov/41859080/
+postoperative day 15,DATE,https://pubmed.ncbi.nlm.nih.gov/41835801/
+seven days,DATE,https://pubmed.ncbi.nlm.nih.gov/41579501/
+several months,DATE,https://pubmed.ncbi.nlm.nih.gov/41835801/
+spring 2020,DATE,https://pubmed.ncbi.nlm.nih.gov/41840233/
+the 12th day,DATE,https://pubmed.ncbi.nlm.nih.gov/41875074/
+the 3 years,DATE,https://pubmed.ncbi.nlm.nih.gov/41824803/
+the age of 9-12 years,DATE,https://pubmed.ncbi.nlm.nih.gov/41872049/
+the end of the first week,DATE,https://pubmed.ncbi.nlm.nih.gov/41788484/
+the first ICU week,DATE,https://pubmed.ncbi.nlm.nih.gov/41547675/
+the first months of life,DATE,https://pubmed.ncbi.nlm.nih.gov/41797174/
+the first three days,DATE,https://pubmed.ncbi.nlm.nih.gov/41822877/
+the first week,DATE,https://pubmed.ncbi.nlm.nih.gov/41788484/
+the first week,DATE,https://pubmed.ncbi.nlm.nih.gov/41547675/
+the first week of life,DATE,https://pubmed.ncbi.nlm.nih.gov/41872049/
+the past decade,DATE,https://pubmed.ncbi.nlm.nih.gov/41792449/
+the past decade,DATE,https://pubmed.ncbi.nlm.nih.gov/41839420/
+three to four days,DATE,https://pubmed.ncbi.nlm.nih.gov/41835682/
+two-week,DATE,https://pubmed.ncbi.nlm.nih.gov/41835682/
+under 18 years of age,DATE,https://pubmed.ncbi.nlm.nih.gov/41800572/
+under 90 days old,DATE,https://pubmed.ncbi.nlm.nih.gov/41862085/
+younger than 1 year,DATE,https://pubmed.ncbi.nlm.nih.gov/41864215/
+≥14 years,DATE,https://pubmed.ncbi.nlm.nih.gov/41852663/
+≥18-year-old,DATE,https://pubmed.ncbi.nlm.nih.gov/41839420/
+≥ 7 days,DATE,https://pubmed.ncbi.nlm.nih.gov/41547675/
+acute kidney injury,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41873329/
+acute kidney injury,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41824856/
+acute kidney injury,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41792449/
+acute kidney injury,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41873106/
+acute kidney injury,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41862656/
+acute kidney injury,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41863108/
+acute kidney injury,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41766144/
+acute kidney injury,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41675743/
+acute kidney injury,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41457243/
+acute kidney injury,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41860304/
+acute kidney injury,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41836090/
+acute kidney injury,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41835642/
+bacteremia,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41873367/
+bacteremia,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41850617/
+bacteremia,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41815598/
+bacteremia,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41811788/
+bacteremia,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41800881/
+bacteremia,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41790910/
+dic,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41869834/
+dic,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41788491/
+dic,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41859212/
+dic,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41843129/
+dic,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41840740/
+disseminated intravascular coagulation,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41869834/
+disseminated intravascular coagulation,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41788491/
+disseminated intravascular coagulation,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41788474/
+disseminated intravascular coagulation,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41805922/
+disseminated intravascular coagulation,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41859212/
+disseminated intravascular coagulation,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41843129/
+disseminated intravascular coagulation,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41840740/
+endocarditis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41869215/
+endocarditis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41839106/
+endocarditis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41850617/
+endocarditis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41505938/
+meningitis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41876525/
+meningitis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41864215/
+meningitis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41862085/
+meningitis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41812945/
+meningitis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41801637/
+multiple organ failure,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41788491/
+multiple organ failure,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41860304/
+multiple organ failure,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41846911/
+multiple organ failure,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41833358/
+organ dysfunction,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41814716/
+organ dysfunction,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41789088/
+organ dysfunction,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41878045/
+organ dysfunction,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41788474/
+organ dysfunction,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41720333/
+organ dysfunction,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41627609/
+organ dysfunction,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41586534/
+organ dysfunction,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41879344/
+organ dysfunction,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41860304/
+organ dysfunction,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41859212/
+organ dysfunction,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41846301/
+organ dysfunction,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41840847/
+organ dysfunction,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41840740/
+organ dysfunction,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41833354/
+organ dysfunction,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41833351/
+peritonitis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41670978/
+peritonitis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41858478/
+pneumonia,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41856148/
+pneumonia,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41505938/
+pneumonia,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41835699/
+pneumonia,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41811788/
+pneumonia,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41803082/
+pneumonia,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41786300/
+pneumonia,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41836090/
+pneumonia,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41835642/
+respiratory failure,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41873958/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41878263/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41877932/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41873329/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41872994/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41872955/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41869834/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41868078/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41863973/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41860935/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41856148/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41846925/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41839724/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41836007/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41835682/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41824856/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41824803/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41823048/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41822110/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41814902/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41814716/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41809695/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41792449/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41792080/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41790922/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41789098/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41789088/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41788252/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41785728/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41783141/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41780196/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41773921/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41772968/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41878683/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41878189/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41873684/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41873631/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41873106/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41872049/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41868704/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41866190/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41865458/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41863455/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41862656/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41859362/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41859080/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41859062/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41857435/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41856138/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41846741/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41841614/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41841537/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41841154/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41840269/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41839420/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41839106/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41838832/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41878045/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41870559/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41869844/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41850617/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41788491/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41788484/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41788474/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41749595/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41726344/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41720333/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41675743/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41670978/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41637486/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41630340/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41629613/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41627609/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41624233/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41586534/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41579501/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41560294/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41530048/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41522728/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41512697/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41505938/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41457243/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41879344/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41876525/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41864215/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41862085/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41837290/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41837287/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41835699/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41816717/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41815598/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41812945/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41805922/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41803082/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41801637/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41800881/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41876237/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41874459/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41873958/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41869341/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41868069/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41861644/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41860304/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41859212/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41858478/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41851060/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41846911/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41846301/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41843129/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41840847/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41840740/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41836090/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41835801/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41835671/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41835642/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41833358/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41833354/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41833351/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41833348/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41833345/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41825095/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41823128/
+sepsis,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41822877/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41878263/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41836007/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41814716/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41809695/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41772968/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41873367/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41866190/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41837809/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41870559/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41869844/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41863108/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41850617/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41788491/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41788484/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41788474/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41766144/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41734533/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41726344/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41720333/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41713684/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41699685/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41675743/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41670978/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41651598/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41637486/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41630340/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41629613/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41627609/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41624233/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41586534/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41580807/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41579501/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41560294/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41558044/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41547675/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41528192/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41505938/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41485836/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41457243/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41879344/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41816717/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41846301/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41835642/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41833351/
+septic shock,DISEASE,https://pubmed.ncbi.nlm.nih.gov/41833344/
+AZ,GPE,https://pubmed.ncbi.nlm.nih.gov/41841428/
+Amsterdam,GPE,https://pubmed.ncbi.nlm.nih.gov/41864215/
+Ankara,GPE,https://pubmed.ncbi.nlm.nih.gov/41790910/
+Austria,GPE,https://pubmed.ncbi.nlm.nih.gov/41815598/
+Austria,GPE,https://pubmed.ncbi.nlm.nih.gov/41835671/
+Bhubaneswar,GPE,https://pubmed.ncbi.nlm.nih.gov/41878189/
+Bhubaneswar,GPE,https://pubmed.ncbi.nlm.nih.gov/41835671/
+Bogotá,GPE,https://pubmed.ncbi.nlm.nih.gov/41630340/
+Boston,GPE,https://pubmed.ncbi.nlm.nih.gov/41815598/
+CA,GPE,https://pubmed.ncbi.nlm.nih.gov/41864215/
+California,GPE,https://pubmed.ncbi.nlm.nih.gov/41863496/
+Chengdu,GPE,https://pubmed.ncbi.nlm.nih.gov/41824651/
+China,GPE,https://pubmed.ncbi.nlm.nih.gov/41878263/
+China,GPE,https://pubmed.ncbi.nlm.nih.gov/41580807/
+China,GPE,https://pubmed.ncbi.nlm.nih.gov/41824651/
+China,GPE,https://pubmed.ncbi.nlm.nih.gov/41809985/
+China,GPE,https://pubmed.ncbi.nlm.nih.gov/41851060/
+Colombia,GPE,https://pubmed.ncbi.nlm.nih.gov/41630340/
+Denmark,GPE,https://pubmed.ncbi.nlm.nih.gov/41839420/
+Germany,GPE,https://pubmed.ncbi.nlm.nih.gov/41786300/
+Hyderabad,GPE,https://pubmed.ncbi.nlm.nih.gov/41846741/
+India,GPE,https://pubmed.ncbi.nlm.nih.gov/41878189/
+India,GPE,https://pubmed.ncbi.nlm.nih.gov/41846741/
+India,GPE,https://pubmed.ncbi.nlm.nih.gov/41835721/
+India,GPE,https://pubmed.ncbi.nlm.nih.gov/41835671/
+Italy,GPE,https://pubmed.ncbi.nlm.nih.gov/41840233/
+Kolkata,GPE,https://pubmed.ncbi.nlm.nih.gov/41818099/
+Korea,GPE,https://pubmed.ncbi.nlm.nih.gov/41862085/
+Lahore,GPE,https://pubmed.ncbi.nlm.nih.gov/41792080/
+MA,GPE,https://pubmed.ncbi.nlm.nih.gov/41815598/
+Mexico City,GPE,https://pubmed.ncbi.nlm.nih.gov/41815598/
+Netherlands,GPE,https://pubmed.ncbi.nlm.nih.gov/41864215/
+Pakistan,GPE,https://pubmed.ncbi.nlm.nih.gov/41792080/
+Pavia,GPE,https://pubmed.ncbi.nlm.nih.gov/41840233/
+San Diego,GPE,https://pubmed.ncbi.nlm.nih.gov/41864215/
+Sichuan,GPE,https://pubmed.ncbi.nlm.nih.gov/41809985/
+Sri Lanka,GPE,https://pubmed.ncbi.nlm.nih.gov/41835250/
+Sweden,GPE,https://pubmed.ncbi.nlm.nih.gov/41841614/
+Taiwan,GPE,https://pubmed.ncbi.nlm.nih.gov/41862085/
+UK,GPE,https://pubmed.ncbi.nlm.nih.gov/41748189/
+USA,GPE,https://pubmed.ncbi.nlm.nih.gov/41841428/
+USA,GPE,https://pubmed.ncbi.nlm.nih.gov/41864215/
+USA,GPE,https://pubmed.ncbi.nlm.nih.gov/41863496/
+Vienna,GPE,https://pubmed.ncbi.nlm.nih.gov/41815598/
+Vienna,GPE,https://pubmed.ncbi.nlm.nih.gov/41835671/
+East Asia,LOC,https://pubmed.ncbi.nlm.nih.gov/41862085/
+Eastern India,LOC,https://pubmed.ncbi.nlm.nih.gov/41818099/
+Europe,LOC,https://pubmed.ncbi.nlm.nih.gov/41876150/
+Northeastern Brazil,LOC,https://pubmed.ncbi.nlm.nih.gov/41841537/
+Southern Sichuan,LOC,https://pubmed.ncbi.nlm.nih.gov/41809985/
+Western India,LOC,https://pubmed.ncbi.nlm.nih.gov/41868078/
+Acute Care Hospital,ORG,https://pubmed.ncbi.nlm.nih.gov/41863496/
+Amsterdam University Medical Centre,ORG,https://pubmed.ncbi.nlm.nih.gov/41864215/
+BC,ORG,https://pubmed.ncbi.nlm.nih.gov/41800881/
+BD,ORG,https://pubmed.ncbi.nlm.nih.gov/41785728/
+Beckman Coulter,ORG,https://pubmed.ncbi.nlm.nih.gov/41839724/
+Beijing Jishuitan Hospital,ORG,https://pubmed.ncbi.nlm.nih.gov/41869834/
+Birmingham Biomedical Research Centre,ORG,https://pubmed.ncbi.nlm.nih.gov/41864215/
+CAPE COD,ORG,https://pubmed.ncbi.nlm.nih.gov/41856148/
+CINAHL,ORG,https://pubmed.ncbi.nlm.nih.gov/41856138/
+CLSI,ORG,https://pubmed.ncbi.nlm.nih.gov/41841428/
+Chinese Clinical Trial Registry,ORG,https://pubmed.ncbi.nlm.nih.gov/41873106/
+Clinical and Laboratory Standards Institute,ORG,https://pubmed.ncbi.nlm.nih.gov/41835721/
+ClinicalTrials.gov,ORG,https://pubmed.ncbi.nlm.nih.gov/41838832/
+Cochrane Central Register of Controlled Trials,ORG,https://pubmed.ncbi.nlm.nih.gov/41856138/
+Cochrane Library,ORG,https://pubmed.ncbi.nlm.nih.gov/41846301/
+Combined Military Hospital,ORG,https://pubmed.ncbi.nlm.nih.gov/41792080/
+DCA,ORG,https://pubmed.ncbi.nlm.nih.gov/41833351/
+EU,ORG,https://pubmed.ncbi.nlm.nih.gov/41856148/
+EUPHRATES,ORG,https://pubmed.ncbi.nlm.nih.gov/41837287/
+Embase,ORG,https://pubmed.ncbi.nlm.nih.gov/41846301/
+Etlik City Hospital,ORG,https://pubmed.ncbi.nlm.nih.gov/41790910/
+FORECAST,ORG,https://pubmed.ncbi.nlm.nih.gov/41840740/
+"Focused Outcomes Research in Emergency Care in Acute Respiratory Distress Syndrome, Sepsis,",ORG,https://pubmed.ncbi.nlm.nih.gov/41840740/
+Hartmann's,ORG,https://pubmed.ncbi.nlm.nih.gov/41457243/
+Hospital Angeles Lindavista,ORG,https://pubmed.ncbi.nlm.nih.gov/41815598/
+Illumina,ORG,https://pubmed.ncbi.nlm.nih.gov/41864215/
+Indian J,ORG,https://pubmed.ncbi.nlm.nih.gov/41868078/
+Indian J,ORG,https://pubmed.ncbi.nlm.nih.gov/41868069/
+Intensive Care Society,ORG,https://pubmed.ncbi.nlm.nih.gov/41748189/
+JMDC,ORG,https://pubmed.ncbi.nlm.nih.gov/41840740/
+JSEPTIC-DIC,ORG,https://pubmed.ncbi.nlm.nih.gov/41840740/
+Japanese Thyroid Association,ORG,https://pubmed.ncbi.nlm.nih.gov/41835682/
+Jiangsu University Affiliated People's Hospital,ORG,https://pubmed.ncbi.nlm.nih.gov/41822877/
+KIMS,ORG,https://pubmed.ncbi.nlm.nih.gov/41878189/
+KIMS,ORG,https://pubmed.ncbi.nlm.nih.gov/41835671/
+Kalinga Institute of Medical Sciences,ORG,https://pubmed.ncbi.nlm.nih.gov/41835671/
+Kyoto,ORG,https://pubmed.ncbi.nlm.nih.gov/41878263/
+Kyoto,ORG,https://pubmed.ncbi.nlm.nih.gov/41809695/
+LCA,ORG,https://pubmed.ncbi.nlm.nih.gov/41833354/
+La Pv-aCO2p se,ORG,https://pubmed.ncbi.nlm.nih.gov/41558044/
+MAU,ORG,https://pubmed.ncbi.nlm.nih.gov/41873631/
+MEDLINE,ORG,https://pubmed.ncbi.nlm.nih.gov/41856138/
+MIMIC,ORG,https://pubmed.ncbi.nlm.nih.gov/41877932/
+MRC,ORG,https://pubmed.ncbi.nlm.nih.gov/41833354/
+Maheshwara Medical College,ORG,https://pubmed.ncbi.nlm.nih.gov/41846741/
+Mann-Whitney U,ORG,https://pubmed.ncbi.nlm.nih.gov/41860935/
+Medical College,ORG,https://pubmed.ncbi.nlm.nih.gov/41818099/
+Medical Information Mart for Intensive Care-IV,ORG,https://pubmed.ncbi.nlm.nih.gov/41836090/
+Medical Information Mart for Intensive Care-IV,ORG,https://pubmed.ncbi.nlm.nih.gov/41833345/
+Medical Research Council,ORG,https://pubmed.ncbi.nlm.nih.gov/41833354/
+NICOM,ORG,https://pubmed.ncbi.nlm.nih.gov/41766144/
+NICU,ORG,https://pubmed.ncbi.nlm.nih.gov/41846741/
+Posit Software,ORG,https://pubmed.ncbi.nlm.nih.gov/41815598/
+PubMed,ORG,https://pubmed.ncbi.nlm.nih.gov/41814716/
+PubMed,ORG,https://pubmed.ncbi.nlm.nih.gov/41749595/
+PubMed,ORG,https://pubmed.ncbi.nlm.nih.gov/41846301/
+QIP,ORG,https://pubmed.ncbi.nlm.nih.gov/41873631/
+R Foundation for Statistical Computing,ORG,https://pubmed.ncbi.nlm.nih.gov/41815598/
+R Foundation for Statistical Computing,ORG,https://pubmed.ncbi.nlm.nih.gov/41835671/
+RIO,ORG,https://pubmed.ncbi.nlm.nih.gov/41818099/
+RStudio,ORG,https://pubmed.ncbi.nlm.nih.gov/41815598/
+Regional Institute of Ophthalmology,ORG,https://pubmed.ncbi.nlm.nih.gov/41818099/
+SENTINEL,ORG,https://pubmed.ncbi.nlm.nih.gov/41864215/
+SHAP,ORG,https://pubmed.ncbi.nlm.nih.gov/41873958/
+SOFA,ORG,https://pubmed.ncbi.nlm.nih.gov/41558044/
+STM,ORG,https://pubmed.ncbi.nlm.nih.gov/41818099/
+School of Tropical Medicine,ORG,https://pubmed.ncbi.nlm.nih.gov/41818099/
+Scopus,ORG,https://pubmed.ncbi.nlm.nih.gov/41846301/
+Southern University of Science and Technology,ORG,https://pubmed.ncbi.nlm.nih.gov/41814902/
+Surgical Drainage,ORG,https://pubmed.ncbi.nlm.nih.gov/41823128/
+The Bill & Melinda Gates Foundation,ORG,https://pubmed.ncbi.nlm.nih.gov/41856138/
+The Central Hospital of Enshi,ORG,https://pubmed.ncbi.nlm.nih.gov/41877932/
+The Society of Critical Care Medicine Pediatric Sepsis Definition Task Force,ORG,https://pubmed.ncbi.nlm.nih.gov/41851060/
+The World Health Organization,ORG,https://pubmed.ncbi.nlm.nih.gov/41809985/
+Türkiye,ORG,https://pubmed.ncbi.nlm.nih.gov/41857435/
+UCI,ORG,https://pubmed.ncbi.nlm.nih.gov/41558044/
+WHO,ORG,https://pubmed.ncbi.nlm.nih.gov/41818099/
+WHO,ORG,https://pubmed.ncbi.nlm.nih.gov/41809985/
+Web of Science,ORG,https://pubmed.ncbi.nlm.nih.gov/41814716/
+Wellcome Antimicrobial and Antimicrobial Resistance Doctoral Training Programme,ORG,https://pubmed.ncbi.nlm.nih.gov/41864215/
+Women and Children Hospital,ORG,https://pubmed.ncbi.nlm.nih.gov/41814902/
+Women and Children's Hospital,ORG,https://pubmed.ncbi.nlm.nih.gov/41814902/
+XGBoost,ORG,https://pubmed.ncbi.nlm.nih.gov/41873958/
+Zhejiang Provincial People's Hospital,ORG,https://pubmed.ncbi.nlm.nih.gov/41876236/
+la Pv-aCO2 central,ORG,https://pubmed.ncbi.nlm.nih.gov/41558044/
+la Pv-aCO2p,ORG,https://pubmed.ncbi.nlm.nih.gov/41558044/
+the Acute Disease Quality Initiative’s,ORG,https://pubmed.ncbi.nlm.nih.gov/41792449/
+the Affiliated Hospital of Guizhou Medical University,ORG,https://pubmed.ncbi.nlm.nih.gov/41833351/
+the Affiliated People's Hospital of Jiangsu University,ORG,https://pubmed.ncbi.nlm.nih.gov/41833348/
+the American Society of Echocardiography,ORG,https://pubmed.ncbi.nlm.nih.gov/41726344/
+the Chinese Clinical Trial Registry,ORG,https://pubmed.ncbi.nlm.nih.gov/41825095/
+the Cochrane Library,ORG,https://pubmed.ncbi.nlm.nih.gov/41838832/
+the Department of Critical Care Medicine,ORG,https://pubmed.ncbi.nlm.nih.gov/41822877/
+the Department of Haematology,ORG,https://pubmed.ncbi.nlm.nih.gov/41792080/
+the Department of Microbiology,ORG,https://pubmed.ncbi.nlm.nih.gov/41790922/
+the Department of Microbiology,ORG,https://pubmed.ncbi.nlm.nih.gov/41835721/
+the Department of Ophthalmology,ORG,https://pubmed.ncbi.nlm.nih.gov/41818099/
+the First People's Hospital of Kunming,ORG,https://pubmed.ncbi.nlm.nih.gov/41833354/
+the Intensive Care Unit,ORG,https://pubmed.ncbi.nlm.nih.gov/41878263/
+the Internal Medicine Department,ORG,https://pubmed.ncbi.nlm.nih.gov/41790910/
+the Kalinga Institute of Medical Sciences,ORG,https://pubmed.ncbi.nlm.nih.gov/41878189/
+the Medical Information Mart for Intensive Care-IV,ORG,https://pubmed.ncbi.nlm.nih.gov/41876237/
+the National Institute for Health and Care Research,ORG,https://pubmed.ncbi.nlm.nih.gov/41864215/
+the National Prostate Cancer Register,ORG,https://pubmed.ncbi.nlm.nih.gov/41841614/
+the Neonatal Intensive Care Unit,ORG,https://pubmed.ncbi.nlm.nih.gov/41814902/
+the Netherlands Reference Laboratory for Bacterial Meningitis,ORG,https://pubmed.ncbi.nlm.nih.gov/41864215/
+the Toyama University Hospital NICU,ORG,https://pubmed.ncbi.nlm.nih.gov/41800881/
+the eICU Collaborative Research Database,ORG,https://pubmed.ncbi.nlm.nih.gov/41833344/
+Anand RK,PERSON,https://pubmed.ncbi.nlm.nih.gov/41726344/
+Boerhaave,PERSON,https://pubmed.ncbi.nlm.nih.gov/41841154/
+Boruta,PERSON,https://pubmed.ncbi.nlm.nih.gov/41878263/
+Chanderraj,PERSON,https://pubmed.ncbi.nlm.nih.gov/41837290/
+Dunnett,PERSON,https://pubmed.ncbi.nlm.nih.gov/41670978/
+Kruskal,PERSON,https://pubmed.ncbi.nlm.nih.gov/41670978/
+Nadaf ZM,PERSON,https://pubmed.ncbi.nlm.nih.gov/41726344/
+Ramachandran R,PERSON,https://pubmed.ncbi.nlm.nih.gov/41726344/
+Rao,PERSON,https://pubmed.ncbi.nlm.nih.gov/41868069/
+Ravikumar RH,PERSON,https://pubmed.ncbi.nlm.nih.gov/41726344/
+Shastry,PERSON,https://pubmed.ncbi.nlm.nih.gov/41868069/
+Trikha A,PERSON,https://pubmed.ncbi.nlm.nih.gov/41726344/
+Tukey,PERSON,https://pubmed.ncbi.nlm.nih.gov/41670978/
+Wig N,PERSON,https://pubmed.ncbi.nlm.nih.gov/41726344/
+1400 W,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41560294/
+APACHE II,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41876236/
+BACTEC Plus,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41785728/
+Cefaclor 500 mg,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41859362/
+Embase,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41856138/
+Embase,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41838832/
+Embase,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41528192/
+GSE13904,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41789088/
+GSE26440,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41789088/
+GSE28750,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41789088/
+GSE57065,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41789088/
+GSE95233,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41789088/
+HiSeq 4000,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41864215/
+KCNJ2-AS1,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41773921/
+KL64,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41824651/
+Kappa,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41878263/
+LV GLS,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41579501/
+MEDLINE,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41838832/
+MEDLINE,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41528192/
+McNemar,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41878263/
+Res,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41512697/
+Resveratrol,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41512697/
+RevMan,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41838832/
+Rituximab,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41836273/
+SAPS II,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41876237/
+ST567,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41864215/
+Sepsis Advisor,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41522728/
+cefaclor 500,PRODUCT,https://pubmed.ncbi.nlm.nih.gov/41859362/
+antibiotic,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41878683/
+antibiotic,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41873631/
+antibiotic,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41872049/
+antibiotic,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41871977/
+antibiotic,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41865458/
+antibiotic,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41863455/
+antibiotic,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41862656/
+antibiotic,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41859461/
+antibiotic,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41859362/
+antibiotic,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41856138/
+antibiotic,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41852663/
+antibiotic,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41846741/
+antibiotic,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41841614/
+antibiotic,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41841537/
+antibiotic,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41841428/
+antibiotic,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41840269/
+antibiotic,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41839420/
+antibiotic,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41839106/
+antibiotic,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41838832/
+antibiotic,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41675743/
+antibiotic,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41485836/
+antibiotic,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41816717/
+antibiotic,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41811788/
+antibiotic,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41809985/
+antibiotic,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41801637/
+antibiotic,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41786300/
+antibiotics,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41863973/
+antibiotics,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41835682/
+antibiotics,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41878189/
+antibiotics,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41875074/
+antibiotics,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41873631/
+antibiotics,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41873367/
+antibiotics,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41873106/
+antibiotics,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41872049/
+antibiotics,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41868704/
+antibiotics,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41866190/
+antibiotics,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41863455/
+antibiotics,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41862656/
+antibiotics,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41859080/
+antibiotics,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41856138/
+antibiotics,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41846741/
+antibiotics,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41845475/
+antibiotics,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41841614/
+antibiotics,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41841154/
+antibiotics,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41840269/
+antibiotics,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41837809/
+antibiotics,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41485836/
+antibiotics,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41835671/
+antibiotics,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41835250/
+blood culture,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41814902/
+blood culture,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41785728/
+blood culture,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41846741/
+blood culture,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41630340/
+blood culture,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41835721/
+blood culture,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41815598/
+blood culture,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41800881/
+blood culture,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41833345/
+fluid resuscitation,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41873106/
+fluid resuscitation,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41766144/
+fluid resuscitation,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41713684/
+fluid resuscitation,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41651598/
+fluid resuscitation,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41637486/
+fluid resuscitation,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41457243/
+heparin,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41824856/
+hydrocortisone,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41856148/
+insulin,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41485836/
+mechanical ventilation,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41836007/
+mechanical ventilation,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41824803/
+mechanical ventilation,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41875074/
+mechanical ventilation,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41841537/
+mechanical ventilation,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41838832/
+mechanical ventilation,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41876236/
+mechanical ventilation,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41861644/
+mechanical ventilation,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41846301/
+mechanical ventilation,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41835642/
+mechanical ventilation,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41833358/
+mechanical ventilation,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41833354/
+mechanical ventilation,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41833351/
+mechanical ventilation,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41833348/
+norepinephrine,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41873106/
+norepinephrine,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41699685/
+norepinephrine,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41651598/
+norepinephrine,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41580807/
+norepinephrine,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41528192/
+norepinephrine,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41512697/
+norepinephrine,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41457243/
+norepinephrine,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41833354/
+vancomycin,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41840269/
+vancomycin,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41485836/
+vancomycin,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41816717/
+vasopressor,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41651598/
+vasopressor,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41637486/
+vasopressor,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41580807/
+vasopressor,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41457243/
+vasopressor,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41879344/
+vasopressor,TREATMENT,https://pubmed.ncbi.nlm.nih.gov/41835642/
