@@ -19,6 +19,7 @@ import time
 from pathlib import Path
 from urllib.parse import urlparse
 from urllib.robotparser import RobotFileParser
+import urllib.request
 import requests
 import trafilatura
 
@@ -51,7 +52,7 @@ WIKIPEDIA_URLS: list[str] = [
 OUTPUT_FILE = Path("data/samples/crawler_output.jsonl")
 MIN_WORDS = 50          # lower threshold for abstracts (shorter than web pages)
 REQUEST_DELAY = 0.4     # seconds between requests (PubMed allows 3 req/sec)
-USER_AGENT = "KnowledgeGraphBot/1.0 (educational project)"
+USER_AGENT = "KnowledgeGraphBot/1.0 (educational project; +mailto:estelle.sobesky@edu.devinci.fr)"
 
 logging.basicConfig(
     level=logging.INFO,
@@ -162,11 +163,16 @@ def _get_robots(base_url: str) -> RobotFileParser:
     """Return a cached RobotFileParser for *base_url*."""
     if base_url not in _robots_cache:
         rp = RobotFileParser()
-        rp.set_url(f"{base_url}/robots.txt")
+        robots_url = f"{base_url}/robots.txt"
+        rp.set_url(robots_url)
         try:
-            rp.read()
+            # we use Request with User-Agent to avoid block 403
+            req = urllib.request.Request(robots_url, headers={'User-Agent': USER_AGENT})
+            with urllib.request.urlopen(req) as response:
+                content = response.read().decode('utf-8')
+                rp.parse(content.splitlines())
         except Exception as exc:
-            log.warning("Could not fetch robots.txt (%s) – assuming allowed.", exc)
+            log.warning("Could not fetch %s (%s) assuming allowed.", robots_url, exc)
         _robots_cache[base_url] = rp
     return _robots_cache[base_url]
 
@@ -270,9 +276,6 @@ def load_jsonl(path: Path | str) -> list[dict]:
             if line:
                 records.append(json.loads(line))
     return records
-
-
-
 
 if __name__ == "__main__":
     crawl()

@@ -1,7 +1,4 @@
 *.venv
 /venv
+data/samples/
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-data/samples/crawler_output.jsonl
