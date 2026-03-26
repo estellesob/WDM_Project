@@ -1,0 +1,16 @@
+
+KB Statistics
+=============
+Initial triples:     43753
+New triples added:   16676
+Final triples:       60429
+Entities expanded:   55
+2-hop entities:      33
+Output format:       N-Triples (.nt)
+
+Entity breakdown:
+label      status 
+BACTERIA   aligned    10
+BIOMARKER  aligned    16
+DISEASE    aligned    13
+TREATMENT  aligned    16

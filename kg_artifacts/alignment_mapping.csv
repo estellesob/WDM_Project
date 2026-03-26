@@ -12,6 +12,7 @@ streptococcus pneumoniae,BACTERIA,http://sepsis-kg.org/streptococcus_pneumoniae,
 c-reactive protein,BIOMARKER,http://sepsis-kg.org/c_reactive_protein,http://www.wikidata.org/entity/Q422766,Q422766,0.9,wikidata,aligned
 crp,BIOMARKER,http://sepsis-kg.org/crp,http://www.wikidata.org/entity/Q339332,Q339332,0.9,wikidata,aligned
 d-dimer,BIOMARKER,http://sepsis-kg.org/d_dimer,http://www.wikidata.org/entity/Q198526,Q198526,1.0,wikidata,aligned
+ferritin,BIOMARKER,http://sepsis-kg.org/ferritin,http://www.wikidata.org/entity/Q24726490,Q24726490,0.9,wikidata,aligned
 il-6,BIOMARKER,http://sepsis-kg.org/il_6,http://www.wikidata.org/entity/Q24724988,Q24724988,0.9,wikidata,aligned
 interleukin-6,BIOMARKER,http://sepsis-kg.org/interleukin_6,http://www.wikidata.org/entity/Q24724988,Q24724988,0.9,wikidata,aligned
 lactate,BIOMARKER,http://sepsis-kg.org/lactate,http://www.wikidata.org/entity/Q161249,Q161249,0.9,wikidata,aligned
@@ -47,6 +48,7 @@ heparin,TREATMENT,http://sepsis-kg.org/heparin,http://www.wikidata.org/entity/Q1
 hydrocortisone,TREATMENT,http://sepsis-kg.org/hydrocortisone,http://www.wikidata.org/entity/Q190875,Q190875,0.9,wikidata,aligned
 insulin,TREATMENT,http://sepsis-kg.org/insulin,http://www.wikidata.org/entity/Q50265665,Q50265665,0.9,wikidata,aligned
 mechanical ventilation,TREATMENT,http://sepsis-kg.org/mechanical_ventilation,http://www.wikidata.org/entity/Q3766250,Q3766250,0.9,wikidata,aligned
+meropenem,TREATMENT,http://sepsis-kg.org/meropenem,http://www.wikidata.org/entity/Q421670,Q421670,1.0,wikidata,aligned
 norepinephrine,TREATMENT,http://sepsis-kg.org/norepinephrine,http://www.wikidata.org/entity/Q186242,Q186242,0.9,wikidata,aligned
 oxygen therapy,TREATMENT,http://sepsis-kg.org/oxygen_therapy,http://www.wikidata.org/entity/Q1988216,Q1988216,0.9,wikidata,aligned
 piperacillin,TREATMENT,http://sepsis-kg.org/piperacillin,http://www.wikidata.org/entity/Q423787,Q423787,1.0,wikidata,aligned

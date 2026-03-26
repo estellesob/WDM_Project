@@ -58,6 +58,9 @@ base:enterococcus prop:alignmentConfidence "1.0"^^xsd:float ;
 base:escherichia_coli prop:alignmentConfidence "1.0"^^xsd:float ;
     owl:sameAs wd:Q25419 .
 
+base:ferritin prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q24726490 .
+
 base:fluid_resuscitation prop:alignmentConfidence "1.0"^^xsd:float ;
     owl:sameAs wd:Q4529664 .
 
@@ -87,6 +90,9 @@ base:mechanical_ventilation prop:alignmentConfidence "0.9"^^xsd:float ;
 
 base:meningitis prop:alignmentConfidence "1.0"^^xsd:float ;
     owl:sameAs wd:Q48143 .
+
+base:meropenem prop:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q421670 .
 
 base:multiple_organ_failure prop:alignmentConfidence "0.9"^^xsd:float ;
     owl:sameAs wd:Q1193870 .
