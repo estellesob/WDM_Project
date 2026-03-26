@@ -1,0 +1,165 @@
+@prefix base: <http://sepsis-kg.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prop: <http://sepsis-kg.org/prop/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+base:acinetobacter prop:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q310457 .
+
+base:acute_kidney_injury prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q424337 .
+
+base:antibiotic prop:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q12187 .
+
+base:antibiotics prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q27725829 .
+
+base:bacteremia prop:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q650912 .
+
+base:blood_culture prop:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q886695 .
+
+base:c_reactive_protein prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q422766 .
+
+base:candida prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q131260 .
+
+base:corticosteroid prop:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q210420 .
+
+base:crp prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q339332 .
+
+base:d_dimer prop:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q198526 .
+
+base:dexamethasone prop:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q422252 .
+
+base:dic prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q823027 .
+
+base:disseminated_intravascular_coagulation prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q823027 .
+
+base:e_coli prop:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q25419 .
+
+base:endocarditis prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q82504 .
+
+base:enterococcus prop:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q517258 .
+
+base:escherichia_coli prop:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q25419 .
+
+base:fluid_resuscitation prop:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q4529664 .
+
+base:heparin prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q190016 .
+
+base:hydrocortisone prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q190875 .
+
+base:il_6 prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q24724988 .
+
+base:insulin prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q50265665 .
+
+base:interleukin_6 prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q24724988 .
+
+base:klebsiella_pneumoniae prop:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q132592 .
+
+base:lactate prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q161249 .
+
+base:mechanical_ventilation prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q3766250 .
+
+base:meningitis prop:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q48143 .
+
+base:multiple_organ_failure prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q1193870 .
+
+base:norepinephrine prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q186242 .
+
+base:organ_dysfunction prop:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q1649580 .
+
+base:oxygen_therapy prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q1988216 .
+
+base:pct prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q1479497 .
+
+base:peritonitis prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q223102 .
+
+base:piperacillin prop:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q423787 .
+
+base:platelet prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q101026 .
+
+base:pneumonia prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q12192 .
+
+base:procalcitonin prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q786600 .
+
+base:pseudomonas_aeruginosa prop:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q31856 .
+
+base:qsofa prop:alignmentConfidence "0.7"^^xsd:float ;
+    owl:sameAs wd:Q66081122 .
+
+base:respiratory_failure prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q767485 .
+
+base:sepsis prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q183134 .
+
+base:septic_shock prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q1765564 .
+
+base:sofa_score prop:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q7392039 .
+
+base:staphylococcus_aureus prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q188121 .
+
+base:stenotrophomonas_maltophilia prop:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q142705 .
+
+base:streptococcus_pneumoniae prop:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q221179 .
+
+base:thrombomodulin prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q14888283 .
+
+base:troponin prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q29809010 .
+
+base:vancomycin prop:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q424027 .
+
+base:vasopressor prop:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q2511166 .
+
+base:wbc prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q52307097 .
+
+base:white_blood_cell prop:alignmentConfidence "0.9"^^xsd:float ;
+    owl:sameAs wd:Q42395 .
+

@@ -1,0 +1,54 @@
+private_entity,label,local_uri,external_uri,external_id,confidence,source,status
+acinetobacter,BACTERIA,http://sepsis-kg.org/acinetobacter,http://www.wikidata.org/entity/Q310457,Q310457,1.0,wikidata,aligned
+candida,BACTERIA,http://sepsis-kg.org/candida,http://www.wikidata.org/entity/Q131260,Q131260,0.9,wikidata,aligned
+e. coli,BACTERIA,http://sepsis-kg.org/e_coli,http://www.wikidata.org/entity/Q25419,Q25419,1.0,wikidata,aligned
+enterococcus,BACTERIA,http://sepsis-kg.org/enterococcus,http://www.wikidata.org/entity/Q517258,Q517258,1.0,wikidata,aligned
+escherichia coli,BACTERIA,http://sepsis-kg.org/escherichia_coli,http://www.wikidata.org/entity/Q25419,Q25419,1.0,wikidata,aligned
+klebsiella pneumoniae,BACTERIA,http://sepsis-kg.org/klebsiella_pneumoniae,http://www.wikidata.org/entity/Q132592,Q132592,1.0,wikidata,aligned
+pseudomonas aeruginosa,BACTERIA,http://sepsis-kg.org/pseudomonas_aeruginosa,http://www.wikidata.org/entity/Q31856,Q31856,1.0,wikidata,aligned
+staphylococcus aureus,BACTERIA,http://sepsis-kg.org/staphylococcus_aureus,http://www.wikidata.org/entity/Q188121,Q188121,0.9,wikidata,aligned
+stenotrophomonas maltophilia,BACTERIA,http://sepsis-kg.org/stenotrophomonas_maltophilia,http://www.wikidata.org/entity/Q142705,Q142705,1.0,wikidata,aligned
+streptococcus pneumoniae,BACTERIA,http://sepsis-kg.org/streptococcus_pneumoniae,http://www.wikidata.org/entity/Q221179,Q221179,1.0,wikidata,aligned
+c-reactive protein,BIOMARKER,http://sepsis-kg.org/c_reactive_protein,http://www.wikidata.org/entity/Q422766,Q422766,0.9,wikidata,aligned
+crp,BIOMARKER,http://sepsis-kg.org/crp,http://www.wikidata.org/entity/Q339332,Q339332,0.9,wikidata,aligned
+d-dimer,BIOMARKER,http://sepsis-kg.org/d_dimer,http://www.wikidata.org/entity/Q198526,Q198526,1.0,wikidata,aligned
+il-6,BIOMARKER,http://sepsis-kg.org/il_6,http://www.wikidata.org/entity/Q24724988,Q24724988,0.9,wikidata,aligned
+interleukin-6,BIOMARKER,http://sepsis-kg.org/interleukin_6,http://www.wikidata.org/entity/Q24724988,Q24724988,0.9,wikidata,aligned
+lactate,BIOMARKER,http://sepsis-kg.org/lactate,http://www.wikidata.org/entity/Q161249,Q161249,0.9,wikidata,aligned
+pct,BIOMARKER,http://sepsis-kg.org/pct,http://www.wikidata.org/entity/Q1479497,Q1479497,0.9,wikidata,aligned
+platelet,BIOMARKER,http://sepsis-kg.org/platelet,http://www.wikidata.org/entity/Q101026,Q101026,0.9,wikidata,aligned
+procalcitonin,BIOMARKER,http://sepsis-kg.org/procalcitonin,http://www.wikidata.org/entity/Q786600,Q786600,0.9,wikidata,aligned
+qsofa,BIOMARKER,http://sepsis-kg.org/qsofa,http://www.wikidata.org/entity/Q66081122,Q66081122,0.7,wikidata,aligned
+sofa score,BIOMARKER,http://sepsis-kg.org/sofa_score,http://www.wikidata.org/entity/Q7392039,Q7392039,1.0,wikidata,aligned
+thrombomodulin,BIOMARKER,http://sepsis-kg.org/thrombomodulin,http://www.wikidata.org/entity/Q14888283,Q14888283,0.9,wikidata,aligned
+troponin,BIOMARKER,http://sepsis-kg.org/troponin,http://www.wikidata.org/entity/Q29809010,Q29809010,0.9,wikidata,aligned
+wbc,BIOMARKER,http://sepsis-kg.org/wbc,http://www.wikidata.org/entity/Q52307097,Q52307097,0.9,wikidata,aligned
+white blood cell,BIOMARKER,http://sepsis-kg.org/white_blood_cell,http://www.wikidata.org/entity/Q42395,Q42395,0.9,wikidata,aligned
+acute kidney injury,DISEASE,http://sepsis-kg.org/acute_kidney_injury,http://www.wikidata.org/entity/Q424337,Q424337,0.9,wikidata,aligned
+bacteremia,DISEASE,http://sepsis-kg.org/bacteremia,http://www.wikidata.org/entity/Q650912,Q650912,1.0,wikidata,aligned
+dic,DISEASE,http://sepsis-kg.org/dic,http://www.wikidata.org/entity/Q823027,Q823027,0.9,wikidata,aligned
+disseminated intravascular coagulation,DISEASE,http://sepsis-kg.org/disseminated_intravascular_coagulation,http://www.wikidata.org/entity/Q823027,Q823027,0.9,wikidata,aligned
+endocarditis,DISEASE,http://sepsis-kg.org/endocarditis,http://www.wikidata.org/entity/Q82504,Q82504,0.9,wikidata,aligned
+meningitis,DISEASE,http://sepsis-kg.org/meningitis,http://www.wikidata.org/entity/Q48143,Q48143,1.0,wikidata,aligned
+multiple organ failure,DISEASE,http://sepsis-kg.org/multiple_organ_failure,http://www.wikidata.org/entity/Q1193870,Q1193870,0.9,wikidata,aligned
+organ dysfunction,DISEASE,http://sepsis-kg.org/organ_dysfunction,http://www.wikidata.org/entity/Q1649580,Q1649580,1.0,wikidata,aligned
+peritonitis,DISEASE,http://sepsis-kg.org/peritonitis,http://www.wikidata.org/entity/Q223102,Q223102,0.9,wikidata,aligned
+pneumonia,DISEASE,http://sepsis-kg.org/pneumonia,http://www.wikidata.org/entity/Q12192,Q12192,0.9,wikidata,aligned
+respiratory failure,DISEASE,http://sepsis-kg.org/respiratory_failure,http://www.wikidata.org/entity/Q767485,Q767485,0.9,wikidata,aligned
+sepsis,DISEASE,http://sepsis-kg.org/sepsis,http://www.wikidata.org/entity/Q183134,Q183134,0.9,wikidata,aligned
+septic shock,DISEASE,http://sepsis-kg.org/septic_shock,http://www.wikidata.org/entity/Q1765564,Q1765564,0.9,wikidata,aligned
+antibiotic,TREATMENT,http://sepsis-kg.org/antibiotic,http://www.wikidata.org/entity/Q12187,Q12187,1.0,wikidata,aligned
+antibiotics,TREATMENT,http://sepsis-kg.org/antibiotics,http://www.wikidata.org/entity/Q27725829,Q27725829,0.9,wikidata,aligned
+blood culture,TREATMENT,http://sepsis-kg.org/blood_culture,http://www.wikidata.org/entity/Q886695,Q886695,1.0,wikidata,aligned
+corticosteroid,TREATMENT,http://sepsis-kg.org/corticosteroid,http://www.wikidata.org/entity/Q210420,Q210420,1.0,wikidata,aligned
+dexamethasone,TREATMENT,http://sepsis-kg.org/dexamethasone,http://www.wikidata.org/entity/Q422252,Q422252,1.0,wikidata,aligned
+fluid resuscitation,TREATMENT,http://sepsis-kg.org/fluid_resuscitation,http://www.wikidata.org/entity/Q4529664,Q4529664,1.0,wikidata,aligned
+heparin,TREATMENT,http://sepsis-kg.org/heparin,http://www.wikidata.org/entity/Q190016,Q190016,0.9,wikidata,aligned
+hydrocortisone,TREATMENT,http://sepsis-kg.org/hydrocortisone,http://www.wikidata.org/entity/Q190875,Q190875,0.9,wikidata,aligned
+insulin,TREATMENT,http://sepsis-kg.org/insulin,http://www.wikidata.org/entity/Q50265665,Q50265665,0.9,wikidata,aligned
+mechanical ventilation,TREATMENT,http://sepsis-kg.org/mechanical_ventilation,http://www.wikidata.org/entity/Q3766250,Q3766250,0.9,wikidata,aligned
+norepinephrine,TREATMENT,http://sepsis-kg.org/norepinephrine,http://www.wikidata.org/entity/Q186242,Q186242,0.9,wikidata,aligned
+oxygen therapy,TREATMENT,http://sepsis-kg.org/oxygen_therapy,http://www.wikidata.org/entity/Q1988216,Q1988216,0.9,wikidata,aligned
+piperacillin,TREATMENT,http://sepsis-kg.org/piperacillin,http://www.wikidata.org/entity/Q423787,Q423787,1.0,wikidata,aligned
+vancomycin,TREATMENT,http://sepsis-kg.org/vancomycin,http://www.wikidata.org/entity/Q424027,Q424027,1.0,wikidata,aligned
+vasopressor,TREATMENT,http://sepsis-kg.org/vasopressor,http://www.wikidata.org/entity/Q2511166,Q2511166,1.0,wikidata,aligned

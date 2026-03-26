@@ -32,8 +32,8 @@ import trafilatura
 PUBMED_BASE_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 PUBMED_QUERIES = ["sepsis diagnosis biomarkers","sepsis treatment antibiotics","septic shock pathophysiology","sepsis bacteria pathogens",
     "sepsis organ failure",]
-#PUBMED_MAX_RESULTS = 40  # per query : approximately 200 abstracts total
-PUBMED_MAX_RESULTS = 5  # per query : approximately 200 abstracts total
+PUBMED_MAX_RESULTS = 40  # per query : approximately 200 abstracts total
+#PUBMED_MAX_RESULTS = 5  # per query : approximately 200 abstracts total
 
 # Wikipedia seed urlss for general context
 WIKIPEDIA_URLS: list[str] = [

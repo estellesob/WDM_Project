@@ -1,4 +1,11 @@
 subject,subject_type,relation,object,object_type,sentence,source_url
+NEWS2,PRODUCT,compare with,emergency department,CARE_UNIT,"Procalcitonin testing combined with NEWS2 evaluation compared with usual care based on NEWS2 for identification of sepsis and antibiotic initiation in the emergency department in England and Wales (PRONTO): a multicentre, randomised, controlled, open-label, phase 3 trial..",https://pubmed.ncbi.nlm.nih.gov/41881047/
+National Health Service,ORG,do in,National Health Service,ORG,"A parallel, two-arm, open-label, individually randomised controlled trial was done in 20 hospital emergency departments within 17 National Health Service (NHS) Trusts or Health Boards across England and Wales.",https://pubmed.ncbi.nlm.nih.gov/41881047/
+16 years and older,DATE,assign to,16 years and older,DATE,Patients aged 16 years and older with suspected sepsis were randomly assigned to either usual care or procalcitonin-guided care in a 1:1 ratio via a centrally controlled web-based randomisation programme.,https://pubmed.ncbi.nlm.nih.gov/41881047/
+16 years and older,DATE,assign to,procalcitonin,BIOMARKER,Patients aged 16 years and older with suspected sepsis were randomly assigned to either usual care or procalcitonin-guided care in a 1:1 ratio via a centrally controlled web-based randomisation programme.,https://pubmed.ncbi.nlm.nih.gov/41881047/
+procalcitonin,BIOMARKER,record,procalcitonin,BIOMARKER,"A total of 180 adverse events were recorded, 53·3% (96 events in 57 [1·9%] of 2968 participants) in the usual care group and 46·7% (84 events in 66 [2·2%] of 3042 participants) in the procalcitonin-guided care group.",https://pubmed.ncbi.nlm.nih.gov/41881047/
+procalcitonin,BIOMARKER,report,procalcitonin,BIOMARKER,One (<1%) of 2042 participants in the procalcitonin-guided care group reported a serious adverse event probably or definitely attributable to the procalcitonin test.,https://pubmed.ncbi.nlm.nih.gov/41881047/
+28-day,DATE,see,28-day,DATE,"Making a procalcitonin-guided algorithm available to clinicians in emergency departments did not change intravenous antibiotic initiation at 3 h in patients managed as suspected sepsis, but a decrease in 28-day mortality was seen and further research is needed to understand this finding.",https://pubmed.ncbi.nlm.nih.gov/41881047/
 sepsis,DISEASE,conduct,sepsis,DISEASE,"A retrospective analysis of 2,217 non-diabetic sepsis patients from the MIMIC-IV database was conducted using multivariate logistic regression, threshold effect analysis, restricted cubic spline (RCS) modeling, and subgroup analyses.",https://pubmed.ncbi.nlm.nih.gov/41877932/
 pct,BIOMARKER,identify as,pct,BIOMARKER,Multivariate logistic regression identified PCT and hs-CRP as independent diagnostic factors.,https://pubmed.ncbi.nlm.nih.gov/41873329/
 pct,BIOMARKER,correlate In,pct,BIOMARKER,"In sepsis patients, PCT was positively correlated with creatinine (r=0.625, R PCT and hs-CRP are useful for early burn sepsis diagnosis, with combined detection improving efficacy.",https://pubmed.ncbi.nlm.nih.gov/41873329/
@@ -38,6 +45,10 @@ KCNJ2-AS1,PRODUCT,drive via,sepsis,DISEASE,KCNJ2-AS1 Drives Inflammation and Fer
 KCNJ2-AS1,PRODUCT,identify as,KCNJ2-AS1,PRODUCT,Differential expression analysis identified KCNJ2-AS1 as upregulated in sepsis patients.,https://pubmed.ncbi.nlm.nih.gov/41773921/
 28-day,DATE,evaluate,28-day,DATE,Its association with inflammatory markers and prognostic value for 28-day prognosis were further evaluated.,https://pubmed.ncbi.nlm.nih.gov/41773921/
 KCNJ2-AS1,PRODUCT,overexpresse in,KCNJ2-AS1,PRODUCT,"KCNJ2-AS1 was overexpressed in SALI patients, correlating with increased inflammatory cytokines and reduced survival.",https://pubmed.ncbi.nlm.nih.gov/41773921/
+sepsis,DISEASE,identify in,sepsis,DISEASE,"Culture-confirmed sepsis was identified in 246 neonates (62.8%; 95% CI: 57.9-67.1), with early-onset sepsis accounting for 71.9% of cases.",https://pubmed.ncbi.nlm.nih.gov/41880346/
+sepsis,DISEASE,evaluate as,sepsis,DISEASE,Sepsis mortality and ED time metrics relevant to early sepsis identification and management were evaluated as associations with the type of hospital rather than causal relationships.,https://pubmed.ncbi.nlm.nih.gov/41880166/
+sepsis,DISEASE,diagnose with,sepsis,DISEASE,"A total of 297 patients were diagnosed with sepsis, of whom 68 (23%) exhibited septic shock.",https://pubmed.ncbi.nlm.nih.gov/41880166/
+ed,CARE_UNIT,demonstrate,antibiotic,TREATMENT,"The high-resource ED demonstrated lower mortality, a shorter length of the ICU stay, and shorter times to antibiotic and IV fluid administration vs the limited-resource ED.",https://pubmed.ncbi.nlm.nih.gov/41880166/
 sepsis,DISEASE,include,c-reactive protein,BIOMARKER,"Independent predictors of postoperative sepsis included failure of microbiological eradication, higher baseline C-reactive protein, and larger stone burden.",https://pubmed.ncbi.nlm.nih.gov/41878683/
 August 2025,DATE,carry from,August 2025,DATE,"This cross-sectional study was carried out from August 2025 to December 2025 at the Kalinga Institute of Medical Sciences (KIMS), Bhubaneswar, India.",https://pubmed.ncbi.nlm.nih.gov/41878189/
 August 2025,DATE,carry from,the Kalinga Institute of Medical Sciences,ORG,"This cross-sectional study was carried out from August 2025 to December 2025 at the Kalinga Institute of Medical Sciences (KIMS), Bhubaneswar, India.",https://pubmed.ncbi.nlm.nih.gov/41878189/
@@ -64,14 +75,8 @@ antibiotics,TREATMENT,assess,antibiotics,TREATMENT,Filled prescriptions for urin
 between 1 January 2020 and 31 December 2023,DATE,undergo between,between 1 January 2020 and 31 December 2023,DATE,Thirty-one thousand two hundred twenty-two men underwent biopsy between 1 January 2020 and 31 December 2023.,https://pubmed.ncbi.nlm.nih.gov/41841614/
 between January 2014 and December 2022,DATE,conduct between,between January 2014 and December 2022,DATE,A retrospective cohort study was conducted between January 2014 and December 2022 using medical records.,https://pubmed.ncbi.nlm.nih.gov/41841537/
 antibiotics,TREATMENT,include,vancomycin,TREATMENT,"Intraventricular antibiotics used included colistin, vancomycin, tigecycline, and amikacin.",https://pubmed.ncbi.nlm.nih.gov/41840269/
-enterococcus,BACTERIA,comprise in,endocarditis,DISEASE,"Staphylococcus aureus, Streptococcus species, and Enterococcus species comprise more than 80% of identified bacterial pathogens in cases of infective endocarditis.",https://pubmed.ncbi.nlm.nih.gov/41839106/
-endocarditis,DISEASE,consider in,endocarditis,DISEASE,Endocarditis should be considered in any patient with fever or sepsis of unknown origin.,https://pubmed.ncbi.nlm.nih.gov/41839106/
-endocarditis,DISEASE,consider in,sepsis,DISEASE,Endocarditis should be considered in any patient with fever or sepsis of unknown origin.,https://pubmed.ncbi.nlm.nih.gov/41839106/
-the Cochrane Library,ORG,perform,the Cochrane Library,ORG,"A comprehensive literature search was performed using the Cochrane Library, ClinicalTrials.gov, Embase, and MEDLINE, covering studies from their inception to April 2025.",https://pubmed.ncbi.nlm.nih.gov/41838832/
-RevMan,PRODUCT,use,RevMan,PRODUCT,"RevMan was used to perform a random-effects meta-analysis, and forest plots were used to visualize the pooled estimates.",https://pubmed.ncbi.nlm.nih.gov/41838832/
-pct,BIOMARKER,include,pct,BIOMARKER,"Sixteen randomized controlled trials (RCTs), with a total of 6,885 patients, were included.",https://pubmed.ncbi.nlm.nih.gov/41838832/
-pct,BIOMARKER,associate with,pct,BIOMARKER,"PCT was associated with greater reinfection (RR 1.12, 95% CI 1.00- 1.26, I2 0%).",https://pubmed.ncbi.nlm.nih.gov/41838832/
-pseudomonas aeruginosa,BACTERIA,include,pseudomonas aeruginosa,BACTERIA,"Adult ICU patients with bloodstream infections caused by multidrug and carbapenem resistant Klebsiella pneumoniae, Pseudomonas aeruginosa, and Acinetobacter baumannii were included.",https://pubmed.ncbi.nlm.nih.gov/41837809/
+sepsis,DISEASE,show to,sepsis,DISEASE,"The generated predictive model and Sepsis Advisor report were shown to physicians observationally, > 48 h after clinical encounter, while assessing perceived usability, value, barriers and drivers with using the tool through interviews with nurses and physicians.",https://pubmed.ncbi.nlm.nih.gov/41880187/
+lactate,BIOMARKER,draw,lactate,BIOMARKER,"Creatinine, lactate, and INR were drawn 97%, 56%, and 28% of the time and were incorporated into predictive models.",https://pubmed.ncbi.nlm.nih.gov/41880187/
 dic,DISEASE,characterize,dic,DISEASE,"DIC is characterized by widespread activation of the coagulation cascade, resulting in disseminated microthrombi and a hypercoagulable state.",https://pubmed.ncbi.nlm.nih.gov/41788491/
 sepsis,DISEASE,warrant,sepsis,DISEASE,Further studies are warranted to elucidate its role in the mechanisms underlying sepsis-induced immunosuppression.,https://pubmed.ncbi.nlm.nih.gov/41788484/
 septic shock,DISEASE,compare between,septic shock,DISEASE,Differences in 14-day mortality and other clinical outcomes after the onset of septic shock were compared between the two groups.,https://pubmed.ncbi.nlm.nih.gov/41766144/
@@ -90,17 +95,13 @@ sepsis,DISEASE,induce in,sepsis,DISEASE,"Sepsis was induced in male Wistar rats 
 sepsis,DISEASE,associate With,sepsis,DISEASE,Vascular Hyporesponsiveness in Sepsis Is Associated With Nitric Oxide-Dependent Activation of G-Protein Receptor Kinase..,https://pubmed.ncbi.nlm.nih.gov/41560294/
 septic shock,DISEASE,include,intensive care unit,CARE_UNIT,"A prospective, single-center study included 54 septic shock patients with central venous catheters placed within 24 h of intensive care unit admission.",https://pubmed.ncbi.nlm.nih.gov/41558044/
 septic shock,DISEASE,include,septic shock,DISEASE,"Adult patients with septic shock were included, standardized to those maintaining a mean arterial pressure (MAP) ≥ 65 mmHg.",https://pubmed.ncbi.nlm.nih.gov/41547675/
-sepsis,DISEASE,show to,sepsis,DISEASE,"The generated predictive model and Sepsis Advisor report were shown to physicians observationally, > 48 h after clinical encounter, while assessing perceived usability, value, barriers and drivers with using the tool through interviews with nurses and physicians.",https://pubmed.ncbi.nlm.nih.gov/41522728/
-lactate,BIOMARKER,draw,lactate,BIOMARKER,"Creatinine, lactate, and INR were drawn 97%, 56%, and 28% of the time and were incorporated into predictive models.",https://pubmed.ncbi.nlm.nih.gov/41522728/
 sepsis,DISEASE,understand,sepsis,DISEASE,"However, the mechanism of action of Res in sepsis-induced vascular hyporeactivity is not fully understood.",https://pubmed.ncbi.nlm.nih.gov/41512697/
 sepsis,DISEASE,establish,sepsis,DISEASE,A rat model of sepsis was established by intraperitoneal injection of fecal filtrate.,https://pubmed.ncbi.nlm.nih.gov/41512697/
 Res,PRODUCT,suppress In,norepinephrine,TREATMENT,"In addition, Res suppressed sepsis-induced intestinal microvascular hyporeactivity to norepinephrine in vitro, whereas treatment with Res-treated septic rats increased the cellular viability and contractility of vascular smooth muscle cells compared to SS.",https://pubmed.ncbi.nlm.nih.gov/41512697/
 vancomycin,TREATMENT,indicate For,vancomycin,TREATMENT,"For wound infection, the addition of a specific antistaphylococcal antibiotic such as vancomycin or linezolid, and, in some instances, surgical drainage are indicated.",https://pubmed.ncbi.nlm.nih.gov/41485836/
 antibiotics,TREATMENT,prefer For,antibiotics,TREATMENT,"For a lower urinary tract infection, the oral antibiotics, nitrofurantoin monohydrate macrocrystals or trimethoprim-sulfamethoxazole, are preferred.",https://pubmed.ncbi.nlm.nih.gov/41485836/
-Hartmann's,ORG,randomize to,Hartmann's,ORG,"Non-anaesthetised animals were infused with live Escherichia coli for 31-h. At 23.5-h of sepsis, four groups (n = 7-8/group) received fluid resuscitation (30 mL/kg Hartmann's solution) and were randomized to intravenous sodium ascorbate (1.0, 2.0, or 3.0 g/kg) or vehicle, delivered as a bolus followed by 7-h infusion.",https://pubmed.ncbi.nlm.nih.gov/41457243/
-Hartmann's,ORG,randomize to,norepinephrine,TREATMENT,"Non-anaesthetised animals were infused with live Escherichia coli for 31-h. At 23.5-h of sepsis, four groups (n = 7-8/group) received fluid resuscitation (30 mL/kg Hartmann's solution) and were randomized to intravenous sodium ascorbate (1.0, 2.0, or 3.0 g/kg) or vehicle, delivered as a bolus followed by 7-h infusion.",https://pubmed.ncbi.nlm.nih.gov/41457243/
-norepinephrine,TREATMENT,titrate,norepinephrine,TREATMENT,Norepinephrine was titrated to maintain mean arterial pressure (MAP) at ~ 70 mmHg.,https://pubmed.ncbi.nlm.nih.gov/41457243/
 Zhejiang Provincial People's Hospital,ORG,enrol,Zhejiang Provincial People's Hospital,ORG,"Patients aged >18 years with suspected BSI admitted to intensive care unit department of Zhejiang Provincial People's Hospital from March 1, 2022 to October 31, 2023 were consecutively enrolled.",https://pubmed.ncbi.nlm.nih.gov/41876236/
+pseudomonas aeruginosa,BACTERIA,include,pseudomonas aeruginosa,BACTERIA,"Patients with blood ddPCR detection positive for pathogenic bacteria such as Escherichia coli, Klebsiella pneumoniae, Acinetobacter baumannii, or Pseudomonas aeruginosa were included.",https://pubmed.ncbi.nlm.nih.gov/41876236/
 28-day,DATE,identify,28-day,DATE,Independent risk factors for 28-day mortality in patients with suspected BSI were identified using multivariate Cox proportional hazards regression models.,https://pubmed.ncbi.nlm.nih.gov/41876236/
 pseudomonas aeruginosa,BACTERIA,enrol,pseudomonas aeruginosa,BACTERIA,"A total of 189 suspected BSI patients with ddPCR positive for Escherichia coli, Klebsiella pneumoniae, Acinetobacter baumannii, or Pseudomonas aeruginosa infection were enrolled, of whom 121 underwent dynamic monitoring.",https://pubmed.ncbi.nlm.nih.gov/41876236/
 day 0,DATE,show In,c-reactive protein,BIOMARKER,"In patients with suspected BSI, the ddPCR pathogen load on day 0 showed significant positive correlations with high-sensitivity C-reactive protein (hs-CRP), procalcitonin (PCT), blood lactate (Lac), Acute Physiology and Chronic Health Evaluation II (APACHE II), and Sequential Organ Failure Assessment (SOFA; r values were 0.150, 0.273, 0.370, 0.334, 0.311, respectively; all P<0.05).",https://pubmed.ncbi.nlm.nih.gov/41876236/
@@ -113,6 +114,9 @@ candida,BACTERIA,highlight,candida,BACTERIA,"Genomic Characterization of Candida
 candida,BACTERIA,isolate from,candida,BACTERIA,"One hundred and seven samples of Candida spp. were isolated from patients with candidemia in the hospital San Matteo in Pavia (Italy) over a period of 6 years, from 2015 to the first COVID wave in spring 2020.",https://pubmed.ncbi.nlm.nih.gov/41840233/
 candida,BACTERIA,isolate from,Pavia,GPE,"One hundred and seven samples of Candida spp. were isolated from patients with candidemia in the hospital San Matteo in Pavia (Italy) over a period of 6 years, from 2015 to the first COVID wave in spring 2020.",https://pubmed.ncbi.nlm.nih.gov/41840233/
 candida,BACTERIA,isolate from,6 years,DATE,"One hundred and seven samples of Candida spp. were isolated from patients with candidemia in the hospital San Matteo in Pavia (Italy) over a period of 6 years, from 2015 to the first COVID wave in spring 2020.",https://pubmed.ncbi.nlm.nih.gov/41840233/
+enterococcus,BACTERIA,comprise in,endocarditis,DISEASE,"Staphylococcus aureus, Streptococcus species, and Enterococcus species comprise more than 80% of identified bacterial pathogens in cases of infective endocarditis.",https://pubmed.ncbi.nlm.nih.gov/41839106/
+endocarditis,DISEASE,consider in,endocarditis,DISEASE,Endocarditis should be considered in any patient with fever or sepsis of unknown origin.,https://pubmed.ncbi.nlm.nih.gov/41839106/
+endocarditis,DISEASE,consider in,sepsis,DISEASE,Endocarditis should be considered in any patient with fever or sepsis of unknown origin.,https://pubmed.ncbi.nlm.nih.gov/41839106/
 Chanderraj,PERSON,challenge In,Chanderraj,PERSON,"In this issue, Chanderraj and colleagues challenge this host-centric paradigm by demonstrating that pathogen characteristics independently contribute to sepsis subphenotypes.",https://pubmed.ncbi.nlm.nih.gov/41837290/
 lactate,BIOMARKER,vary Among,sepsis,DISEASE,"Among patients with sepsis, the prognostic value of lactate clearance varied substantially by phenotype.",https://pubmed.ncbi.nlm.nih.gov/41837287/
 the Department of Microbiology,ORG,conduct in,the Department of Microbiology,ORG,This retrospective observational study was conducted in the Department of Microbiology at a tertiary care teaching hospital in central India.,https://pubmed.ncbi.nlm.nih.gov/41835721/
@@ -160,3 +164,490 @@ septic shock,DISEASE,analyze,septic shock,DISEASE,"Epidemiological characteristi
 septic shock,DISEASE,enrol,septic shock,DISEASE,"A total of 5 564 patients with septic shock were enrolled, comprising 2 903 males and 2 661 females.",https://pubmed.ncbi.nlm.nih.gov/41833344/
 platelet,BIOMARKER,collect,platelet,BIOMARKER,"Baseline demographics, clinical characteristics, and serial platelet counts were collected.",https://pubmed.ncbi.nlm.nih.gov/41822877/
 platelet,BIOMARKER,enable,sepsis,DISEASE,"Patients in the persistent low-level group exhibited significantly higher 28-day all-cause mortality compared to the other two groups (71.63% vs. 55.36% vs. 13.04%,  Dynamic modeling of platelet count trajectories enables effective identification of clinically meaningful subphenotypes in sepsis patients, offering a robust framework for prognosis prediction.",https://pubmed.ncbi.nlm.nih.gov/41822877/
+sepsis,DISEASE,follow,sepsis,DISEASE,"Sepsis is a potentially life-threatening condition that arises when the body's dysregulated response to infection causes injury to its own tissues and organs.[4][6]
+This initial stage of sepsis is followed by dysregulation of the immune system.[7]",https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,cause,sepsis,DISEASE,"Sepsis is caused by many organisms including bacteria, viruses, and fungi.[10]",https://en.wikipedia.org/wiki/Sepsis
+sofa score,BIOMARKER,replace,qsofa,BIOMARKER,"A shortened sequential organ failure assessment score (SOFA score), known as the quick SOFA score (qSOFA), has replaced the SIRS system of diagnosis.[4]",https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,affect in,2017,DATE,"Sepsis affected about 49 million people in 2017, with 11 million deaths (1 in 5 deaths worldwide).[17]",https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,affect In,sepsis,DISEASE,"In the developed world, approximately 0.2 to 3 people per 1000 are affected by sepsis yearly.[14][18]",https://en.wikipedia.org/wiki/Sepsis
+septic shock,DISEASE,observe in,septic shock,DISEASE,"The drop in blood pressure seen in sepsis can cause lightheadedness and is part of the criteria for septic shock.[22]
+Oxidative stress is observed in septic shock, with circulating levels of copper and vitamin C being decreased.[23]
+Diastolic blood pressure falls during the early stages of sepsis, causing a widening/increasing of pulse pressure, which is the difference between the systolic and diastolic blood pressures.",https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,correlate with,sepsis,DISEASE,A pulse pressure of over 70 mmHg in patients with sepsis is correlated with an increased chance of survival.[25],https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,account for,septic shock,DISEASE,"Fungal sepsis accounts for approximately 5% of severe sepsis and septic shock cases; the most common cause of fungal sepsis is an infection by Candida species of yeast,[30] a frequent hospital-acquired infection.",https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,cause,platelet,BIOMARKER,"However, sepsis also causes a similar response to SIRS.[33]",https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,think,sepsis,DISEASE,"Sepsis caused by gram-negative bacteria is thought to be largely due to a response by the host to the lipid A component of lipopolysaccharide, also called endotoxin.[35][36]",https://en.wikipedia.org/wiki/Sepsis
+lactate,BIOMARKER,re,lactate,BIOMARKER,Lactate should be re-measured if the initial lactate was elevated.[8],https://en.wikipedia.org/wiki/Sepsis
+pneumonia,DISEASE,indicate,sepsis,DISEASE,"A pierced internal organ (free air on an abdominal X-ray or CT scan), an abnormal chest X-ray consistent with pneumonia (with focal opacification), or petechiae, purpura, or purpura fulminans may indicate the presence of an infection.[citation needed]
+Definitions
+| Finding | Value |
+|---|---|
+| Temperature | <36 °C (96.8 °F) or >38 °C (100.4 °F) |
+| Heart rate | >90/min |
+| Respiratory rate | >20/min or PaCO2<32 mmHg (4.3 kPa) |
+| WBC | <4x109/L (<4000/mm3), >12x109/L (>12,000/mm3), or ≥10% bands |
+Previously, SIRS criteria had been used to define sepsis.",https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,define as,sepsis,DISEASE,":
+- SIRS is the presence of two or more of the following: abnormal body temperature, heart rate, respiratory rate, or blood gas, and white blood cell count.
+- Sepsis is defined as SIRS in response to an infectious process.[51]
+- Severe sepsis is defined as sepsis with sepsis-induced organ dysfunction or tissue hypoperfusion (manifesting as hypotension, elevated lactate, or decreased urine output).",https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,define as,organ dysfunction,DISEASE,":
+- SIRS is the presence of two or more of the following: abnormal body temperature, heart rate, respiratory rate, or blood gas, and white blood cell count.
+- Sepsis is defined as SIRS in response to an infectious process.[51]
+- Severe sepsis is defined as sepsis with sepsis-induced organ dysfunction or tissue hypoperfusion (manifesting as hypotension, elevated lactate, or decreased urine output).",https://en.wikipedia.org/wiki/Sepsis
+sofa score,BIOMARKER,reach In,sofa score,BIOMARKER,"Severe sepsis is an infectious disease state associated with multiple organ dysfunction syndrome (MODS)[8]
+- Septic shock is severe sepsis plus persistently low blood pressure, despite the administration of intravenous fluids.[8]
+In 2016, a new consensus was reached to replace screening by systemic inflammatory response syndrome (SIRS) with the sequential organ failure assessment (SOFA score) and the abbreviated version (qSOFA).[4]",https://en.wikipedia.org/wiki/Sepsis
+sofa score,BIOMARKER,reach In,2016,DATE,"Severe sepsis is an infectious disease state associated with multiple organ dysfunction syndrome (MODS)[8]
+- Septic shock is severe sepsis plus persistently low blood pressure, despite the administration of intravenous fluids.[8]
+In 2016, a new consensus was reached to replace screening by systemic inflammatory response syndrome (SIRS) with the sequential organ failure assessment (SOFA score) and the abbreviated version (qSOFA).[4]",https://en.wikipedia.org/wiki/Sepsis
+qsofa,BIOMARKER,include,sepsis,DISEASE,"The three criteria for the qSOFA score include a respiratory rate greater than or equal to 22 breaths per minute, systolic blood pressure 100 mmHg or less, and altered mental status.[4]",https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,suspect,sepsis,DISEASE,Sepsis is suspected when 2 of the qSOFA criteria are met.[4],https://en.wikipedia.org/wiki/Sepsis
+qsofa,BIOMARKER,met.[4,qsofa,BIOMARKER,Sepsis is suspected when 2 of the qSOFA criteria are met.[4],https://en.wikipedia.org/wiki/Sepsis
+qsofa,BIOMARKER,use outside,qsofa,BIOMARKER,"The SOFA score was intended to be used in the intensive care unit (ICU) where it is administered upon admission to the ICU and then repeated every 48 hours, whereas the qSOFA could be used outside the ICU.[21]",https://en.wikipedia.org/wiki/Sepsis
+qsofa,BIOMARKER,use outside,icu,CARE_UNIT,"The SOFA score was intended to be used in the intensive care unit (ICU) where it is administered upon admission to the ICU and then repeated every 48 hours, whereas the qSOFA could be used outside the ICU.[21]",https://en.wikipedia.org/wiki/Sepsis
+the American College of Chest Physicians,ORG,raise,qsofa,BIOMARKER,"However, the American College of Chest Physicians (CHEST) raised concerns that qSOFA and SOFA criteria may lead to delayed diagnosis of serious infection, leading to delayed treatment.[52]",https://en.wikipedia.org/wiki/Sepsis
+qsofa,BIOMARKER,find,qsofa,BIOMARKER,qSOFA has also been found to be poorly sensitive though decently specific for the risk of death with SIRS possibly better for screening.,https://en.wikipedia.org/wiki/Sepsis
+qsofa,BIOMARKER,recommend against,septic shock,DISEASE,"NOTE - Surviving Sepsis Campaign 2021 Guidelines recommend ""against using qSOFA compared with SIRS, NEWS, or MEWS as a single screening tool for sepsis or septic shock"".[54]",https://en.wikipedia.org/wiki/Sepsis
+procalcitonin,BIOMARKER,serve as,sepsis,DISEASE,"The authors suggested that procalcitonin may serve as a helpful diagnostic marker for sepsis, but cautioned that its level alone does not definitively make the diagnosis.[48]",https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,refer In,the first month of life,DATE,"In common clinical usage, neonatal sepsis refers to a bacterial blood stream infection in the first month of life, such as meningitis, pneumonia, pyelonephritis, or gastroenteritis,[62] but neonatal sepsis also may be due to infection with fungi, viruses, or parasites.[62]",https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,receive Within,antibiotics,TREATMENT,"Within the first three hours, someone with sepsis should have received antibiotics and intravenous fluids if there is evidence of either low blood pressure or other evidence for inadequate blood supply to organs (as evidenced by a raised level of lactate); blood cultures should also be obtained within this period.",https://en.wikipedia.org/wiki/Sepsis
+lactate,BIOMARKER,measure,lactate,BIOMARKER,"After six hours, the blood pressure should be adequate, close monitoring of blood pressure and blood supply to organs should be in place, and the lactate should be measured again if initially it was raised.[8]",https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,involve,organ dysfunction,DISEASE,"Apart from the timely administration of fluids and antibiotics, the management of sepsis also involves surgical drainage of infected fluid collections and appropriate support for organ dysfunction.",https://en.wikipedia.org/wiki/Sepsis
+antibiotics,TREATMENT,recommend In,antibiotics,TREATMENT,"In severe sepsis and septic shock, broad-spectrum antibiotics (usually two, a β-lactam antibiotic with broad coverage, or broad-spectrum carbapenem combined with fluoroquinolones, macrolides, or aminoglycosides) are recommended.",https://en.wikipedia.org/wiki/Sepsis
+antibiotics,TREATMENT,recommend In,septic shock,DISEASE,"In severe sepsis and septic shock, broad-spectrum antibiotics (usually two, a β-lactam antibiotic with broad coverage, or broad-spectrum carbapenem combined with fluoroquinolones, macrolides, or aminoglycosides) are recommended.",https://en.wikipedia.org/wiki/Sepsis
+antibiotics,TREATMENT,de,antibiotics,TREATMENT,"If the culture result is negative, antibiotics should be de-escalated according to the person's clinical response or stopped altogether if an infection is not present to decrease the chances that the person is infected with multiple drug resistance organisms.",https://en.wikipedia.org/wiki/Sepsis
+antibiotic,TREATMENT,recommend In,antibiotic,TREATMENT,"In case of people having a high risk of being infected with multiple drug resistant organisms such as Pseudomonas aeruginosa, Acinetobacter baumannii, the addition of an antibiotic specific to the organism is recommended.",https://en.wikipedia.org/wiki/Sepsis
+antibiotic,TREATMENT,recommend In,pseudomonas aeruginosa,BACTERIA,"In case of people having a high risk of being infected with multiple drug resistant organisms such as Pseudomonas aeruginosa, Acinetobacter baumannii, the addition of an antibiotic specific to the organism is recommended.",https://en.wikipedia.org/wiki/Sepsis
+vancomycin,TREATMENT,recommend For,vancomycin,TREATMENT,"For methicillin-resistant Staphylococcus aureus (MRSA), vancomycin or teicoplanin is recommended.",https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,suspected.[5,sepsis,DISEASE,"Prolonged antibiotic prophylaxis is not recommended in people who have SIRS without any infectious origin, such as acute pancreatitis and burns unless sepsis is suspected.[5]
+Once-daily dosing of aminoglycoside is sufficient to achieve peak plasma concentration for a clinical response without kidney toxicity.",https://en.wikipedia.org/wiki/Sepsis
+norepinephrine,TREATMENT,recommend as,norepinephrine,TREATMENT,Norepinephrine (noradrenaline) is recommended as the initial choice.[5],https://en.wikipedia.org/wiki/Sepsis
+norepinephrine,TREATMENT,use as,norepinephrine,TREATMENT,"Norepinephrine is often used as a first-line treatment for hypotensive septic shock because evidence shows that there is a relative deficiency of vasopressin when shock continues for 24 to 48 hours.[77] Norepinephrine raises blood pressure through a vasoconstriction effect, with little effect on stroke volume and heart rate.[5]",https://en.wikipedia.org/wiki/Sepsis
+norepinephrine,TREATMENT,use as,septic shock,DISEASE,"Norepinephrine is often used as a first-line treatment for hypotensive septic shock because evidence shows that there is a relative deficiency of vasopressin when shock continues for 24 to 48 hours.[77] Norepinephrine raises blood pressure through a vasoconstriction effect, with little effect on stroke volume and heart rate.[5]",https://en.wikipedia.org/wiki/Sepsis
+Surviving Sepsis Campaign,ORG,recommend,hydrocortisone,TREATMENT,The 2016 Surviving Sepsis Campaign recommends low-dose hydrocortisone only if both intravenous fluids and vasopressors are not able to adequately treat septic shock.[5],https://en.wikipedia.org/wiki/Sepsis
+antibiotics,TREATMENT,start,antibiotics,TREATMENT,"If a newborn shows signs and symptoms suggestive of sepsis, antibiotics are immediately started and are either changed to target a specific organism identified by diagnostic testing or discontinued after an infectious cause for the symptoms has been ruled out.[96]",https://en.wikipedia.org/wiki/Sepsis
+insulin,TREATMENT,recommend In,insulin,TREATMENT,"In those with high blood sugar levels, insulin to bring it down to 7.8–10 mmol/L (140–180 mg/dL) is recommended, with lower levels potentially worsening outcomes.[104]",https://en.wikipedia.org/wiki/Sepsis
+heparin,TREATMENT,recommend for,heparin,TREATMENT,"Low-molecular-weight heparin (LMWH), unfractionated heparin (UFH), and mechanical prophylaxis with intermittent pneumatic compression devices are recommended for any person with sepsis at moderate to high risk of venous thromboembolism.[5]",https://en.wikipedia.org/wiki/Sepsis
+heparin,TREATMENT,recommend for,sepsis,DISEASE,"Low-molecular-weight heparin (LMWH), unfractionated heparin (UFH), and mechanical prophylaxis with intermittent pneumatic compression devices are recommended for any person with sepsis at moderate to high risk of venous thromboembolism.[5]",https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,decline from,1990,DATE,"Immune dysfunction and hyperinflammation may persist long after sepsis has resolved.[9]
+The global mortality rate from sepsis declined from 50% in 1990 to 35% in 2017.",https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,decline from,2017,DATE,"Immune dysfunction and hyperinflammation may persist long after sepsis has resolved.[9]
+The global mortality rate from sepsis declined from 50% in 1990 to 35% in 2017.",https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,estimate,sepsis,DISEASE,The number of new cases of sepsis worldwide is estimated to be 18 million cases per year.[112],https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,affect In,the United States,GPE,"In the United States, sepsis affects approximately 3 in 1,000 people,[51] and severe sepsis contributes to more than 200,000 deaths per year.[113]
+Sepsis occurs in 1–2% of all hospitalizations and accounts for as much as 25% of ICU bed utilization. As it is rarely reported as a primary diagnosis (often being a complication of cancer or other illness), the incidence, mortality, and morbidity rates of sepsis are probably underestimated.[31]",https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,contribute to,sepsis,DISEASE,"In the United States, sepsis affects approximately 3 in 1,000 people,[51] and severe sepsis contributes to more than 200,000 deaths per year.[113]
+Sepsis occurs in 1–2% of all hospitalizations and accounts for as much as 25% of ICU bed utilization. As it is rarely reported as a primary diagnosis (often being a complication of cancer or other illness), the incidence, mortality, and morbidity rates of sepsis are probably underestimated.[31]",https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,underestimated.[31,sepsis,DISEASE,"In the United States, sepsis affects approximately 3 in 1,000 people,[51] and severe sepsis contributes to more than 200,000 deaths per year.[113]
+Sepsis occurs in 1–2% of all hospitalizations and accounts for as much as 25% of ICU bed utilization. As it is rarely reported as a primary diagnosis (often being a complication of cancer or other illness), the incidence, mortality, and morbidity rates of sepsis are probably underestimated.[31]",https://en.wikipedia.org/wiki/Sepsis
+U.S.,GPE,find in,sepsis,DISEASE,"A study of U.S. states found approximately 651 hospital stays per 100,000 population with a sepsis diagnosis in 2010.[114]",https://en.wikipedia.org/wiki/Sepsis
+under 12 months of age,DATE,have,sepsis,DISEASE,Children under 12 months of age and elderly people have the highest incidence of severe sepsis.[31],https://en.wikipedia.org/wiki/Sepsis
+the United States National Hospital Discharge Survey,ORG,show From,From 1979 to 2000,DATE,"From 1979 to 2000, data from the United States National Hospital Discharge Survey showed that the incidence of sepsis increased fourfold, to 240 cases per 100,000 population, with a higher incidence in men when compared to women.",https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,increase according,2003,DATE,"However, according to the nationwide inpatient sample from the United States, the incidence of severe sepsis increased from 200 per 10,000 population in 2003 to 300 cases in 2007 for a population aged more than 18 years.",https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,increase according,2007,DATE,"However, according to the nationwide inpatient sample from the United States, the incidence of severe sepsis increased from 200 per 10,000 population in 2003 to 300 cases in 2007 for a population aged more than 18 years.",https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,increase according,more than 18 years,DATE,"However, according to the nationwide inpatient sample from the United States, the incidence of severe sepsis increased from 200 per 10,000 population in 2003 to 300 cases in 2007 for a population aged more than 18 years.",https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,increase with,the sixth decade,DATE,"Mortality related to sepsis increases with age, from less than 10% in the age group of 3 to 5 years to 60% by the sixth decade of life.[26]",https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,introduce in,sepsis,DISEASE,"The term ""σήψις"" (sepsis) was introduced by Hippocrates in the fourth century BC, and it meant the process of decay or decomposition of organic matter.[119][120][121]",https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,introduce in,the fourth century BC,DATE,"The term ""σήψις"" (sepsis) was introduced by Hippocrates in the fourth century BC, and it meant the process of decay or decomposition of organic matter.[119][120][121]",https://en.wikipedia.org/wiki/Sepsis
+Avicenna,PERSON,use In,the eleventh century,DATE,"In the eleventh century, Avicenna used the term ""blood rot"" for diseases linked to severe purulent process.",https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,use for,sepsis,DISEASE,"Though severe systemic toxicity had already been observed, it was only in the 19th century that the specific term – sepsis – was used for this condition.",https://en.wikipedia.org/wiki/Sepsis
+Pfeiffer,PERSON,coin at,the beginning of the 20th century,DATE,Pfeiffer coined the term endotoxin at the beginning of the 20th century to denote the pyrogenic principle associated with Vibrio cholerae.,https://en.wikipedia.org/wiki/Sepsis
+1944,DATE,elucidate in,1944,DATE,The lipopolysaccharide character of enteric endotoxins was elucidated in 1944 by Shear.[124],https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,conduct as,sepsis,DISEASE,"Controversy occurred in the scientific community over the use of mouse models in research into sepsis in 2013 when scientists published a review of the mouse immune system compared to the human immune system and showed that on a systems level, the two worked very differently; the authors noted that as of the date of their article over 150 clinical trials of sepsis had been conducted in humans, almost all of them supported by promising data in mice and that all of them had failed.",https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,quadruple since,1997,DATE,Costs for sepsis hospital stays more than quadrupled since 1997 with an 11.5 percent annual increase.[137],https://en.wikipedia.org/wiki/Sepsis
+"the ""Surviving Sepsis Campaign""",ORG,establish in,"the ""Surviving Sepsis Campaign""",ORG,"By payer, it was the most costly condition billed to Medicare and the uninsured, the second-most costly billed to Medicaid, and the fourth-most costly billed to private insurance.[136]
+Education
+A large international collaboration entitled the ""Surviving Sepsis Campaign"" was established in 2002[138] to educate people about sepsis and to improve outcomes with sepsis.",https://en.wikipedia.org/wiki/Sepsis
+Campaign,ORG,publish with,sepsis,DISEASE,"The Campaign has published an evidence-based review of management strategies for severe sepsis, with the aim of publishing a complete set of guidelines in subsequent years.[90]",https://en.wikipedia.org/wiki/Sepsis
+Campaign,ORG,publish with,subsequent years.[90,DATE,"The Campaign has published an evidence-based review of management strategies for severe sepsis, with the aim of publishing a complete set of guidelines in subsequent years.[90]",https://en.wikipedia.org/wiki/Sepsis
+September,DATE,declare In,September,DATE,"In 2011, September was declared Sepsis Awareness Month.",https://en.wikipedia.org/wiki/Sepsis
+September,DATE,declare In,Sepsis Awareness Month,DATE,"In 2011, September was declared Sepsis Awareness Month.",https://en.wikipedia.org/wiki/Sepsis
+September,DATE,declare In,2011,DATE,"In 2011, September was declared Sepsis Awareness Month.",https://en.wikipedia.org/wiki/Sepsis
+the Global Sepsis Alliance,ORG,declare,September 13,DATE,"One year later, the Global Sepsis Alliance declared September 13 World Sepsis Day.[142",https://en.wikipedia.org/wiki/Sepsis
+sepsis,DISEASE,arise through,Paul E. Marik's,PERSON,Not all cases of sepsis arise through such adaptive microbial strategy switches.[143],https://en.wikipedia.org/wiki/Sepsis
+qsofa,BIOMARKER,replace in,SIRS,ORG,"""qSOFA does not replace SIRS in the definition of sepsis"".",https://en.wikipedia.org/wiki/Sepsis
+qsofa,BIOMARKER,replace in,sepsis,DISEASE,"""qSOFA does not replace SIRS in the definition of sepsis"".",https://en.wikipedia.org/wiki/Sepsis
+qsofa,BIOMARKER,mean,qsofa,BIOMARKER,We hope this editorial will clarify that the qSOFA is meant to be used to raise suspicion of sepsis and prompt further action—it is not a replacement for SIRS and is not part of the definition of sepsis.,https://en.wikipedia.org/wiki/Sepsis
+acute kidney injury,DISEASE,associate with,acute kidney injury,DISEASE,"""Fluid resuscitation with hydroxyethyl starches in patients with sepsis is associated with an increased incidence of acute kidney injury and use of renal replacement therapy: a systematic review and meta-analysis of the literature"".",https://en.wikipedia.org/wiki/Sepsis
+septic shock,DISEASE,define as,sepsis,DISEASE,"Septic shock is a potentially fatal medical condition that occurs when sepsis, which is defined as an abnormal immune response to infection that leads to life-threatening organ dysfunction, leads to dangerously low blood pressure and abnormalities in cellular and metabolic dysfunction.[1] The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3) defines septic shock as a subset of sepsis in which particularly profound circulatory, cellular, and metabolic abnormalities are associated with a greater risk of mortality than with sepsis alone.[2]",https://en.wikipedia.org/wiki/Septic_shock
+septic shock,DISEASE,care for,septic shock,DISEASE,Patients with septic shock are cared for in the emergency department and intensive care units.[1,https://en.wikipedia.org/wiki/Septic_shock
+septic shock,DISEASE,understand,septic shock,DISEASE,"Pathophysiology
+[edit]The pathophysiology of septic shock is not entirely understood, but it is known that a key role in the development of severe sepsis is played by an immune and coagulation response to an infection.",https://en.wikipedia.org/wiki/Septic_shock
+sepsis,DISEASE,play,sepsis,DISEASE,"Pathophysiology
+[edit]The pathophysiology of septic shock is not entirely understood, but it is known that a key role in the development of severe sepsis is played by an immune and coagulation response to an infection.",https://en.wikipedia.org/wiki/Septic_shock
+sepsis,DISEASE,call,sepsis,DISEASE,"The most recent gathering of professionals to discuss the topic of sepsis was called ""sepsis-3"" and set forth the latest guidelines for the diagnosis and management of sepsis.[25]",https://en.wikipedia.org/wiki/Septic_shock
+icu,CARE_UNIT,use in,icu,CARE_UNIT,"It's counterpart SOFA is used exclusively in the ICU.[27]
+In the SOFA criteria, there are three criteria, which are listed below.[27]
+- respiratory rate of 22 breathes per minute or greater
+- altered mental status
+- systolic blood pressure of 100 mg or less
+Patients meet SOFA criteria, and therefore have sepsis, when they fulfill 2 or more of the above criteria.[11]",https://en.wikipedia.org/wiki/Septic_shock
+endocarditis,DISEASE,suspect,endocarditis,DISEASE,If endocarditis is suspected echocardiography is indicated.[40],https://en.wikipedia.org/wiki/Septic_shock
+sepsis,DISEASE,ordered.[43,sepsis,DISEASE,"Lastly, acid and base abnormalities are common in the setting of sepsis, therefore, arterial and venous blood samples are ordered.[43",https://en.wikipedia.org/wiki/Septic_shock
+lactate,BIOMARKER,use,lactate,BIOMARKER,"Sepsis biomarkers
+[edit]The two main biomarkers used for sepsis and septic shock are lactate and procalcitonin.[1]
+Lactate is used because lactate is produced in the body as a result of tissues receiving inadequate oxygen supply due to poor blood flow.[34]",https://en.wikipedia.org/wiki/Septic_shock
+lactate,BIOMARKER,produce in,lactate,BIOMARKER,"Sepsis biomarkers
+[edit]The two main biomarkers used for sepsis and septic shock are lactate and procalcitonin.[1]
+Lactate is used because lactate is produced in the body as a result of tissues receiving inadequate oxygen supply due to poor blood flow.[34]",https://en.wikipedia.org/wiki/Septic_shock
+sepsis,DISEASE,suspected.[2,sepsis,DISEASE,Lactate levels are obtained when sepsis is first suspected.[2],https://en.wikipedia.org/wiki/Septic_shock
+lactate,BIOMARKER,repeat,lactate,BIOMARKER,If the levels are elevated at that time then the measurement of lactate is repeated every four to six hours until the levels become normal again.[31],https://en.wikipedia.org/wiki/Septic_shock
+procalcitonin,BIOMARKER,use as,procalcitonin,BIOMARKER,Procalcitonin can be used as an indicator for sepsis because it is a marker for inflammation produced by cytokines and bacterial endotoxins.[44],https://en.wikipedia.org/wiki/Septic_shock
+procalcitonin,BIOMARKER,use as,sepsis,DISEASE,Procalcitonin can be used as an indicator for sepsis because it is a marker for inflammation produced by cytokines and bacterial endotoxins.[44],https://en.wikipedia.org/wiki/Septic_shock
+procalcitonin,BIOMARKER,have,sepsis,DISEASE,A procalcitonin level of 0.05 ng/mL is considered normal and patients with procalcitonin levels less than 0.25 ng/mL have low likelihood of sepsis.[45],https://en.wikipedia.org/wiki/Septic_shock
+sepsis,DISEASE,resuscitate with,sepsis,DISEASE,Patients demonstrating sepsis-induced hypoperfusion should be initially resuscitated with at least 30 ml/kg of intravenous crystalloid within the first three hours.[1],https://en.wikipedia.org/wiki/Septic_shock
+antibiotic,TREATMENT,associate with,antibiotic,TREATMENT,"[edit]General approach
+[edit]Early initiation of antibiotic therapy is associated with better outcomes in multiple studies.[3]",https://en.wikipedia.org/wiki/Septic_shock
+antibiotics,TREATMENT,administer after,antibiotics,TREATMENT,At one point it was recommended that antibiotics be administered one hour after initial recognition of sepsis.[1],https://en.wikipedia.org/wiki/Septic_shock
+antibiotics,TREATMENT,administer after,sepsis,DISEASE,At one point it was recommended that antibiotics be administered one hour after initial recognition of sepsis.[1],https://en.wikipedia.org/wiki/Septic_shock
+antibiotic,TREATMENT,show,antibiotic,TREATMENT,"However, it has been shown that mortality rates are higher for those who received antibiotic therapy after three hours.[1]
+At first antibiotic therapy should be broad and based on a combination of factors, such as the suspected infection site, clincal context (community or hospital acquired), most likely pathogen, and local resistance patterns.[11",https://en.wikipedia.org/wiki/Septic_shock
+antibiotic,TREATMENT,include,procalcitonin,BIOMARKER,"Factors that are used to decide de-escalation of antibiotic therapy include the use of biomarkers, such as a decreasing procalcitonin, to monitor response to therapy or clinical progress during treatment.[51]",https://en.wikipedia.org/wiki/Septic_shock
+endocarditis,DISEASE,require,antibiotic,TREATMENT,"However, specific infections such as endocarditis and osteomyelitis and infections caused by indwelling devices that cannot be removed may require longer durations of antibiotic therapy.[1]
+Specific antibiotic treatment choices for different infections causing sepsis
+[edit]Meningitis
+[edit]To treat meningitis-related sepsis, one can administer vancomycin, ceftriaxone, ampicillin, and dexamethasone (a corticosteroid used as an anti-inflammatory to reduce neuro complications).[52]",https://en.wikipedia.org/wiki/Septic_shock
+endocarditis,DISEASE,require,meningitis,DISEASE,"However, specific infections such as endocarditis and osteomyelitis and infections caused by indwelling devices that cannot be removed may require longer durations of antibiotic therapy.[1]
+Specific antibiotic treatment choices for different infections causing sepsis
+[edit]Meningitis
+[edit]To treat meningitis-related sepsis, one can administer vancomycin, ceftriaxone, ampicillin, and dexamethasone (a corticosteroid used as an anti-inflammatory to reduce neuro complications).[52]",https://en.wikipedia.org/wiki/Septic_shock
+vancomycin,TREATMENT,add in,vancomycin,TREATMENT,"Vancomycin should be added in the cases of empyema.[52]
+Skin and soft-tissue infection
+[edit]Can administer vancomycin or linezolid with zosyn, or carbapenem, or cefepime and metronidazole.[54]",https://en.wikipedia.org/wiki/Septic_shock
+vancomycin,TREATMENT,recommend,vancomycin,TREATMENT,If a necrotizing infection is suspected then a carbapenem with vancomycin and clindamycin is recommended and surgery should also be consulted.[55,https://en.wikipedia.org/wiki/Septic_shock
+vancomycin,TREATMENT,given.[56,vancomycin,TREATMENT,If the patient has a beta lactam allergy then vancomycin with aztreonam and metronidazole can be given.[56],https://en.wikipedia.org/wiki/Septic_shock
+vancomycin,TREATMENT,given.[57,vancomycin,TREATMENT,If the patient has a beta lactam allergy then aztreonam with vancomycin or ciprofloxacin with clindamycin can be given.[57],https://en.wikipedia.org/wiki/Septic_shock
+vancomycin,TREATMENT,added.[57,vancomycin,TREATMENT,"If the patient is neutropenic with septic shock, pneumonia, has an infected venous catheter, skin and soft-tissue infection, gram-positive bacteremia, or mucositis then vancomycin should be added.[57",https://en.wikipedia.org/wiki/Septic_shock
+vasopressor,TREATMENT,given.[58,vasopressor,TREATMENT,It has also been shown that the mortality of patients with septic shock increases by 5% per hour that the vasopressor is not given.[58,https://en.wikipedia.org/wiki/Septic_shock
+norepinephrine,TREATMENT,start at,norepinephrine,TREATMENT,Norepinephrine is started at 2-5 mcg per minute and can rise as high as 35-90 mcg per minute.[28],https://en.wikipedia.org/wiki/Septic_shock
+norepinephrine,TREATMENT,give through,norepinephrine,TREATMENT,If the placement of a central venous catheter is delayed then norepinephrine can be given through a peripheral IV.[59],https://en.wikipedia.org/wiki/Septic_shock
+norepinephrine,TREATMENT,give through,vasopressor,TREATMENT,If the placement of a central venous catheter is delayed then norepinephrine can be given through a peripheral IV.[59],https://en.wikipedia.org/wiki/Septic_shock
+sepsis,DISEASE,have with,septic shock,DISEASE,"Epidemiology
+[edit]Sepsis has a worldwide incidence of more than 49 million cases a year, with 11 million sepsis-related deaths per year.[3]",https://en.wikipedia.org/wiki/Septic_shock
+septic shock,DISEASE,increase at,age 60,DATE,"The risk of septic shock increases at age 60, with those at age 70 having the highest risk of dying from sepsis.[11]
+The mortality rate from sepsis, especially if it is not treated rapidly with the needed medications in a hospital, is approximately 40% in adults and 25% in children.[68][69]",https://en.wikipedia.org/wiki/Septic_shock
+age 70,DATE,have,sepsis,DISEASE,"The risk of septic shock increases at age 60, with those at age 70 having the highest risk of dying from sepsis.[11]
+The mortality rate from sepsis, especially if it is not treated rapidly with the needed medications in a hospital, is approximately 40% in adults and 25% in children.[68][69]",https://en.wikipedia.org/wiki/Septic_shock
+septic shock,DISEASE,show,septic shock,DISEASE,The in-hospital mortality for septic shock specifically has been shown to increase 1.8% for each additional hour that antibiotics are not administered after the patient has arrived in the emergency department.[28],https://en.wikipedia.org/wiki/Septic_shock
+antibiotics,TREATMENT,administer,antibiotics,TREATMENT,The in-hospital mortality for septic shock specifically has been shown to increase 1.8% for each additional hour that antibiotics are not administered after the patient has arrived in the emergency department.[28],https://en.wikipedia.org/wiki/Septic_shock
+pct,BIOMARKER,show in,pct,BIOMARKER,The pathway for production of PCT under normal and inflammatory conditions are shown in Figure 2.[10],https://en.wikipedia.org/wiki/Procalcitonin
+pct,BIOMARKER,cleave,pct,BIOMARKER,"During inflammation, LPS, microbial toxin, and inflammatory mediators, such as IL-6 or TNF-α, induce the CALC-1 gene in adipocytes, but PCT never gets cleaved to produce CT.[10]",https://en.wikipedia.org/wiki/Procalcitonin
+pct,BIOMARKER,produce In,pct,BIOMARKER,"In a healthy individual, PCT in endocrine cells is produced by CALC-1 by elevated calcium levels, glucocorticoids, CGRP, glucagon, or gastrin, and is cleaved to form CT, which is released to the blood.[10]
+PCT is located on the CALC-1 gene on chromosome 11.[9]",https://en.wikipedia.org/wiki/Procalcitonin
+pct,BIOMARKER,locate on,pct,BIOMARKER,"In a healthy individual, PCT in endocrine cells is produced by CALC-1 by elevated calcium levels, glucocorticoids, CGRP, glucagon, or gastrin, and is cleaved to form CT, which is released to the blood.[10]
+PCT is located on the CALC-1 gene on chromosome 11.[9]",https://en.wikipedia.org/wiki/Procalcitonin
+pct,BIOMARKER,occur In,pct,BIOMARKER,"In healthy and non-infected individuals, transcription of PCT only occurs in neuroendocrine tissue, except for the C cells in the thyroid.",https://en.wikipedia.org/wiki/Procalcitonin
+pct,BIOMARKER,secrete In,pct,BIOMARKER,"In a microbial infected individual, non-neuroendocrine tissue also secretes PCT by expression of CALC-1.",https://en.wikipedia.org/wiki/Procalcitonin
+pct,BIOMARKER,reduce without,ed,CARE_UNIT,✓✓✓ | PCT reduces antibiotic exposure without adverse outcomes in the ED |,https://en.wikipedia.org/wiki/Procalcitonin
+pct,BIOMARKER,reduce during,meningitis,DISEASE,PCT reduces antibiotic exposure during outbreak of viral meningitis |,https://en.wikipedia.org/wiki/Procalcitonin
+pct,BIOMARKER,reduce without,antibiotic,TREATMENT,| Pneumonia | RCT | 0.1-0. 5; 80-90% ↓ | ✓✓✓ | PCT reduces antibiotic without adverse outcomes exposure in the hospital |,https://en.wikipedia.org/wiki/Procalcitonin
+pct,BIOMARKER,reduce without,icu,CARE_UNIT,"|
+| Postoperative infections | RCT | 0.5-1.0; 75-85% ↓ | ✓✓ | PCT reduces antibiotic exposure without adverse outcomes in the surgical ICU |",https://en.wikipedia.org/wiki/Procalcitonin
+pct,BIOMARKER,have,sepsis,DISEASE,"[47][50] |
+Medical uses
+[edit]Sepsis
+[edit]Measurement of procalcitonin can be used as a marker of severe sepsis caused by bacteria and generally grades well with the degree of sepsis,[51] although levels of procalcitonin in the blood are very low. PCT has the greatest sensitivity (90%) and specificity (91%) for differentiating patients with systemic inflammatory response syndrome (SIRS) from those with sepsis, when compared with IL-2, IL-6, IL-8, CRP and TNF-alpha.[52]",https://en.wikipedia.org/wiki/Procalcitonin
+pct,BIOMARKER,outperform In,crp,BIOMARKER,"In the study, PCT outperformed CRP in diagnostic accuracy of predicting sepsis.[56]",https://en.wikipedia.org/wiki/Procalcitonin
+pct,BIOMARKER,outperform In,sepsis,DISEASE,"In the study, PCT outperformed CRP in diagnostic accuracy of predicting sepsis.[56]",https://en.wikipedia.org/wiki/Procalcitonin
+procalcitonin,BIOMARKER,lead to,antibiotics,TREATMENT,"The use of procalcitonin guided antibiotic therapy leads to lower mortality, less antibiotic usage, decreased side effects due to antibiotics and promotes good antibiotic stewardship.[59]",https://en.wikipedia.org/wiki/Procalcitonin
+The European Society of Cardiology,ORG,release,antibiotics,TREATMENT,"It also has value as a prognostic lab value in patients with atherosclerosis or coronary heart disease as its levels correlate with the severity of the illness.[63]
+The European Society of Cardiology recently released a PCT-guided algorithm for administering antibiotics in patients with dyspnea and suspected acute heart failure.",https://en.wikipedia.org/wiki/Procalcitonin
+pct,BIOMARKER,have in,pct,BIOMARKER,This was shown in a review of over 2000 patients in which PCT had a sensitivity of 86% and a specificity of 80% for cerebrospinal fluid PCT.,https://en.wikipedia.org/wiki/Procalcitonin
+pct,BIOMARKER,have,meningitis,DISEASE,This followed a 2015 meta analysis that showed that PCT had a sensitivity of 90% and a specificity of 98% in judging viral versus bacterial meningitis.,https://en.wikipedia.org/wiki/Procalcitonin
+pct,BIOMARKER,outperform,c-reactive protein,BIOMARKER,"PCT also outperformed other biomarkers such as C-reactive protein.[69]
+Gastrointestinal disease
+[edit]Evidence shows that an elevated PCT above .5 ng/mL could help diagnose infectious complications of inflammatory bowel disease such as abdominal abscesses, bacterial enterocolitis etc.",https://en.wikipedia.org/wiki/Procalcitonin
+procalcitonin,BIOMARKER,study in,procalcitonin,BIOMARKER,"Kidney disease
+[edit]Patients with chronic kidney disease and end-stage renal disease are at higher risk for infections, and procalcitonin has been studied in these populations, who often have higher levels.",https://en.wikipedia.org/wiki/Procalcitonin
+procalcitonin,BIOMARKER,dialyze,procalcitonin,BIOMARKER,"Procalcitonin can be dialyzed, and so levels are dependent upon when patients receive hemodialysis.",https://en.wikipedia.org/wiki/Procalcitonin
+pct,BIOMARKER,use,pct,BIOMARKER,"While there is no formally accepted cutoff value for patients undergoing HD, using a value of greater or equal to 0.5 ng/mL yielded a sensitivity of 97-98% and a specificity of 70-96%.[71]
+Hepatitis
+[edit]PCT, possibly together with CRP, is used to corroborate the MELD score.[72][73",https://en.wikipedia.org/wiki/Procalcitonin
+pct,BIOMARKER,have edit]In,sepsis,DISEASE,"]
+Pediatrics
+[edit]In a meta analysis of 17 studies, PCT had a sensitivity of 85% and a specificity of 54% in diagnosing sepsis in neonates and children.",https://en.wikipedia.org/wiki/Procalcitonin
+pct,BIOMARKER,have edit]In,pct,BIOMARKER,"]
+Pediatrics
+[edit]In a meta analysis of 17 studies, PCT had a sensitivity of 85% and a specificity of 54% in diagnosing sepsis in neonates and children.",https://en.wikipedia.org/wiki/Procalcitonin
+antibiotic,TREATMENT,reduce,antibiotic,TREATMENT,"Antibiotic stewardship
+[edit]Procalcitonin guided cessation of antibiotic use reduces duration of antibiotic exposure and lowers mortality in critically ill patients in the Intensive Care Unit.[80]
+In adult emergency department patients with respiratory tract illnesses, PCT-guided treatment groups had reduced antibiotic use.[81",https://en.wikipedia.org/wiki/Procalcitonin
+antibiotic,TREATMENT,reduce In,pct,BIOMARKER,"Antibiotic stewardship
+[edit]Procalcitonin guided cessation of antibiotic use reduces duration of antibiotic exposure and lowers mortality in critically ill patients in the Intensive Care Unit.[80]
+In adult emergency department patients with respiratory tract illnesses, PCT-guided treatment groups had reduced antibiotic use.[81",https://en.wikipedia.org/wiki/Procalcitonin
+procalcitonin,BIOMARKER,observed.[84 in,procalcitonin,BIOMARKER,"PCT references ranges are also used to determine the likelihood a patient has systemic infection (sepsis), thereby reducing incidence of unnecessary antibiotic use in cases where sepsis is unlikely.[82]
+Although some literature differs in antibiotic cessation requirements the general consensus is stopping antibiotics when procalcitonin levels fall 80% below peak or below 0.5 μg/L at day five or later during antibiotic therapy.[83]
+PCT and amphetamines
+[edit]Excessive overdose on amphetamine or its analogs can induce systemic inflammation; in a case report of amphetamine overdose, without bacterial infection, significant elevations in procalcitonin were observed.[84]
+References
+[edit]- ^ ""Procalcitonin: Reference Range, Interpretation, Collection and Panels"". 2017-03-09.
+{{cite journal}}
+: Cite journal requires|journal=
+(help) - ^ Deftos LJ, Roos BA, Parthemore JG (December 1975).",https://en.wikipedia.org/wiki/Procalcitonin
+procalcitonin,BIOMARKER,reflect in,bacteremia,DISEASE,"""Procalcitonin reflects bacteremia and bacterial load in urosepsis syndrome: a prospective observational study"".",https://en.wikipedia.org/wiki/Procalcitonin
+procalcitonin,BIOMARKER,predict in,sepsis,DISEASE,"""Elevated procalcitonin predicts Gram-negative sepsis in haematological patients with febrile neutropenia"".",https://en.wikipedia.org/wiki/Procalcitonin
+procalcitonin,BIOMARKER,predict in,Scandinavian Journal of Infectious Diseases,ORG,"""Elevated procalcitonin predicts Gram-negative sepsis in haematological patients with febrile neutropenia"".",https://en.wikipedia.org/wiki/Procalcitonin
+procalcitonin,BIOMARKER,reduce,antibiotic,TREATMENT,"""Procalcitonin (PCT)-guided algorithm reduces length of antibiotic treatment in surgical intensive care patients with severe sepsis: results of a prospective randomized study"".",https://en.wikipedia.org/wiki/Procalcitonin
+sepsis,DISEASE,deal with,sepsis,DISEASE,"Immune responses to the bacteria can cause sepsis and septic shock, which, particularly if severe sepsis and then septic shock occurs, have high mortality rates, especially if not treated quickly (though, if treated early, currently mild sepsis can usually be dealt with successfully).[6]",https://en.wikipedia.org/wiki/Bacteremia
+antibiotic,TREATMENT,give in,antibiotic,TREATMENT,"Treatment for bacteremia is with antibiotics, and prevention with antibiotic prophylaxis can be given in high risk situations.[7",https://en.wikipedia.org/wiki/Bacteremia
+bacteremia,DISEASE,evoke ],sepsis,DISEASE,"]
+Signs and symptoms
+[edit]Low-grade bacteremia is typically transient and is quickly removed from the blood by the immune system.[5]
+Bacteremia frequently evokes a response from the immune system called sepsis, which consists of symptoms such as fever, chills, and hypotension.[8]",https://en.wikipedia.org/wiki/Bacteremia
+bacteremia,DISEASE,result in,organ dysfunction,DISEASE,"Severe immune responses to bacteremia may result in septic shock and multiple organ dysfunction syndrome,[8] which are potentially fatal.",https://en.wikipedia.org/wiki/Bacteremia
+bacteremia,DISEASE,divide into,bacteremia,DISEASE,"Causes of bacteremia can additionally be divided into healthcare-associated (acquired during the process of receiving care in a healthcare facility) or community-acquired (acquired outside of a health facility, often prior to hospitalization).[citation needed]
+Gram positive bacteremia
+[edit]Gram positive bacteria are an increasingly important cause of bacteremia.[13]",https://en.wikipedia.org/wiki/Bacteremia
+bacteremia,DISEASE,cause in,bacteremia,DISEASE,"Resistant enterococcal species can cause bacteremia in patients who have had long hospital stays or frequent antibiotic use in the past (see antibiotic misuse).[20]
+Gram negative bacteremia
+[edit]Gram negative bacterial species are responsible for approximately 24% of all cases of healthcare-associated bacteremia and 45% of all cases of community-acquired bacteremia.[21][22]",https://en.wikipedia.org/wiki/Bacteremia
+bacteremia,DISEASE,cause in,antibiotic,TREATMENT,"Resistant enterococcal species can cause bacteremia in patients who have had long hospital stays or frequent antibiotic use in the past (see antibiotic misuse).[20]
+Gram negative bacteremia
+[edit]Gram negative bacterial species are responsible for approximately 24% of all cases of healthcare-associated bacteremia and 45% of all cases of community-acquired bacteremia.[21][22]",https://en.wikipedia.org/wiki/Bacteremia
+bacteremia,DISEASE,occur in,65 years or older,DATE,Gram-negative bacteremia occurs more frequently in elderly populations (65 years or older) and is associated with higher morbidity and mortality in this population.[23]E.coli,https://en.wikipedia.org/wiki/Bacteremia
+bacteremia,DISEASE,include,klebsiella pneumoniae,BACTERIA,"Other organisms that can cause community-acquired bacteremia include Pseudomonas aeruginosa, Klebsiella pneumoniae, and Proteus mirabilis.",https://en.wikipedia.org/wiki/Bacteremia
+bacteremia,DISEASE,diagnose,bacteremia,DISEASE,"Prior to widespread use of vaccines, occult bacteremia was an important consideration in febrile children that appeared otherwise well.[32]
+Diagnosis
+[edit]Bacteremia is most commonly diagnosed by blood culture, in which a sample of blood drawn from the vein by needle puncture is allowed to incubate with a medium that promotes bacterial growth.[33]",https://en.wikipedia.org/wiki/Bacteremia
+bacteremia,DISEASE,define as,bacteremia,DISEASE,Bacteremia is defined as either a primary or secondary process.,https://en.wikipedia.org/wiki/Bacteremia
+bacteremia,DISEASE,define,bacteremia,DISEASE,"Bacteria that have infected the body at these sites may then spread into the lymphatic system and gain access to the bloodstream, where further spread can occur.[43]
+Bacteremia may also be defined by the timing of bacteria presence in the bloodstream: transient, intermittent, or persistent. In transient bacteremia, bacteria are present in the bloodstream for minutes to a few hours before being cleared from the body, and the result is typically harmless in healthy people.[44]",https://en.wikipedia.org/wiki/Bacteremia
+bacteremia,DISEASE,characterize,bacteremia,DISEASE,"Intermittent bacteremia is characterized by periodic seeding of the same bacteria into the bloodstream by an existing infection elsewhere in the body, such as an abscess, pneumonia, or bone infection, followed by clearing of that bacteria from the bloodstream.",https://en.wikipedia.org/wiki/Bacteremia
+bacteremia,DISEASE,occur as,meningitis,DISEASE,"Persistent bacteremia can also occur as part of the infection process of typhoid fever, brucellosis, and bacterial meningitis.",https://en.wikipedia.org/wiki/Bacteremia
+antibiotics,TREATMENT,delay,antibiotics,TREATMENT,This is because there are high mortality rates from progression to sepsis if antibiotics are delayed.,https://en.wikipedia.org/wiki/Bacteremia
+blood culture,TREATMENT,start on,blood culture,TREATMENT,Any patient presenting with signs or symptoms of bacteremia or a positive blood culture should be started on intravenous antibiotics.[23],https://en.wikipedia.org/wiki/Bacteremia
+blood culture,TREATMENT,start on,antibiotics,TREATMENT,Any patient presenting with signs or symptoms of bacteremia or a positive blood culture should be started on intravenous antibiotics.[23],https://en.wikipedia.org/wiki/Bacteremia
+antibiotic,TREATMENT,determine,antibiotic,TREATMENT,The choice of antibiotic is determined by the most likely source of infection and by the characteristic organisms that typically cause that infection.,https://en.wikipedia.org/wiki/Bacteremia
+antibiotics,TREATMENT,narrow to,antibiotics,TREATMENT,"Empiric antibiotics should be narrowed, preferably to a single antibiotic, once the blood culture returns with a particular bacteria that has been isolated.[47",https://en.wikipedia.org/wiki/Bacteremia
+antibiotics,TREATMENT,narrow to,antibiotic,TREATMENT,"Empiric antibiotics should be narrowed, preferably to a single antibiotic, once the blood culture returns with a particular bacteria that has been isolated.[47",https://en.wikipedia.org/wiki/Bacteremia
+piperacillin,TREATMENT,use for,piperacillin,TREATMENT,"Extended generation cephalosporins such as ceftriaxone or beta lactam/beta lactamase inhibitor antibiotics such as piperacillin-tazobactam are frequently used for the treatment of gram negative bacteremia.[49]
+Catheter-associated infections
+[edit]For healthcare-associated bacteremia due to intravenous catheters, the IDSA has published guidelines for catheter removal.",https://en.wikipedia.org/wiki/Bacteremia
+piperacillin,TREATMENT,use for,bacteremia,DISEASE,"Extended generation cephalosporins such as ceftriaxone or beta lactam/beta lactamase inhibitor antibiotics such as piperacillin-tazobactam are frequently used for the treatment of gram negative bacteremia.[49]
+Catheter-associated infections
+[edit]For healthcare-associated bacteremia due to intravenous catheters, the IDSA has published guidelines for catheter removal.",https://en.wikipedia.org/wiki/Bacteremia
+bacteremia,DISEASE,cause,bacteremia,DISEASE,"Short term catheters (in place <14 days) should be removed if bacteremia is caused by any gram negative bacteria, staph aureus, enterococci or mycobacteria.[50]",https://en.wikipedia.org/wiki/Bacteremia
+>14 days,DATE,remove,>14 days,DATE,"Long term catheters (>14 days) should be removed if the patient is developing signs or symptoms of sepsis or endocarditis, or if blood cultures remain positive for more than 72 hours.[50",https://en.wikipedia.org/wiki/Bacteremia
+e. coli,BACTERIA,involve,e. coli,BACTERIA,"The well-used example of this with E. coli involves the growth of the bacterium on glucose and lactose, where E. coli will consume glucose before lactose.",https://en.wikipedia.org/wiki/Escherichia_coli
+e. coli,BACTERIA,share among,e. coli,BACTERIA,"However, this has not been done, largely due to its medical importance,[38] and E. coli remains one of the most diverse bacterial species: only 20% of the genes in a typical E. coli genome is shared among all strains.[39]",https://en.wikipedia.org/wiki/Escherichia_coli
+MG1655,PRODUCT,acquire in,MG1655,PRODUCT,"Like all lifeforms, new strains of E. coli evolve through the natural biological processes of mutation, gene duplication, and horizontal gene transfer; in particular, 18% of the genome of the laboratory strain MG1655 was horizontally acquired since the divergence from Salmonella.[43]",https://en.wikipedia.org/wiki/Escherichia_coli
+Escherich,PERSON,believe,Escherich,PERSON,"The original strain described by Escherich is believed to be lost, consequently a new type strain (neotype) was chosen as a representative: the neotype strain is U5/41T,[52] also known under the deposit names DSM 30083,[53] ATCC 11775,[54] and NCTC 9001,[55] which is pathogenic to chickens and has an O1:K1:H7 serotype.[56]",https://en.wikipedia.org/wiki/Escherichia_coli
+e. coli,BACTERIA,publish in,e. coli,BACTERIA,"However, all these proposals need to face the fact that Shigella remains a widely used name in medicine and find ways to reduce any confusion that can stem from renaming.[61]
+| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Genomics
+The first complete DNA sequence of an E. coli genome (laboratory strain K-12 derivative MG1655) was published in 1997.",https://en.wikipedia.org/wiki/Escherichia_coli
+e. coli,BACTERIA,publish in,1997,DATE,"However, all these proposals need to face the fact that Shigella remains a widely used name in medicine and find ways to reduce any confusion that can stem from renaming.[61]
+| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Genomics
+The first complete DNA sequence of an E. coli genome (laboratory strain K-12 derivative MG1655) was published in 1997.",https://en.wikipedia.org/wiki/Escherichia_coli
+e. coli,BACTERIA,add to,e. coli,BACTERIA,The genome sequence of the type strain of E. coli was added to this collection before 2014.[52],https://en.wikipedia.org/wiki/Escherichia_coli
+e. coli,BACTERIA,name in,e. coli,BACTERIA,"Gene nomenclature
+Genes in E. coli are usually named in accordance with the uniform nomenclature proposed by Demerec et al.[65]",https://en.wikipedia.org/wiki/Escherichia_coli
+e. coli,BACTERIA,name in,Demerec,PERSON,"Gene nomenclature
+Genes in E. coli are usually named in accordance with the uniform nomenclature proposed by Demerec et al.[65]",https://en.wikipedia.org/wiki/Escherichia_coli
+EG10826,PRODUCT,use for,EG10826,PRODUCT,"Note, however, that most databases have their own numbering system, e.g. the EcoGene database[67] uses EG10826 for recD.",https://en.wikipedia.org/wiki/Escherichia_coli
+e. coli,BACTERIA,study by,e. coli,BACTERIA,"Interactome
+The interactome of E. coli has been studied by affinity purification and mass spectrometry (AP/MS) and by analyzing the binary interactions among its proteins.
+Protein complexes.",https://en.wikipedia.org/wiki/Escherichia_coli
+Rajagopala,PERSON,carry,e. coli,BACTERIA,"Rajagopala et al. (2014) have carried out systematic yeast two-hybrid screens with most E. coli proteins, and found a total of 2,234 protein-protein interactions.[73]",https://en.wikipedia.org/wiki/Escherichia_coli
+Mutaflor,PRODUCT,use as,Mutaflor,PRODUCT,"Nonpathogenic E. coli strain Nissle 1917 (EcN), (Mutaflor) and E. coli O83:K24:H31 (Colinfant)[78][79]) are used as probiotic agents in medicine, mainly for the treatment of various gastrointestinal diseases,[80] including inflammatory bowel disease.[81]",https://en.wikipedia.org/wiki/Escherichia_coli
+Germany,GPE,infect with,Germany,GPE,"The outbreak started when several people in Germany were infected with enterohemorrhagic E. coli (EHEC) bacteria, leading to hemolytic-uremic syndrome (HUS), a medical emergency that requires urgent treatment.",https://en.wikipedia.org/wiki/Escherichia_coli
+"Federal Ministry of Food, Agriculture and Consumer Protection",ORG,announce On,the German Bundesinstitut,ORG,"On 30 June 2011, the German Bundesinstitut für Risikobewertung (BfR) (Federal Institute for Risk Assessment, a federal institute within the German Federal Ministry of Food, Agriculture and Consumer Protection) announced that seeds of fenugreek from Egypt were likely the cause of the EHEC outbreak.[92]",https://en.wikipedia.org/wiki/Escherichia_coli
+antibiotics,TREATMENT,show,antibiotics,TREATMENT,"Administration of antibiotics has been shown to shorten the course of illness and duration of excretion of enterotoxigenic E. coli (ETEC) in adults in endemic areas and in traveller's diarrhea, though the rate of resistance to commonly used antibiotics is increasing and they are generally not recommended.[96]",https://en.wikipedia.org/wiki/Escherichia_coli
+e. coli,BACTERIA,show in,e. coli,BACTERIA,"An oral ETEC vaccine candidate consisting of rCTB and formalin inactivated E. coli bacteria expressing major CFs has been shown in clinical trials to be safe, immunogenic, and effective against severe diarrhoea in American travelers but not against ETEC diarrhoea in young children in Egypt.",https://en.wikipedia.org/wiki/Escherichia_coli
+e. coli,BACTERIA,express in,e. coli,BACTERIA,Many proteins previously thought difficult or impossible to be expressed in E. coli in folded form have been successfully expressed in E. coli.,https://en.wikipedia.org/wiki/Escherichia_coli
+escherichia coli,BACTERIA,use for,escherichia coli,BACTERIA,"]
+Strain OP50 of Escherichia coli is used for maintenance of Caenorhabditis elegans cultures.",https://en.wikipedia.org/wiki/Escherichia_coli
+Joshua Lederberg,PERSON,describe In,e. coli,BACTERIA,"In 1946, Joshua Lederberg and Edward Tatum first described the phenomenon known as bacterial conjugation using E. coli as a model bacterium,[118] and it remains the primary model to study conjugation.[119]",https://en.wikipedia.org/wiki/Escherichia_coli
+Joshua Lederberg,PERSON,describe In,1946,DATE,"In 1946, Joshua Lederberg and Edward Tatum first described the phenomenon known as bacterial conjugation using E. coli as a model bacterium,[118] and it remains the primary model to study conjugation.[119]",https://en.wikipedia.org/wiki/Escherichia_coli
+the Hungarian Academy of Science,ORG,create From,escherichia coli,BACTERIA,"From 2002 to 2010, a team at the Hungarian Academy of Science created a strain of Escherichia coli called MDS42, which is now sold by Scarab Genomics of Madison, WI under the name of ""Clean Genome E. coli"",[123] where 15% of the genome of the parental strain (E. coli K-12 MG1655) were removed to aid in molecular biology efficiency, removing IS elements, pseudogenes and phages, resulting in better maintenance of plasmid-encoded toxic genes, which are often inactivated by transposons.[124][125][126]",https://en.wikipedia.org/wiki/Escherichia_coli
+the Hungarian Academy of Science,ORG,create From,2002 to 2010,DATE,"From 2002 to 2010, a team at the Hungarian Academy of Science created a strain of Escherichia coli called MDS42, which is now sold by Scarab Genomics of Madison, WI under the name of ""Clean Genome E. coli"",[123] where 15% of the genome of the parental strain (E. coli K-12 MG1655) were removed to aid in molecular biology efficiency, removing IS elements, pseudogenes and phages, resulting in better maintenance of plasmid-encoded toxic genes, which are often inactivated by transposons.[124][125][126]",https://en.wikipedia.org/wiki/Escherichia_coli
+e. coli,BACTERIA,remove,e. coli,BACTERIA,"From 2002 to 2010, a team at the Hungarian Academy of Science created a strain of Escherichia coli called MDS42, which is now sold by Scarab Genomics of Madison, WI under the name of ""Clean Genome E. coli"",[123] where 15% of the genome of the parental strain (E. coli K-12 MG1655) were removed to aid in molecular biology efficiency, removing IS elements, pseudogenes and phages, resulting in better maintenance of plasmid-encoded toxic genes, which are often inactivated by transposons.[124][125][126]",https://en.wikipedia.org/wiki/Escherichia_coli
+e. coli,BACTERIA,perform On,e. coli,BACTERIA,"On such synthetic ecosystems, evolutionary experiments with E. coli have been performed to study the spatial biophysics of adaptation in an island biogeography on-chip.",https://en.wikipedia.org/wiki/Escherichia_coli
+e. coli,BACTERIA,developed.[132,e. coli,BACTERIA,"Studies are being performed attempting to program E. coli to solve complicated mathematics problems, such as the Hamiltonian path problem.[131]
+A computer to control protein production of E. coli within yeast cells has been developed.[132]",https://en.wikipedia.org/wiki/Escherichia_coli
+e. coli,BACTERIA,show In,July 2017,DATE,"In July 2017, separate experiments with E. coli published on Nature showed the potential of using living cells for computing tasks and storing information.[135]",https://en.wikipedia.org/wiki/Escherichia_coli
+Wyss Institute for Biologically Inspired Engineering,ORG,develop,e. coli,BACTERIA,A team formed with collaborators of the Biodesign Institute at Arizona State University and Harvard's Wyss Institute for Biologically Inspired Engineering developed a biological computer inside E. coli that responded to a dozen inputs.,https://en.wikipedia.org/wiki/Escherichia_coli
+Sangram Bagh,PERSON,realize In,e. coli,BACTERIA,"In 2021, a team led by biophysicist Sangram Bagh realized a study with E. coli to solve 2 × 2 maze problems to probe the principle for distributed computing among cells.[140][141]
+History",https://en.wikipedia.org/wiki/Escherichia_coli
+Sangram Bagh,PERSON,realize In,2021,DATE,"In 2021, a team led by biophysicist Sangram Bagh realized a study with E. coli to solve 2 × 2 maze problems to probe the principle for distributed computing among cells.[140][141]
+History",https://en.wikipedia.org/wiki/Escherichia_coli
+Theodor Escherich,PERSON,discover In,1885,DATE,"In 1885, the German-Austrian pediatrician Theodor Escherich discovered this organism in the feces of healthy individuals.",https://en.wikipedia.org/wiki/Escherichia_coli
+e. coli,BACTERIA,occur In,1996,DATE,"In 1996, an outbreak of E. coli food poisoning occurred in Wishaw, Scotland, killing 21 people.[147][148]",https://en.wikipedia.org/wiki/Escherichia_coli
+e. coli,BACTERIA,occur In,Scotland,GPE,"In 1996, an outbreak of E. coli food poisoning occurred in Wishaw, Scotland, killing 21 people.[147][148]",https://en.wikipedia.org/wiki/Escherichia_coli
+e. coli,BACTERIA,occur In,2024,DATE,"In 2024, an outbreak of E. coli food poisoning occurred across the U.S. was linked to U.S.-grown organic carrots causing one fatality and dozens of illnesses.[149",https://en.wikipedia.org/wiki/Escherichia_coli
+e. coli,BACTERIA,occur In,U.S.,GPE,"In 2024, an outbreak of E. coli food poisoning occurred across the U.S. was linked to U.S.-grown organic carrots causing one fatality and dozens of illnesses.[149",https://en.wikipedia.org/wiki/Escherichia_coli
+escherichia coli,BACTERIA,reveal,Archives of Microbiology,ORG,"""Genome sequence analyses of two isolates from the recent Escherichia coli outbreak in Germany reveal the emergence of a new pathotype: Entero-Aggregative-Haemorrhagic Escherichia coli (EAHEC)"".",https://en.wikipedia.org/wiki/Escherichia_coli
+U.S.,GPE,link to,U.S.,GPE,"Up to 50,000 deaths each year in the U.S. are linked to staphylococcal infection.[9]
+History
+[edit]Discovery
+[edit]In 1880, Alexander Ogston, a Scottish surgeon, discovered that Staphylococcus can cause wound infections after noticing groups of bacteria in pus from a surgical abscess during a procedure he was performing.",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+Alexander Ogston,PERSON,discover edit]In,1880,DATE,"Up to 50,000 deaths each year in the U.S. are linked to staphylococcal infection.[9]
+History
+[edit]Discovery
+[edit]In 1880, Alexander Ogston, a Scottish surgeon, discovered that Staphylococcus can cause wound infections after noticing groups of bacteria in pus from a surgical abscess during a procedure he was performing.",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+Friedrich Julius Rosenbach,PERSON,identify in,1884,DATE,"Then, in 1884, German scientist Friedrich Julius Rosenbach identified Staphylococcus aureus, discriminating and separating it from Staphylococcus albus, a related bacterium.",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+U.S.,GPE,attribute to,U.S.,GPE,"Annually, over 119,000 bloodstream infections in the U.S. are attributed to S. aureus.[31]",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+a few weeks,DATE,last,a few weeks,DATE,"Once symptoms begin to show, the host is contagious for another two weeks, and the overall illness lasts a few weeks.",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+antibiotics,TREATMENT,use,antibiotics,TREATMENT,Antibiotics are commonly used to target overgrowth of S. aureus but their benefit is limited and they increase the risk of antimicrobial resistance.,https://en.wikipedia.org/wiki/Staphylococcus_aureus
+antibiotic,TREATMENT,use,antibiotics,TREATMENT,"An alternative to postsurgical antibiotic treatment is using antibiotic-loaded, dissolvable calcium sulfate beads, which are implanted with the medical device.",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+antibiotic,TREATMENT,study,antibiotic,TREATMENT,"These beads can release high doses of antibiotics at the desired site to prevent the initial infection.[60]
+Novel treatments for S. aureus biofilm involving nano silver particles, bacteriophages, and plant-derived antibiotic agents are being studied.",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+vancomycin,TREATMENT,use For,vancomycin,TREATMENT,"For this reason, vancomycin, a glycopeptide antibiotic, is commonly used to combat MRSA.",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+antibiotics,TREATMENT,target unlike,antibiotics,TREATMENT,"Vancomycin inhibits the synthesis of peptidoglycan, but unlike β-lactam antibiotics, glycopeptide antibiotics target and bind to amino acids in the cell wall, preventing peptidoglycan cross-linkages from forming.",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+staphylococcus aureus,BACTERIA,report in,staphylococcus aureus,BACTERIA,"Methicillin was the first antibiotic in this class to be used (it was introduced in 1959), but only two years later, the first case of methicillin-resistant Staphylococcus aureus (MRSA) was reported in England.[133]",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+antibiotics,TREATMENT,lead to,antibiotics,TREATMENT,"Resistance to these antibiotics has also led to the use of new, broad-spectrum anti-Gram-positive antibiotics, such as linezolid, because of its availability as an oral drug.",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+antibiotic,TREATMENT,use,antibiotic,TREATMENT,"Glycopeptides must not be used to treat methicillin-sensitive S. aureus (MSSA), as outcomes are inferior.[136]
+Daptomycin is a cyclic lipopeptide antibiotic primarily used for treating Gram-positive bacterial infections, including those caused by Staphylococcus aureus.",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+the U.S. Centers for Disease Control and Prevention,ORG,publish Because,vancomycin,TREATMENT,"]
+Because of the high level of resistance to penicillins and because of the potential for MRSA to develop resistance to vancomycin, the U.S. Centers for Disease Control and Prevention has published guidelines[140] for the appropriate use of vancomycin.",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+vancomycin,TREATMENT,report in,vancomycin,TREATMENT,The first case of vancomycin-intermediate S. aureus (VISA) was reported in Japan in 1996;[141] but the first case of S. aureus truly resistant to glycopeptide antibiotics was only reported in 2002.[142],https://en.wikipedia.org/wiki/Staphylococcus_aureus
+vancomycin,TREATMENT,report in,Japan,GPE,The first case of vancomycin-intermediate S. aureus (VISA) was reported in Japan in 1996;[141] but the first case of S. aureus truly resistant to glycopeptide antibiotics was only reported in 2002.[142],https://en.wikipedia.org/wiki/Staphylococcus_aureus
+antibiotics,TREATMENT,report in,antibiotics,TREATMENT,The first case of vancomycin-intermediate S. aureus (VISA) was reported in Japan in 1996;[141] but the first case of S. aureus truly resistant to glycopeptide antibiotics was only reported in 2002.[142],https://en.wikipedia.org/wiki/Staphylococcus_aureus
+Intercell,ORG,conduct,Intercell,ORG,"Early clinical trials have been conducted for several vaccines candidates such as Nabi's StaphVax and PentaStaph, Intercell's / Merck's V710, VRi's SA75, and others.[162",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+StaphVax,PRODUCT,stop in,StaphVax,PRODUCT,The development of Nabi's StaphVax was stopped in 2005 after phase III trials failed.[163],https://en.wikipedia.org/wiki/Staphylococcus_aureus
+StaphVax,PRODUCT,stop in,2005,DATE,The development of Nabi's StaphVax was stopped in 2005 after phase III trials failed.[163],https://en.wikipedia.org/wiki/Staphylococcus_aureus
+GlaxoSmithKline Biologicals S.A.[165,ORG,sell in,GlaxoSmithKline Biologicals S.A.[165,ORG,"Intercell's first V710 vaccine variant was terminated during phase II/III after higher mortality and morbidity were observed among patients who developed S. aureus infection.[164]
+Nabi's enhanced S. aureus vaccines candidate PentaStaph was sold in 2011 to GlaxoSmithKline Biologicals S.A.[165]",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+GlaxoSmithKline Biologicals S.A.[165,ORG,sell in,2011,DATE,"Intercell's first V710 vaccine variant was terminated during phase II/III after higher mortality and morbidity were observed among patients who developed S. aureus infection.[164]
+Nabi's enhanced S. aureus vaccines candidate PentaStaph was sold in 2011 to GlaxoSmithKline Biologicals S.A.[165]",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+GlaxoSmithKline,ORG,start In,GSK2392103A,PRODUCT,"In 2010, GlaxoSmithKline started a phase 1 blind study to evaluate its GSK2392103A vaccine.[167]",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+GlaxoSmithKline,ORG,start In,2010,DATE,"In 2010, GlaxoSmithKline started a phase 1 blind study to evaluate its GSK2392103A vaccine.[167]",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+Pfizer,ORG,commence In,2015,DATE,"In 2015, Pfizer has commenced a phase 2b trial regarding the SA4Ag vaccine.[170]",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+Novartis Vaccines and Diagnostics,ORG,publish In,staphylococcus aureus,BACTERIA,"In 2015, Novartis Vaccines and Diagnostics, a former division of Novartis and now part of GlaxoSmithKline, published promising pre-clinical results of their four-component Staphylococcus aureus vaccine, 4C-staph.[172]
+In addition to vaccine development, research is being performed to develop alternative treatment options that are effective against antibiotic resistant strains including MRSA.",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+Novartis Vaccines and Diagnostics,ORG,publish In,2015,DATE,"In 2015, Novartis Vaccines and Diagnostics, a former division of Novartis and now part of GlaxoSmithKline, published promising pre-clinical results of their four-component Staphylococcus aureus vaccine, 4C-staph.[172]
+In addition to vaccine development, research is being performed to develop alternative treatment options that are effective against antibiotic resistant strains including MRSA.",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+NCTC,ORG,use in,NCTC,ORG,"Examples of alternative treatments are phage therapy, antimicrobial peptides and host-directed therapy.[173][174]
+Standard strains
+[edit]A number of standard strains of S. aureus (called ""type cultures"") are used in research and in laboratory testing, such as:
+| Name | NCTC | ATCC | Year of deposit | Comment |
+|---|---|---|---|---|
+| Oxford H | 6571 | 9144 | 1943 | Standard strain used for testing penicillin potency and by which the penicillin unit was originally defined.[175][176]",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+staphylococcus aureus,BACTERIA,secrete,Nature Microbiology,ORG,"""The type VII secretion system of Staphylococcus aureus secretes a nuclease toxin that targets competitor bacteria"".",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+staphylococcus aureus,BACTERIA,contribute to,Frontiers in Microbiology,ORG,"""A Novel ESAT-6 Secretion System-Secreted Protein EsxX of Community-Associated Staphylococcus aureus Lineage ST398 Contributes to Immune Evasion and Virulence"".",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+streptococcus pneumoniae,BACTERIA,protect against,Journal of Biological Chemistry,ORG,"""A newly identified flavoprotein disulfide reductase Har protects Streptococcus pneumoniae against hypothiocyanous acid"".",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+Merck,ORG,terminate,Merck & Co.,ORG,"- ^ ""Intercell, Merck terminate V710 Phase II/III trial against S. aureus infection"".",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+Nabi Biopharmaceuticals Completes,ORG,complete,GLOBE NEWSWIRE,ORG,"- ^ ""Nabi Biopharmaceuticals Completes Final PentaStaph(TM) Milestone"" (Press release).",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+Pfizer,ORG,begin,staphylococcus aureus,BACTERIA,"- ^ ""Pfizer Begins Phase 2b Study of Its Investigational Multi-antigen Staphylococcus aureus Vaccine in Adults Undergoing Elective Spinal Fusion Surgery"".",https://en.wikipedia.org/wiki/Staphylococcus_aureus
+pneumonia,DISEASE,isolate edit]In,pneumonia,DISEASE,"History
+[edit]In 1881, the organism, known later in 1886 as the pneumococcus[11] for its role as a cause of pneumonia, was first isolated simultaneously and independently by the U.S. Army physician George Sternberg[12] and the French chemist Louis Pasteur.[13]
+The organism was termed Diplococcus pneumoniae from 1920[14] because of its characteristic appearance in Gram-stained sputum.",https://en.wikipedia.org/wiki/Streptococcus_pneumoniae
+pneumonia,DISEASE,isolate edit]In,1881,DATE,"History
+[edit]In 1881, the organism, known later in 1886 as the pneumococcus[11] for its role as a cause of pneumonia, was first isolated simultaneously and independently by the U.S. Army physician George Sternberg[12] and the French chemist Louis Pasteur.[13]
+The organism was termed Diplococcus pneumoniae from 1920[14] because of its characteristic appearance in Gram-stained sputum.",https://en.wikipedia.org/wiki/Streptococcus_pneumoniae
+Frederick Griffith,PERSON,demonstrate In,1928,DATE,"In 1928, Frederick Griffith demonstrated transformation of life turning harmless pneumococcus into a lethal form by co-inoculating the live pneumococci into a mouse along with heat-killed virulent pneumococci.[16]",https://en.wikipedia.org/wiki/Streptococcus_pneumoniae
+Maclyn McCarty,PERSON,demonstrate In,1944,DATE,"In 1944, Oswald Avery, Colin MacLeod, and Maclyn McCarty demonstrated that the transforming factor in Griffith's experiment was not protein, as was widely believed at the time, but DNA.[17]",https://en.wikipedia.org/wiki/Streptococcus_pneumoniae
+meningitis,DISEASE,lead to,meningitis,DISEASE,"While a few different bacterial infections can lead to meningitis, S. pneumoniae is one of the leading causes of this infection.",https://en.wikipedia.org/wiki/Streptococcus_pneumoniae
+PCV13,PRODUCT,develop after,PCV13,PRODUCT,PCV13 was developed after determining PPSV23's low efficacy in children and infants.,https://en.wikipedia.org/wiki/Streptococcus_pneumoniae
+streptococcus pneumoniae,BACTERIA,describe For,streptococcus pneumoniae,BACTERIA,"For instance, the Xisco gene was recently described as a biomarker for PCR-based detection of S. pneumoniae and differentiation from closely related species.[50]
+Atromentin and leucomelone possess antibacterial activity, inhibiting the enzyme enoyl-acyl carrier protein reductase, (essential for the biosynthesis of fatty acids) in S. pneumoniae.[51]
+Resistance
+[edit]Resistant pneumococcal strains are called penicillin-resistant pneumococci (PRP),[52] penicillin-resistant Streptococcus pneumoniae (PRSP),[53] Streptococcus pneumoniae penicillin resistant (SPPR)[54] or drug-resistant Strepotococcus pneumoniae (DRSP).",https://en.wikipedia.org/wiki/Streptococcus_pneumoniae
+vancomycin,TREATMENT,take by,vancomycin,TREATMENT,Vancomycin is also taken orally (by mouth) to treat Clostridioides difficile infections.[6][9][10],https://en.wikipedia.org/wiki/Vancomycin
+vancomycin,TREATMENT,approve for,vancomycin,TREATMENT,Vancomycin was approved for medical use in the United States in 1958.[13],https://en.wikipedia.org/wiki/Vancomycin
+vancomycin,TREATMENT,approve for,the United States,GPE,Vancomycin was approved for medical use in the United States in 1958.[13],https://en.wikipedia.org/wiki/Vancomycin
+WHO,ORG,classify as,vancomycin,TREATMENT,The WHO classifies vancomycin as critically important for human medicine.[15],https://en.wikipedia.org/wiki/Vancomycin
+vancomycin,TREATMENT,make,vancomycin,TREATMENT,Vancomycin is made by the soil bacterium Amycolatopsis orientalis.[6,https://en.wikipedia.org/wiki/Vancomycin
+vancomycin,TREATMENT,indicate for,vancomycin,TREATMENT,"Medical uses
+[edit]Vancomycin is indicated for the treatment of serious, life-threatening infections by Gram-positive bacteria of both aerobic and anaerobic types[16] that are unresponsive to other antibiotics.[17][18][19]
+The increasing emergence of vancomycin-resistant enterococci (VRE) has resulted in the development of guidelines for use by the Centers for Disease Control Hospital Infection Control Practices Advisory Committee.",https://en.wikipedia.org/wiki/Vancomycin
+vancomycin,TREATMENT,result in,the Centers for Disease Control Hospital Infection Control Practices Advisory Committee,ORG,"Medical uses
+[edit]Vancomycin is indicated for the treatment of serious, life-threatening infections by Gram-positive bacteria of both aerobic and anaerobic types[16] that are unresponsive to other antibiotics.[17][18][19]
+The increasing emergence of vancomycin-resistant enterococci (VRE) has resulted in the development of guidelines for use by the Centers for Disease Control Hospital Infection Control Practices Advisory Committee.",https://en.wikipedia.org/wiki/Vancomycin
+vancomycin,TREATMENT,give in,vancomycin,TREATMENT,"These guidelines restrict use of vancomycin to these indications:[20][21]
+- treatment of serious infections caused by susceptible organisms resistant to penicillins, such as methicillin-resistant S. aureus (MRSA) and multidrug-resistant S. epidermidis (MRSE),
+- treatment of infections in individuals with serious allergy to penicillins,
+- treatment of pseudomembranous colitis caused by C. difficile; in particular, in cases of relapse or where the infection is unresponsive to metronidazole treatment (for this indication, vancomycin is given orally rather than intravenously),
+- treatment of infections caused by Gram-positive microorganisms in patients with serious allergies to beta-lactam antimicrobials,[21]
+- antibacterial prophylaxis for endocarditis after certain procedures in penicillin-hypersensitive people at high risk,[21]
+- surgical prophylaxis for major procedures involving implantation of prostheses in institutions with a high rate of MRSA or MRSE,[21]
+- early in treatment as an empiric antibiotic for possible MRSA infection while waiting for culture identification of the infecting organism,
+- halting the progression of primary sclerosing cholangitis and preventing symptoms; vancomycin does not cure the patient and success is limited,
+- treatment of endophthalmitis by intravitreal injection for Gram-positive bacteria coverage;[22] it has been used to prevent the condition but is not recommended due to the risk of side effects.[23]
+Spectrum of susceptibility
+[edit]Vancomycin is a last-resort medication for the treatment of sepsis and lower respiratory tract, skin, and bone infections caused by Gram-positive bacteria.",https://en.wikipedia.org/wiki/Vancomycin
+vancomycin,TREATMENT,include,vancomycin,TREATMENT,"Side effects
+[edit]Oral administration
+[edit]Common side effects associated with oral vancomycin administration (used to treat intestinal infections)[28] include:
+- gastrointestinal adverse effects (such as abdominal pain and nausea);[28]
+- dysgeusia (distorted sense of taste), in case of administration of vancomycin oral solution, but not in case of vancomycin capsules.[28]
+Intravenous administration
+[edit]Serum vancomycin levels may be monitored in an effort to reduce side effects,[29] but the value of such monitoring has been questioned.[30",https://en.wikipedia.org/wiki/Vancomycin
+vancomycin,TREATMENT,consider based,vancomycin,TREATMENT,"Rare adverse effects associated with intravenous vancomycin (<0.1% of patients) include anaphylaxis, toxic epidermal necrolysis, erythema multiforme, superinfection, thrombocytopenia, neutropenia, leukopenia, tinnitus, dizziness and/or ototoxicity, and DRESS syndrome.[36]
+Vancomycin can induce platelet-reactive antibodies in the patient, leading to severe thrombocytopenia and bleeding with florid petechial hemorrhages, ecchymoses, and wet purpura.[37]
+Historically, vancomycin has been considered a nephrotoxic and ototoxic drug, based on numerous case reports in the medical literature following initial approval by the FDA in 1958.",https://en.wikipedia.org/wiki/Vancomycin
+piperacillin,TREATMENT,associate In,piperacillin,TREATMENT,"In children, concomitant administration of vancomycin and piperacillin/tazobactam has been associated with an elevated incidence of AKI relative to other antibiotic regimens.[48]
+Ototoxicity
+[edit]Attempts to establish rates of vancomycin-induced ototoxicity are even more difficult due to lack of good data.",https://en.wikipedia.org/wiki/Vancomycin
+piperacillin,TREATMENT,associate In,antibiotic,TREATMENT,"In children, concomitant administration of vancomycin and piperacillin/tazobactam has been associated with an elevated incidence of AKI relative to other antibiotic regimens.[48]
+Ototoxicity
+[edit]Attempts to establish rates of vancomycin-induced ototoxicity are even more difficult due to lack of good data.",https://en.wikipedia.org/wiki/Vancomycin
+vancomycin,TREATMENT,add to,vancomycin,TREATMENT,"Clinical studies have yielded various results, but animal models indicate that the nephrotoxic effect probably increases when vancomycin is added to nephrotoxins such as aminoglycosides.",https://en.wikipedia.org/wiki/Vancomycin
+vancomycin,TREATMENT,recommend due,vancomycin,TREATMENT,"]
+Vancomycin Flushing Reaction (aka ""Red man syndrome"")
+[edit]Vancomycin is recommended to be administered in a dilute solution slowly, over at least 60 min (maximum rate of 10 mg/min for doses >500 mg)[20] due to the high incidence of pain and thrombophlebitis and to avoid an infusion reaction known as vancomycin flushing reaction.",https://en.wikipedia.org/wiki/Vancomycin
+vancomycin,TREATMENT,give for,vancomycin,TREATMENT,"]
+Intravenous
+[edit]Vancomycin must be given intravenously for systemic therapy since it is poorly absorbed from the intestine.",https://en.wikipedia.org/wiki/Vancomycin
+vancomycin,TREATMENT,use via,vancomycin,TREATMENT,"After oral administration, the fecal concentration of vancomycin is around 500 μg/mL[58] (sensitive strains of Clostridioides difficile have a mean inhibitory concentration of ≤2 μg/mL[59])
+Inhaled (off-label)
+[edit]Inhaled vancomycin can also be used off-label,[60] via nebulizer, to treat various infections of the upper and lower respiratory tract.[61][62][63][64][65]
+Rectal (off-label)
+[edit]Rectal administration is an off-label use of vancomycin for the treatment of Clostridioides difficile infection.[28]
+Therapeutic drug monitoring
+[edit]Plasma level monitoring of vancomycin is necessary due to the drug's biexponential distribution, intermediate hydrophilicity, and potential for ototoxicity and nephrotoxicity, especially in populations with poor renal function and/or increased propensity to bacterial infection.",https://en.wikipedia.org/wiki/Vancomycin
+vancomycin,TREATMENT,change over,the years,DATE,"Therapeutic drug monitoring is also used for dose optimization of vancomycin in treating children.[56]
+Target ranges for serum vancomycin concentrations have changed over the years.",https://en.wikipedia.org/wiki/Vancomycin
+vancomycin,TREATMENT,assemble through,vancomycin,TREATMENT,"Before vancomycin is assembled through NRPS, the non-proteinogenic amino acids are first synthesized.",https://en.wikipedia.org/wiki/Vancomycin
+vancomycin,TREATMENT,show in,vancomycin,TREATMENT,The organization of the modules necessary to biosynthesize vancomycin is shown in Figure 1.,https://en.wikipedia.org/wiki/Vancomycin
+vancomycin,TREATMENT,use,vancomycin,TREATMENT,"That is why vancomycin is mainly used to treat infections caused by Gram-positive bacteria[17] (except some nongonococcal species of Neisseria).[90][91]
+The large hydrophilic molecule of vancomycin is able to form hydrogen bond interactions with the terminal D-alanyl-D-alanine moieties of the NAM/NAG-peptides.",https://en.wikipedia.org/wiki/Vancomycin
+vancomycin,TREATMENT,contribute to,vancomycin,TREATMENT,"Agricultural use of avoparcin, another similar glycopeptide antibiotic, may have contributed to the evolution of vancomycin-resistant organisms.[105][106][107][108]
+One mechanism of resistance to vancomycin involves the alteration to the terminal amino acid residues of the NAM/NAG-peptide subunits, under normal conditions, D-alanyl-D-alanine, to which vancomycin binds.",https://en.wikipedia.org/wiki/Vancomycin
+vancomycin,TREATMENT,involve,vancomycin,TREATMENT,"Agricultural use of avoparcin, another similar glycopeptide antibiotic, may have contributed to the evolution of vancomycin-resistant organisms.[105][106][107][108]
+One mechanism of resistance to vancomycin involves the alteration to the terminal amino acid residues of the NAM/NAG-peptide subunits, under normal conditions, D-alanyl-D-alanine, to which vancomycin binds.",https://en.wikipedia.org/wiki/Vancomycin
+vancomycin,TREATMENT,test,vancomycin,TREATMENT,"In enterococci, this modification appears to be due to the expression of an enzyme that alters the terminal residue. Three main resistance variants have been characterised to date among resistant Enterococcus faecium and E. faecalis populations:
+- VanA - enterococcal resistance to vancomycin and teicoplanin; inducible on exposure to these agents
+- VanB - lower-level enterococcal resistance; inducible by vancomycin, but strains may remain susceptible to teicoplanin
+- VanC - least clinically important; enterococci resistant only to vancomycin; constitutive resistance
+A variant of vancomycin has been tested that binds to the resistant D-lactic acid variation in vancomycin-resistant bacterial cell walls and also binds well to the original target (vancomycin-susceptible bacteria).[110][111]
+""Regained"" vancomycin
+[edit]In 2020 a team at the University Hospital Heidelberg (Germany) regained vancomycin's antibacterial power by modifying the molecule with a cationic oligopeptide.",https://en.wikipedia.org/wiki/Vancomycin
+vancomycin,TREATMENT,enhance In,vancomycin,TREATMENT,"In comparison to the unmodified vancomycin the activity against vancomycin-resistant bacteria could be enhanced by a factor of 1,000.[112][113]",https://en.wikipedia.org/wiki/Vancomycin
+vancomycin,TREATMENT,isolate in,vancomycin,TREATMENT,"History
+[edit]Vancomycin was first isolated in 1953 by a research team lead by chemist Edmund Kornfeld at Eli Lilly, from a soil sample provided by missionary William M. Bouw.",https://en.wikipedia.org/wiki/Vancomycin
+vancomycin,TREATMENT,isolate in,1953,DATE,"History
+[edit]Vancomycin was first isolated in 1953 by a research team lead by chemist Edmund Kornfeld at Eli Lilly, from a soil sample provided by missionary William M. Bouw.",https://en.wikipedia.org/wiki/Vancomycin
+vancomycin,TREATMENT,isolate in,William M. Bouw,PERSON,"History
+[edit]Vancomycin was first isolated in 1953 by a research team lead by chemist Edmund Kornfeld at Eli Lilly, from a soil sample provided by missionary William M. Bouw.",https://en.wikipedia.org/wiki/Vancomycin
+Bouw,PERSON,take,William W. Conley,PERSON,"The sample had been collected in 1952 within a forest on the island of Borneo, after Bouw took over collection duties from the Reverend William W. Conley, who had been a regular contributor to Lilly’s global soil screening program since 1948.",https://en.wikipedia.org/wiki/Vancomycin
+05865,PRODUCT,exhibit Unlike,05865,PRODUCT,"Unlike many contemporaneous samples that resulted in the rediscovery of known agents like chloromycetin, 05865 exhibited a novel chromatographic pattern and was found to be water-soluble.[115]",https://en.wikipedia.org/wiki/Vancomycin
+antibiotic,TREATMENT,recommend Due,antibiotic,TREATMENT,"Due to the spread of the bacteria, a high dosage of the antibiotic 05865 was recommended, 100 mg every eight hours, over five days.",https://en.wikipedia.org/wiki/Vancomycin
+Eli Lilly,ORG,begin In,1958,DATE,"In 1958, Eli Lilly began marketing vancomycin hydrochloride under the trade name Vancocin.[115][34]
+Vancomycin never became the first-line treatment for S. aureus for several reasons:
+- It possesses poor oral bioavailability, so must be given intravenously for most infections.",https://en.wikipedia.org/wiki/Vancomycin
+Eli Lilly,ORG,license In,Vancocin,PRODUCT,"In 2004, Eli Lilly licensed Vancocin to ViroPharma in the U.S., Flynn Pharma in the UK, and Aspen Pharmacare in Australia.",https://en.wikipedia.org/wiki/Vancomycin
+Eli Lilly,ORG,license In,2004,DATE,"In 2004, Eli Lilly licensed Vancocin to ViroPharma in the U.S., Flynn Pharma in the UK, and Aspen Pharmacare in Australia.",https://en.wikipedia.org/wiki/Vancomycin
+Eli Lilly,ORG,license In,Aspen Pharmacare,ORG,"In 2004, Eli Lilly licensed Vancocin to ViroPharma in the U.S., Flynn Pharma in the UK, and Aspen Pharmacare in Australia.",https://en.wikipedia.org/wiki/Vancomycin
+FDA,ORG,authorize,Baxter Healthcare,ORG,"The patent expired in the early 1980s, and the FDA authorized the sale of several generic versions in the U.S., including from manufacturers Bioniche Pharma, Baxter Healthcare, Sandoz, Akorn-Strides, and Hospira.[118]",https://en.wikipedia.org/wiki/Vancomycin
+vancomycin,TREATMENT,exhibit,Journal of the American Chemical Society,ORG,"""A redesigned vancomycin engineered for dual D-Ala-D-ala And D-Ala-D-Lac binding exhibits potent antimicrobial activity against vancomycin-resistant bacteria"".",https://en.wikipedia.org/wiki/Vancomycin
+vancomycin,TREATMENT,provide,the National Academy of Sciences,ORG,"""Peripheral modifications of [Ψ[CH2NH]Tpg4]vancomycin with added synergistic mechanisms of action provide durable and potent antibiotics"".",https://en.wikipedia.org/wiki/Vancomycin
+septic shock,DISEASE,divide into,septic shock,DISEASE,"]
+Clinical uses
+[edit]Septic shock
+[edit]Fluid replacement in patients with septic shock can be divided into four stages as shown below:
+- Resuscitation phase -",https://en.wikipedia.org/wiki/Fluid_resuscitation
+vasopressor,TREATMENT,give,vasopressor,TREATMENT,"According to Fluid and Catheter Treatment Trial (FACTT Trial) protocol, those who with mean arterial pressure of more than 60 mmHg, vasopressor free for more than 12 hours, with adequate urine output can be given furosemide to target central venous pressure less than 4 mmHg and pulmonary artery occlusion pressure (PAOP) of less than 8 mmHg.",https://en.wikipedia.org/wiki/Fluid_resuscitation
+sepsis,DISEASE,account for,acute kidney injury,DISEASE,"Acute kidney injury
+[edit]Sepsis accounts for 50% of acute kidney injury patients in (intensive care unit) (ICU).[11]",https://en.wikipedia.org/wiki/Fluid_resuscitation
+the Multiple Organ Dysfunction Score,PRODUCT,developed.[1,the Multiple Organ Dysfunction Score,PRODUCT,the Multiple Organ Dysfunction Score was developed.[1],https://en.wikipedia.org/wiki/Multiple_organ_dysfunction_syndrome
+Irwin,PERSON,caution in,2005,DATE,"]
+Although Irwin and Rippe cautioned in 2005 that the use of ""multiple organ failure"" or ""multisystem organ failure"" should be avoided,[1] both Harrison's (2015) and Cecil's (2012) medical textbooks still use the terms ""multi-organ failure"" and ""multiple organ failure"" in several chapters and do not use ""multiple organ dysfunction syndrome"" at all.
+References
+[edit]- ^ a b c d e f g h i j k Irwin, Richard S.; Rippe, James M. (2003).",https://en.wikipedia.org/wiki/Multiple_organ_dysfunction_syndrome
+multiple organ failure,DISEASE,"avoided,[1",multiple organ failure,DISEASE,"]
+Although Irwin and Rippe cautioned in 2005 that the use of ""multiple organ failure"" or ""multisystem organ failure"" should be avoided,[1] both Harrison's (2015) and Cecil's (2012) medical textbooks still use the terms ""multi-organ failure"" and ""multiple organ failure"" in several chapters and do not use ""multiple organ dysfunction syndrome"" at all.
+References
+[edit]- ^ a b c d e f g h i j k Irwin, Richard S.; Rippe, James M. (2003).",https://en.wikipedia.org/wiki/Multiple_organ_dysfunction_syndrome
