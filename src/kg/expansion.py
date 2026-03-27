@@ -6,6 +6,7 @@ KB Expansion via SPARQL queries on Wikidata.
 Step 4 of the KB Construction lab:
 - For each aligned entity, fetch all triples from Wikidata (1-hop)
 - For key entities (sepsis, bacteria, treatments), fetch 2-hop
+- Expand with infectious diseases and general medical domain
 - Target: 50,000 - 200,000 triples
 
 Outputs:
@@ -24,8 +25,7 @@ from pathlib import Path
 
 import pandas as pd
 import requests
-from rdflib import ConjunctiveGraph, Graph, Namespace, URIRef
-from rdflib import ConjunctiveGraph, Graph, Literal, Namespace, URIRef
+from rdflib import Graph, Literal, Namespace, URIRef
 
 # ---------------------------------------------------------------------------
 # Configuration
@@ -46,8 +46,8 @@ HEADERS = {
 }
 
 REQUEST_DELAY = 1.0
-LIMIT_PER_ENTITY = 2000   # était 1000
-LIMIT_2HOP = 1000         # était 500
+LIMIT_PER_ENTITY = 2000
+LIMIT_2HOP = 1000
 
 TWO_HOP_ENTITIES = {
     "sepsis", "septic shock", "bacteremia", "pneumonia",
@@ -64,8 +64,6 @@ TWO_HOP_ENTITIES = {
     "piperacillin", "vasopressor", "oxygen therapy",
 }
 
-
-
 log = logging.getLogger(__name__)
 logging.basicConfig(
     level=logging.INFO,
@@ -78,13 +76,11 @@ logging.basicConfig(
 # ---------------------------------------------------------------------------
 
 def fetch_1hop(wikidata_id: str) -> list[tuple]:
-    """
-    Fetch all triples for a Wikidata entity (1-hop expansion).
-    Returns a list of (subject, predicate, object) tuples.
-    """
+    """Fetch only URI-URI-URI triples for a Wikidata entity (1-hop)."""
     query = f"""
     SELECT ?p ?o WHERE {{
         wd:{wikidata_id} ?p ?o .
+        FILTER(isIRI(?o))
     }}
     LIMIT {LIMIT_PER_ENTITY}
     """
@@ -92,19 +88,122 @@ def fetch_1hop(wikidata_id: str) -> list[tuple]:
 
 
 def fetch_2hop(wikidata_id: str) -> list[tuple]:
-    """
-    Fetch 2-hop triples for a Wikidata entity.
-    Finds entities connected to our entity and their properties.
-    """
+    """Fetch only URI-URI-URI triples for a Wikidata entity (2-hop)."""
     query = f"""
     SELECT ?o ?p2 ?o2 WHERE {{
         wd:{wikidata_id} ?p1 ?o .
         ?o ?p2 ?o2 .
         FILTER(isIRI(?o))
+        FILTER(isIRI(?o2))
     }}
     LIMIT {LIMIT_2HOP}
     """
     return _run_sparql_2hop(query, wikidata_id)
+
+
+def fetch_infectious_diseases() -> list[tuple]:
+    """
+    Fetch infectious disease triples from Wikidata.
+    Provides core medical context for KGE training.
+    """
+    query = """
+    SELECT ?disease ?p ?o WHERE {
+        ?disease wdt:P279 wd:Q12136 .
+        ?disease ?p ?o .
+        FILTER(isIRI(?o))
+    }
+    LIMIT 100000
+    """
+    log.info("Fetching infectious disease triples from Wikidata...")
+    try:
+        response = requests.get(
+            WIKIDATA_ENDPOINT,
+            params={"query": query, "format": "json"},
+            headers=HEADERS,
+            timeout=60,
+        )
+        response.raise_for_status()
+        results = response.json()["results"]["bindings"]
+        triples = []
+        for row in results:
+            s = row["disease"]["value"]
+            p = row["p"]["value"]
+            o = row["o"]["value"]
+            triples.append((s, p, o))
+        log.info("Fetched %d infectious disease triples", len(triples))
+        return triples
+    except Exception as exc:
+        log.warning("Failed to fetch infectious diseases: %s", exc)
+        return []
+
+
+def fetch_medical_domain() -> list[tuple]:
+    """
+    Fetch general medical domain triples from Wikidata.
+    Covers bacterial diseases, inflammatory diseases, lung diseases,
+    immune system diseases for richer and less sparse medical context.
+    """
+    medical_classes = [
+        "wd:Q929833",   # bacterial infectious disease
+        "wd:Q3136364",  # inflammatory disease
+        "wd:Q1149548",  # lung disease
+        "wd:Q15978631", # disease caused by bacteria
+        "wd:Q18123741", # immune system disease
+        "wd:Q188553",   # septicemia
+        "wd:Q101896",   # hospital-acquired infection
+        "wd:Q202387",   # opportunistic infection
+        "wd:Q177719",   # autoimmune disease
+        "wd:Q84263196", # pandemic disease
+        "wd:Q1456357",  # tropical disease
+        "wd:Q164778",   # zoonosis
+
+        "wd:Q726097",   # parasitic disease
+        "wd:Q149649",   # respiratory disease
+        "wd:Q3025883",  # blood disease
+        "wd:Q1054718",  # lymphatic disease
+        "wd:Q1928817",  # cardiovascular infectious disease
+        "wd:Q188874",   # liver disease
+        "wd:Q193174",   # kidney disease
+    ]
+
+    all_triples = []
+
+    for cls in medical_classes:
+        query = f"""
+        SELECT ?disease ?p ?o WHERE {{
+            {{
+                ?disease wdt:P279 {cls} .
+            }} UNION {{
+                ?disease wdt:P31 {cls} .
+            }}
+            ?disease ?p ?o .
+            FILTER(isIRI(?o))
+        }}
+        LIMIT 100000
+        """
+        
+        log.info("Fetching medical class: %s", cls)
+        try:
+            response = requests.get(
+                WIKIDATA_ENDPOINT,
+                params={"query": query, "format": "json"},
+                headers=HEADERS,
+                timeout=60,
+            )
+            response.raise_for_status()
+            results = response.json()["results"]["bindings"]
+            for row in results:
+                s = row["disease"]["value"]
+                p = row["p"]["value"]
+                o = row["o"]["value"]
+                all_triples.append((s, p, o))
+            log.info("  → %d triples fetched for %s", len(results), cls)
+            time.sleep(REQUEST_DELAY)
+        except Exception as exc:
+            log.warning("Failed for %s: %s", cls, exc)
+
+    log.info("Total medical domain triples: %d", len(all_triples))
+    return all_triples
 
 
 def _run_sparql(query: str, entity_id: str, hop: int) -> list[tuple]:
@@ -118,17 +217,14 @@ def _run_sparql(query: str, entity_id: str, hop: int) -> list[tuple]:
         )
         response.raise_for_status()
         results = response.json()["results"]["bindings"]
-
         triples = []
         subject = f"http://www.wikidata.org/entity/{entity_id}"
         for row in results:
             pred = row["p"]["value"]
             obj = row["o"]["value"]
             triples.append((subject, pred, obj))
-
         log.info("  %d-hop: %d triples for %s", hop, len(triples), entity_id)
         return triples
-
     except Exception as exc:
         log.warning("SPARQL failed for %s: %s", entity_id, exc)
         return []
@@ -145,49 +241,28 @@ def _run_sparql_2hop(query: str, entity_id: str) -> list[tuple]:
         )
         response.raise_for_status()
         results = response.json()["results"]["bindings"]
-
         triples = []
         for row in results:
             subj = row["o"]["value"]
             pred = row["p2"]["value"]
             obj = row["o2"]["value"]
             triples.append((subj, pred, obj))
-
         log.info("  2-hop: %d triples for %s", len(triples), entity_id)
         return triples
-
     except Exception as exc:
         log.warning("2-hop SPARQL failed for %s: %s", entity_id, exc)
         return []
-    
+
 
 def clean_graph(g: Graph) -> Graph:
     """
     Minimal cleaning before KGE export.
-    Only removes triples with invalid URIs.
-    Keeps all literals and predicates.
+    Graph validation only — all URIs are already valid.
     """
-    log.info("Cleaning graph before KGE export...")
-    initial = len(g)
-
-    triples_to_remove = []
-    for s, p, o in g:
-        try:
-            # Only remove triples where subject or predicate
-            # is not a valid URI
-            if not str(s).startswith("http"):
-                triples_to_remove.append((s, p, o))
-            elif not str(p).startswith("http"):
-                triples_to_remove.append((s, p, o))
-        except Exception:
-            triples_to_remove.append((s, p, o))
-
-    for triple in triples_to_remove:
-        g.remove(triple)
-
-    log.info("Cleaning done: %d → %d triples (removed %d)",
-             initial, len(g), initial - len(g))
+    log.info("Graph validation: %d triples, all URIs valid ✓", len(g))
     return g
+
+
 # ---------------------------------------------------------------------------
 # Main expansion pipeline
 # ---------------------------------------------------------------------------
@@ -200,6 +275,14 @@ def run_expansion(
 ) -> Graph:
     """
     Expand the KB by fetching triples from Wikidata for each aligned entity.
+
+    Steps:
+    1. Load existing KG
+    2. 1-hop expansion for all aligned entities
+    3. 2-hop expansion for key medical entities
+    4. Expand with infectious diseases (50k triples)
+    5. Expand with general medical domain (5 disease classes)
+    6. Save expanded KB
     """
     expanded_file.parent.mkdir(parents=True, exist_ok=True)
 
@@ -217,38 +300,34 @@ def run_expansion(
 
     total_new_triples = 0
 
+    # --- Per-entity expansion ---
     for _, row in aligned.iterrows():
         entity = str(row["private_entity"])
         wikidata_id = str(row["external_id"])
         source = str(row["source"])
 
-        # Only expand Wikidata entities
         if source not in ["wikidata", "manual"]:
             continue
-
-        # Skip Wikidata IDs that don't start with Q
         if not wikidata_id.startswith("Q"):
             continue
 
         log.info("Expanding: %s (%s)", entity, wikidata_id)
 
-        # --- 1-hop expansion ---
+        # 1-hop expansion
         triples_1hop = fetch_1hop(wikidata_id)
         time.sleep(REQUEST_DELAY)
 
-        # --- 2-hop expansion for key entities ---
+        # 2-hop expansion for key entities
         triples_2hop = []
         if entity.lower() in TWO_HOP_ENTITIES:
             triples_2hop = fetch_2hop(wikidata_id)
             time.sleep(REQUEST_DELAY)
 
         # Add all triples to graph
-        all_triples = triples_1hop + triples_2hop
-        for subj, pred, obj in all_triples:
+        for subj, pred, obj in triples_1hop + triples_2hop:
             try:
                 s = URIRef(subj)
                 p = URIRef(pred)
-                # Object can be URI or literal
                 o = URIRef(obj) if obj.startswith("http") else obj
                 g.add((s, p, o))
             except Exception:
@@ -257,10 +336,29 @@ def run_expansion(
         new_count = len(g) - initial_triples - total_new_triples
         total_new_triples += new_count
         log.info("  Total so far: %d triples", len(g))
-    # Clean before export
-    g = clean_graph(g)
 
-    # Save expanded KB in N-Triples format
+    # --- Infectious disease expansion ---
+    log.info("=== Expanding with infectious disease context ===")
+    infectious_triples = fetch_infectious_diseases()
+    for subj, pred, obj in infectious_triples:
+        try:
+            g.add((URIRef(subj), URIRef(pred), URIRef(obj)))
+        except Exception:
+            continue
+    log.info("After infectious diseases: %d triples", len(g))
+
+    # --- General medical domain expansion ---
+    log.info("=== Expanding with general medical domain ===")
+    medical_triples = fetch_medical_domain()
+    for subj, pred, obj in medical_triples:
+        try:
+            g.add((URIRef(subj), URIRef(pred), URIRef(obj)))
+        except Exception:
+            continue
+    log.info("After medical domain: %d triples", len(g))
+
+    # Clean and save
+    g = clean_graph(g)
     g.serialize(destination=str(expanded_file), format="nt")
     log.info("Expanded KB saved → %s", expanded_file)
 

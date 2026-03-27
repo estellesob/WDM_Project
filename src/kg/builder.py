@@ -192,7 +192,7 @@ def build_kg(
 
         g.add((uri, RDF.type, class_ref))
         g.add((uri, RDFS.label, Literal(entity)))
-        g.add((uri, PROP.sourceUrl, Literal(source, datatype=XSD.anyURI)))
+        #g.add((uri, PROP.sourceUrl, Literal(source, datatype=XSD.anyURI)))
 
     log.info("Entities added: %d triples so far", len(g))
 
@@ -217,8 +217,8 @@ def build_kg(
         g.add((prop_ref, RDFS.label, Literal(relation)))
 
         # Add provenance: which sentence this came from
-        g.add((subj_uri, PROP.extractedFrom, Literal(sentence)))
-        g.add((subj_uri, PROP.sourceUrl, Literal(source, datatype=XSD.anyURI)))
+        #g.add((subj_uri, PROP.extractedFrom, Literal(sentence)))
+        #g.add((subj_uri, PROP.sourceUrl, Literal(source, datatype=XSD.anyURI)))
 
     log.info("Relations added: %d triples total", len(g))
     return g

@@ -50,9 +50,14 @@ DBPEDIA_LOOKUP_API = "https://lookup.dbpedia.org/api/search"
 HEADERS = {"User-Agent": "SepsisKGBot/1.0 (educational project)"}
 
 # Only align these labels
-ALIGN_LABELS = {"DISEASE", "BACTERIA", "BIOMARKER", "TREATMENT"}
+#ALIGN_LABELS = {"DISEASE", "BACTERIA", "BIOMARKER", "TREATMENT"}
+#ALIGN_LABELS = {"DISEASE", "BACTERIA", "BIOMARKER", "TREATMENT", "ORG", "GPE", "PRODUCT"}
+#REQUEST_DELAY = 0.5  # seconds between API calls
 
-REQUEST_DELAY = 0.5  # seconds between API calls
+ALIGN_LABELS = {"DISEASE", "BACTERIA", "BIOMARKER", "TREATMENT", "GPE", "PRODUCT"}
+
+
+REQUEST_DELAY = 1.0  # augmente de 0.5 à 1.0
 
 log = logging.getLogger(__name__)
 logging.basicConfig(
