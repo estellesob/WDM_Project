@@ -158,3 +158,24 @@ jupyter notebook notebooks/swrl_reasoning.ipynb  # SWRL reasoning
 - Ollama (for RAG)
 - ~4GB disk space (models + data)
 - ~8GB RAM recommended
+
+## Web Interface (Bonus)
+
+A Flask web interface is available for the RAG chatbot.
+
+### Prerequisites
+- Ollama running with Gemma 2B: `ollama serve && ollama pull gemma:2b`
+
+### Launch
+```bash
+python -m src.rag.app
+```
+Then open **http://localhost:5000** in your browser.
+
+### Features
+- Natural language answers generated from KB results
+- Baseline vs RAG comparison side by side
+- Generated SPARQL query displayed
+- Self-repair indicator
+- Question history
+- Suggested questions
